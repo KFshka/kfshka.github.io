@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Карточный конструктор нелинейного сюжета</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.8.5/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.min.css">
+    <script src="/js/main.min.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link href="/css/fonts.min.css" rel="stylesheet" />
+    <link href="/css/preloader.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+</head>
+
+
+    <body>
+      <script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(74553970, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/74553970" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <div class="backdrop">
+        <div class="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    
+        
+          <div id="scroller"><img src="../img/arrow.png" width="50px" /></div> 
+        
+        
+      
+
+      
+
+      <main>
+        <div class="container top-of-page">
+            <div class="row justify-content-md-between justify-content-sm-center">
+    
+                <div class="col-auto justify-content-center text-center soc pl-0 d-sm-none d-md-inline-block">
+                    <div class="d-none" id="discord-name">kF#8247</div>
+                    <img class="discord" src="/../img/discord-panel.png" width="35px" id="discord-button" />
+                    <a target="_blank" href="https://t.me/kfshka"> <img src="/../img/telegram-panel2.png" width="35px"
+                            class="telegram" /></a>
+                    <div class="d-none" id="email-name">darkfriar26@gmail.com</div>
+                    <img class="email" src="/../img/mail-panel.png" width="35px" class="mr-2" />
+                    <div class="extrabold notification-discord-top">Discord скопирован в буфер обмена</div>
+                    <div class="extrabold notification-email-top">E-mail скопирован в буфер обмена</div>
+                </div>
+    
+                <div class="col-auto top block-text navigator">
+                    
+                   
+                    <a title="Главная" href="/" class="NeoSansPro text-uppercase menu-element menu-element-user created"> <i class="bi bi-house-fill"></i> Главная</a> 
+                    <div class="menu-line"></div>
+                  
+                    <span class="NeoSansPro text-uppercase menu-element created" data-toggle="modal"
+                        data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Портфолио</span>
+                    <div class="menu-line"></div>
+                    <span class="NeoSansPro text-uppercase menu-element created " data-toggle="modal"
+                        data-target=".bd-example-modal-lg"> <i class="bi bi-telephone-fill"></i> Контакты</span>
+                </div>
+            </div>
+        </div>
+    
+
+          
+
+<div class="container regular" id="first_title">
+    <div class="cover-new article-title-body">
+        <div class="row align-items-center ">
+            <img src="/img/puzzle.png"
+                class="align-middle mr-4 block-image d-none d-sm-inline" style="max-width: 90px; max-height: 90px;">
+            <div class="row col-sm-8">
+                <span class="title_name title_name_small title_name_adapt-small d-flex col-12">Карточный конструктор нелинейного сюжета</span>
+                <span class="after_title_name col-12"><b class="mini-bold">Автор:</b><br><a class="normal-sil"
+                        href="/">Данила Останин</a></span><br>
+            </div>
+        </div>
+        <a href="/" class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button"><i class="bi bi-house-fill"></i></a>
+        <div class="new-line mr-2 ml-2"></div>
+        <span class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button" data-toggle="modal"
+            data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Портфолио</span>
+        <div class="col-auto soc-bottom pl-0">
+            <div class="d-none" id="discord-name">kF#8247</div>
+            <img class="discord elem" src="../img/discord-panel.png" width="35px" id="discord-button" />
+            <a class="elem" target="_blank" href="https://t.me/kfshka"> <img src="../img/telegram-panel2.png"
+                    width="35px" class="telegram" /></a>
+            <div class="d-none" id="email-name">darkfriar26@gmail.com</div>
+            <img class="email elem" src="../img/mail-panel.png" width="35px" class="mr-2" />
+            <div class="extrabold notification-discord-top">Discord скопирован в буфер обмена</div>
+            <div class="extrabold notification-email-top">E-mail скопирован в буфер обмена</div>
+        </div>
+    </div>
+
+
+<div class="main-content adaptive-border">
+    <div class="text-center mb-5 mt-5 antelive first-title">
+        <p class="h1 text-center antelive">Отступление</p>
+    </div>
+
+  <p>Конструктор нелинейного сюжета был придуман в ходе выполнения <a target="_blank" href="niceplay_test/question_1.1.html" class="sil" title="Ссылка на задание">тестового задания на должность гейм-дизайнера в Niceplay Games</a> по игре Potion Craft (<a class="sil" target="_blank" href="https://store.steampowered.com/app/1210320/Potion_Craft_Alchemist_Simulator/">ссылка игры на Steam</a>). Он не нашёл своё применение внутри Potion Craft, и вырван из контекста этого задания, но чтобы понимать о чём дальше будет идти речь достаточно знать лишь следующее:</p>
+    <div class="text-center center-list mt-4 mb-4">
+      <p><span class="number-list number-list-v mr-2">1</span>Главный герой игры — <b>алхимик</b></p>
+      <p><span class="number-list number-list-v mr-2">2</span><b>Тёмная гильдия</b> —  это древняя организация убийц, что контролирует город, в котором живёт <b>алхимик</b></p>
+      <p><span class="number-list number-list-v mr-2">3</span><b>Эдью Тьюст</b> — парнишка, что походу сюжета может стать для <b>алхимика</b> врагом или союзником в зависимости от действий игрока</p>
+  </div>
+
+  <p>В самом задании также была продумана структура главного сюжета игры:</p>
+
+<br>
+    <div class="mt-3 mb-3" style="border:4px solid #27219a; padding:25px;">
+      <p class="text-center h3 mb-5 antelive" style="border-bottom: 3px solid #27219a; padding-bottom:10px; color:#27219a">Структура сюжета и хода игры</p>
+      <p>Сам сюжет представлен в виде трёх актов: <b>Экспозиция<img src="../img/arrow-strong.svg" class="ml-1 mr-1" width="10px">Борьба<img src="../img/arrow-strong.svg" class="ml-1 mr-1" width="10px">Развязка</b>. Это
+        известный сюжетный принцип:</p><a href="../img/3act-structure.png" data-toggle="lightbox">
+        <div class="text-center mb-1 mt-5"> <img src="../img/3act-structure.png" class="img-fluid"> </div>
+      </a>
+      <p class="text-center bold mt-3 mb-3 d-md-none d-lg-none d-xl-none" style="font-size:1.2rem; color:#4d4d4d;"><img src="../img/swipe-icon.png" class="ml-1 mr-1" width="25px"> Таблица двигается свайпом</p>
+      <table class="regular text-center table table-responsive table-sm plot-table">
+        <thead>
+          <tr>
+            <th scope="col">Экспозиция</th>
+            <th scope="col">Борьба</th>
+            <th scope="col">Развязка</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Пролог:</b><br>Предыстория главного героя </td>
+            <td><b>Конфликт №1:</b><br>Вражда с другой гильдией/гильдиями</td>
+            <td><b>Кульминация</b><br>Смерть короля (убийство)</td>
+          </tr>
+          <tr>
+            <td><b>Раскрытие внутреннего<br>устройства города:</b><br>Знакомство с существующими гильдиями в игре</td>
+            <td><b>Конфликт №2:</b><br>Подозрение короля <br>в связи с Тёмной гильдией</td>
+            <td><b>Финал:</b><br>Ритуал Тёмной гильдии</td>
+          </tr>
+          <tr>
+            <td><b>Побуждающее просшествие:</b><br>Начальный квест Тёмной гильдии</td>
+            <td><b>Кризис:</b><br>Похищение алхимика</td>
+            <td><b>Эпилог:</b><br>Последствия<br>ритуала/прерывания ритуала</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="mt-3">Этот принцип применяется потому, что он позволяет удобно работать с нелинейным интерактивным сюжетом. Где нелинейные события стекаются в заглавные события, что происходят всегда вне зависимо от выбора игрока. </p>
+      <div class="text-center mb-5 mt-5 d-none d-md-block"> <img src="../img/parallel-paths.png" class="img-fluid circled" width="85%"> </div>
+      <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../img/parallel-paths.png" class="img-fluid circled"> </div>
+      <p>Такой вид сюжета ещё <a class="sil" target="_blank" href="http://fh7922mg.bget.ru/articles/non-linear-narrative/non-linear-narrative.html">называют «Параллельные пути»</a>, но в этом случае мы его модернизируем: эти заглавные события
+        будут происходить в немного отличающихся друг от друга вариациях. В некоторых деталях на них влияет выбор, что был сделан игроком по ходу игры до этих событий (тот же ритуал призыва Пожирателя, который может обернуться самым разным
+        образом в зависимости от выбора накануне).</p>
+      <p style="border-top:3px solid #27219a;" class="pt-4"><img src="../img/poker-game.png" width="25px" class="block-image mr-1 mb-1"> <b>Мини-сюжеты</b><br>
+      <p>По ходу участия в главном сюжете, игрок также будет постоянно встречаться с различными мини-сюжетами — историями клиентов лавки. Клиенты, прям как карты в колоде, будут каждый раз тасоваться при новом прохождении. Клиенты делятся на 3
+        разных типа зависимо от конкретного акта. Некоторые из этих клиентов могут влиять на главный сюжет игры, например, на этап «Кризиса», где какой-либо из клиентов способен стать для алхимика союзником или противником. Сам по себе этап
+        <b>«Кризис»</b> — это рассказ-конструктор, принцип работы которого описан ниже.</p>
+      <p style="border-top:3px solid #27219a;" class="pt-4"><img src="../img/lego-icon.png" width="25px" class="block-image mr-1 mb-1"> <b>Рассказы-конструкторы</b><br>
+      <p>По ходу прохождения игрок будет принимать важные сюжетные решения, что повлияют на этапы <b>«Кризис»</b> и <b>«Финал»</b>. Каждое из решений формирует отдельную часть истории, когда сама история состоит из нескольких подобных частей.
+        Каждая из частей может оказаться заместо другой такого же вида. В случае отсутствующей части на определённом этапе истории тот принимает один из возможных стандартных вариантов. Эта механика позволяет игроку «собирать» собственную
+        уникальную историю по ходу игры.</p>
+      <p style="border-top:3px solid #27219a;" class="pt-4">Таким образом, задействуется элемент Roguelike, что делает игру крайне реиграбельной. Забавно, но это образно напоминает <a class="sil" target="_blank"
+          href="https://store.steampowered.com/app/646570/Slay_the_Spire/">Slay The Spire</a> с сюжетной начинкой, где монстры это мини-сюжеты, а боссы актов — рассказы-конструкторы.</p>
+      <div style="opacity:0.9" class="text-center mb-2 mt-2 d-none d-md-block"> <img src="../img/SlayTheSpire.jpg" class="img-fluid circled"> </div>
+      <div style="opacity:0.9" class="text-center pt-0 d-md-none d-lg-none d-xl-none"> <img src="../img/SlayTheSpire-m.png" class="img-fluid circled"> </div>
+    </div>
+    <p class="mt-5">На примере «Кризиса» и «Финала» выясним как же работает конструктор сюжетов:</p>
+
+    <p class="antelive text-center mt-5 mb-5" id="the_crisis"><span style="opacity:0.9; font-size:1.3rem">— &nbsp;<img src="../img/tornado-icon.png" width="25px" class="block-image mr-1 ml-1 mb-1">Кризис игры&nbsp;
+        —</span><br><span style="font-size:1.5rem">Похищение алхимика Тёмной гильдией</span></p>
+
+    <p>В ходе кризиса, алхимика похищает Тёмная гильдия.  
+      Для того, чтобы выжить в течении этого непростого этапа, алхимик должен осуществить — <b>«Освобождение <img src="../img/arrow-strong.svg" class="ml-1 mr-1" width="10px"> Побег <img src="../img/arrow-strong.svg" class="ml-1 mr-1"
+          width="10px"> Укрытие»</b>. Всё это отдельные части истории — 3 позиции рассказа-конструктора, что могут занимать карты <b style="color:green">союзников</b> или <b style="color:#952323">противников</b>:</p>
+    <div class="text-center mb-5 mt-5 d-none d-md-block"> <img src="../img/constructor-stories1.png" class="img-fluid circled" width="65%"> </div>
+    <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../img/constructor-stories1.png" class="img-fluid circled"> </div>
+    <p class="bold"><img src="../img/ally-card-icon.png" width="35px" class="block-image mr-1 mb-1">Карты союзников</p>
+    <p>Чтобы с большим шансом на успех пройти этот непростой игровой этап, игрок должен до его наступления найти по ходу игры содействующих в прохождении <b style="color:green">союзников</b>. Союзники создают в ходе истории положительные повороты и позволяют
+      миновать кризис без потерь. Если игрок получил несколько союзников на одну позицию, то рандомится какой-то из них с равным шансом между всеми.</p>
+    <p>Игроку до кризиса желательно найти 3-ёх союзников на каждую из позиций, потому что их отсутствие на каком-либо слоте провоцирует упасть на него <b>обычную карту</b> с зачастую не всегда благоприятным раскладом истории.</p>
+    <p class="bold mt-5"><img src="../img/question-card-icon.png" width="35px" class="block-image mr-1 mb-1">Обычные карты</p>
+    <p>Если игрок не нашёл в течение игры <b style="color:green">союзников</b> или <b style="color:#952323">противников</b> на какую-то конкретную позицию в истории, то на пустой слот всегда упадёт обычная карта. Обычная карта — это попытки
+      алхимика справится по ходу истории в одиночку. У него может это получится, а может и не получится. Историй того, как это может происходить множество, но рандомно выпадает из списка только одна. На то какой именно выпадет исход влияют следующие условия:
+    <ul class="text-left regular full-bordered mt-3 mb-3" style="list-style-type:none; font-size:1.1rem">
+      <li><b>0 союзников</b> — алхимик умирает на первой же обычной карте.</li>
+      <li><b>1 союзник</b> — такой игрок с шансом в <span class="math-text">50%</span> получит историю со смертью алхимика при взятии обычной карты.</li>
+      <li><b>2 союзника</b> — такой игрок с шансом в <span class="math-text">25%</span> получит историю со смертью алхимика при взятии обычной карты.</li>
+      <li><b>3 союзника</b> — игрок с таким количеством союзников однозначно выживет в ходе кризиса.</li>
+    </ul>
+    <p class="bold mt-5"><img src="../img/enemy-card-icon.png" width="35px" class="block-image mr-1 mb-1">Карты противников</p>
+    <p>Но алхимик в ходе прохождения может найти не только сотоварищей, но и навлечь на свою голову проблем — <b style="color:#952323">карты противников</b>. Они же потенциально опасны для игрока из-за того, что с шансом в 50% заменяют карту
+      союзника и всегда встают на пустой слот заместо обычной. Если же игрок получил на одну позицию двух противников, он получит одного из них с равным шансом в 100% вместо карты союзника.</p>
+    <p>Противники могут быть самыми разными: в ходе своей части истории они могут навредить, могут отобрать имущество, могут лишить жизни. Какую именно историю они создают зависит от самого противника. </p>
+    <p class="full-bordered mb-3"><img src="../img/risk.png" width="25px" class="block-image mr-1 mb-1" /><b>Примечание:</b> Если алхимик был убит на какой-то позиции, то дальнейшие этапы не описываются в истории</p>
+    <div class="text-center mb-5 mt-5 d-none d-md-block"> <a href="../img/constructor-stories2.png" data-toggle="lightbox"> <img src="../img/constructor-stories2.png" class="img-fluid circled" width="85%"><span
+          class="block-text d-none d-md-block" style="color:#525252"><img src="../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../img/constructor-stories2.png" class="img-fluid circled"> </div>
+    <p>В ходе кризиса игрок увидит интро похищения, что реализовано текстовыми вставками с иллюстрациями. После чего перед ним откроется интерфейс с позициями, что займут карты <b style="color:green">союзников</b> или <b
+        style="color:#952323">противников</b>, на пустые же слоты упадут обычные карты.</p>
+    <p>Сами карты изначально неизвестны игроку и лежат вверх одинаковыми рубашками. Игрок может открывать карты только в последовательности <b>1<img src="../img/arrow-strong.svg" class="ml-1 mr-1" width="10px">2<img
+          src="../img/arrow-strong.svg" class="ml-1 mr-1" width="10px">3</b>. Пока не открыта предыдушая карта, следующую открыть не выйдет. При нажатии на карту — карта переворачивается, и игроку показывается, кто на ней оказался.</p>
+    <p>При наведении мыши на открытую карту игрок видит <b>Краткое описание</b> того, что произошло на этом этапе истории, при нажатии же на карту он может прочитать <b>Полную историю</b>. Союзник или противник могут обернуться <b>картой для
+        взаимодействия</b>:</p>
+    <p class="bold mt-5"><img src="../img/exclamation-card-icon.png" width="35px" class="block-image mr-1 mb-1">Карты для взаимодействия</p>
+    <p>Карты требующие вмешательства со стороны игрока. Такая карта при развороте поверх помечается восклицательным знаком. При нажатии на неё открывается не <b>Полная история</b>, а окно взаимодействия. Видов взаимодействия три:</p>
+    <div class="full-bordered mb-3">
+      <p class="mt-3 mb-3"><span class="number-list">1</span> <b>Выбор из нескольких вариантов</b>. Открывается в отдельном всплывающем окне, где вверху написано пояснение к выбору, а остальную часть интерфейса занимают варианты выбора. Слева
+        находится иллюстрация весов.</p>
+      <p class="mt-3 mb-3"><span class="number-list">2</span> <b>Сюжетные диалоги</b>. Работают по тому же принципу, что и <a href="question_2.5.html#q2_5" class="sil" target="_blank">до кризиса</a>, но так как алхимик вне лавки они сопровождаются
+        уникальной для диалога миниатюрной иллюстрацией, что старается передать атмосферу диалога и поддерживать образ игрока.</p>
+      <p class="mt-3 mb-3"><span class="number-list">3</span> <b>Проверки</b>. Открываются в схожем интерфейсе, как и <b>выбор из нескольких вариантов</b>, но слева находятся не весы, а игральные кости.</p>
+    </div>
+    <p>После окончания взаимодействия с картой открывается <b>Полная история</b>, что адаптирутся под итог взаимодействия.</p>
+    <hr class="mt-5 mb-3">
+    <p class="text-center">Разберём принцип работы союзника и противника на примере <a class="sil" href="character_edew.html">Эдью Тьюста</a>.</p>
+    <hr class="mt-3 mb-5">
+    <p class="mb-3 mt-5 green-sq antelive" style="font-size:1.2rem;letter-spacing: 1px;"><img src="../img/allies-icon.png" width="45px" class="block-image mr-1">Эдью-союзник</p>
+    <div class="text-left mt-5 mb-3">
+      <p class="attribute d-inline-block"><img src="../img/position.png" width="25px" class="block-image mr-1"><b>Позиция:</b> Освобождение</p>
+      <p class="attribute d-inline-block"><img src="../img/tragedy.png" width="25px" class="block-image mr-1"><b>Роль:</b> Освободитель</p>
+    </div>
+    <p class="bold" style="font-size:1.2rem">Краткое описание</p>
+    <p> Вас освободил Эдью Тьюст — уборщик Тёмной гильдии, в знак благодарности за помощь в его неудавшимся побеге. Он незаметно от охранника кинул вам ключ, сделав вид, что убирается в темнице. Ночью вы бежали.</p>
+    <p class="bold mt-4" style="font-size:1.2rem">Полная история</p>
+    <p>Оказавшись в темнице, вы услышали как со стороны главного входа зашёл человек в капюшоне, что заговорил с охранником. Он сообщил, что ему велели убрать здесь помещение. Но в ответ охранник рявкнет на него, сказав, что тут ни разу не убирали
+      с ещё самого первого дня его работы. Уборщик в своё оправдание скажет о том, что был прямой приказ сверху от самого владыки. Почесав репу и ещё немного подумав, претензии охранника всё же спадут на нет. Ведь тот знает: с начальством лучше не
+      спорить.</p>
+    <p>Получив разрешение, уборщик поднимет свое ведро с тряпкой и начнёт протирать узкие коридоры темницы. С каждым звуком перестановки ведра с одного места на другое, он всё ближе будет подбираться к вашей камере. Вы подойдёте к решётке и
+      заметите как уборщик копошится в кармане своего балахона. Внезапно он достанет ключ и постарается незаметно кинуть его вам. Да только тот в полёте все равно сильно удариться об решётку и издаст громкий звук. Охранник не мог не среагировать на
+      это и тут же с недоумением выйдет из-за угла.</p>
+    <div class="text-center mb-5 mt-5 d-none d-md-block"> <img src="../img/prison-key.png" class="img-fluid circled" width="15%"></div>
+    <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../img/prison-key.png" class="img-fluid circled" width="45%"></div>
+    <p>От такого паренёк опешит и опрокинет ведро, разлив по темнице всё намытое. Хоть охранник и поднимет крик до потолка, но на удивление всё это отвлечёт его и он забудет об услышанном звоне от ключа. Всё же парня прогонят, чтобы он сказал
+      владыке привести мыть пол кого-нибудь менее неуклюжего. В момент его ухода на вас упадёт озарение и вы поймёте, что это был за парень: это Эдью Тьюст, которому вы помогали бежать из города когда-то, но у него не вышло. Он всё ещё работает
+      уборщиком в Тёмной гильдии.</p>
+    <p>Ночью вы используете новообретённый ключ дабы совершить побег.</p>
+    <div class="text-center mb-5 mt-5 d-none d-md-block"> <img src="../img/escape-icon.png" class="img-fluid circled" width="20%"></div>
+    <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../img/escape-icon.png" class="img-fluid circled" width="50%"></div>
+    <hr>
+    <p class="mt-5 mb-3 antelive" style="font-size:1.2rem;letter-spacing: 1px;"><img src="../img/enemies-icon.png" width="45px" class="block-image mr-1">Эдью-противник</p>
+    <div class="text-left mt-5 mb-3">
+      <p class="attribute d-inline-block"><img src="../img/position.png" width="25px" class="block-image mr-1"><b>Позиция:</b> Освобождение</p>
+      <p class="attribute d-inline-block"><img src="../img/tragedy.png" width="25px" class="block-image mr-1"><b>Роль:</b> Убийца алхимика/освободитель</p>
+      <p class="attribute d-inline-block" style="background:rgba(227, 167, 126, 0.6)"><img src="../img/risk.png" width="25px" class="block-image mr-1"><b>Взаимодействие:</b> Диалог</p>
+    </div>
+    <p class="bold" style="font-size:1.2rem">Краткое описание</p>
+    <p> Вы связаны и прикованы к стулу, перед вами Эдью Тьюст, что по заданию Тёмной гильдии убил Старшего чародея Рузорда вместо того, чтобы бежать из города. Он винит вас в том, что он стал одним членом Тёмной гильдии, ведь когда-то вы дали ему
+      ту самую склянку с ядом, которая и позволила убить мага.</p>
+    <p>Он даёт вам шанс на последнее слово. Сможете ли вы оправдаться перед ним или станете его следующей жертвой? </p>
+    <i class="bold mt-5 mb-5 d-block"
+      style="color:#9D4242; border-top:2px solid #9D4242; border-bottom:2px solid #9D4242; padding:10px; opacity:0.8"> При нажатии на карточку <b>Противника Эдью Тьюста</b>, игрок вступит в диалог: <div class="text-center mt-3 mb-3"> <a
+          target="_blank" href="dialogs/Escape_Edew_Enemy.html"> <button type="button" style="font-size:1.1rem;max-width: 600px; color:#9D4242; border-color:#9D4242;margin: 0 auto;" class="button-table align-items-center justify-content-center p-3 d-flex"><img src="/../img/dialogue-icon-r.png" class="mr-3 block-image d-none d-md-inline" hr="" width="35px" height="30px"><span style="border-color:#9D4242;">Открыть диалог<br class="d-md-none d-lg-none d-xl-none"> «Побег: Эдью-противник»</span></button> </a> </div></i>
+              
+              <audio id="throat_cut_sound.mp3">
+      <source src="../audio/throat_cut_sound.mp3" type="audio/mpeg">
+    </audio>
+    <p>В ходе диалога игрок может прийти к сценариям, что делятся на два типа: <b>конец игры</b> или же <b>успешное прохождение этапа «Побег»</b>. </p>
+    <div class="full-bordered">
+      <p><span class="number-list mr-1">1</span><b>Конец игры</b><br><br>Возникает <b class="audio" title="Воспроизведение звука" onClick="document.getElementById('throat_cut_sound.mp3').play(); return false;"><br
+            class="d-md-none d-lg-none d-xl-none"><img src="../img/audio-icon.png" width="25px" class="block-image mr-1">звук гибели игрока от ножа Тьюста</b>, и игра переходит к окну конца игры, в котором выводится <b>Полная история</b>
+        карты Эдью-противника.</p>
+      <div class="mt-3">
+        <p><img src="../img/risk.png" width="25px" class="block-image mr-1 mb-1" /><b>Примечание:</b> Если диалог закончится фразой Эдью <span style="color:#cb6d1c">«Вы виноваты в том, что я стал этим чудовищем»</span> он обретёт в сейв-файле
+          <b>Истинную концовку «Эдью-противника»</b> и получит Steam-достижение:</p>
+        <div class="p-3 d-none d-md-block"> <img src="../img/achiev-edew2.png" style="border-radius:5px" class="img-fluid"></div>
+        <div class="p-1 d-md-none d-lg-none d-xl-none"> <img src="../img/achiev-edew2-m.png" style="border-radius:5px" class="img-fluid"></div>
+      </div>
+    </div>
+    <div class="full-bordered mt-3">
+      <p><span class="number-list mr-1">2</span><b>Освобождение алхимика</b> <br><br>Перед игроком также открывается <b>Полная история</b> карты. Когда он её закроет перед ним снова окажется интерфейс с позициями, однако теперь появится возможность
+        перевернуть следующую карту — карту «Побега».</p>
+    </div>
+    <p class="bold mt-4" style="font-size:1.2rem">Полная история</p>
+    <p>Когда вы оказались привязанным к стулу в темнице, внутрь зашёл человек в капюшоне подкидывая нож в воздух. Его лица не было видно до того момента, пока он не встал напротив вас. В это самое мгновение вы тотчас же побледнели: перед вами был
+      позврослевший Эдью Тьюст.</p>
+    <div class="text-center mb-5 mt-5 d-none d-md-block"> <img src="../img/knife-icon.png" class="img-fluid circled" width="15%"></div>
+    <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../img/knife-icon.png" class="img-fluid circled" width="45%"></div>
+    <p>Внутри Тьюст знал, что только на нём лежит вина за убийство чародея Рузорда, но всё эти годы он подавлял её, продолжая перекладывать свой проступок на вас. Ведь если бы у Эдью тогда не было яда, ведь если бы алхимик тогда не передал эту
+      злосчастную склянку, он бы конечно сделал, что угодно, но не опустился бы настолько низко, чтобы кого-то убить.</p>
+    <p>Все эти обвинения в один момент обрушаться на вас. Вы же будете поджимать своё шею подальше от ножа Тьюста и пытаться выговорить хоть что-нибудь в свою защиту. Попытка напомнить Эдью, что тот сам изначально хотел совершить побег, но
+      почему-то передумал, не возымеет успеха. Ведь на это Эдью тут же ответит, что в самый последний момент он вывихнул ногу и поэтому не видел иного выхода, но обязательно увидел бы его, если бы не чёртов яд... что видимо отравил не только
+      Рузорда, но и душу Эдью Тьюста...</p>
+    <div class="attribute iffer-2 mt-4">
+      <p class="extrabold" style="font-family:'Fira Sans' !important; font-size:1.1rem;"><b><img src="../img/liberation-icon.png" width="35px" class="mr-2 pb-1 block-image" />Если Эдью освободил алхимика:</b></p>
+      <p>Но после разговора с Эдью, кажется, у вас получилось «найти противоядие», и убедить его, что путь убийцы — не для него. Тьюст пришёл в себя и разрезал путы, что связывали вас со стулом, после чего скоротечно удалился. Несмотря на это, он
+        всё же оставил дверь в камеру открытой, и это позволило вам сбежать из темницы. Вот только как вы сможете выбраться из здания, в котором оказались?</p>
+    </div>
+    <div class="attribute iffer-2 mt-3">
+      <p class="extrabold" style="font-family:'Fira Sans' !important; font-size:1.1rem;"><b><img src="../img/edew-kill.png" width="35px" class="mr-2 pb-1 block-image" />Если алхимик был убит после того, как назвал Эдью чудовищем:</b></p>
+      <p>Вы не могли поверить в то, что Тьюст хочет убить вас после того, как вы пытались помочь ему. Из-за чего вышли на эмоции пытаясь объяснить простую истину. У вас до последнего не помещалось в голове в кого превратился тот мальчонка Эдью
+        Тьюст. В чудовище. </p>
+      <p>Как говорят: как корабль назовешь, так он и поплывет. И похоже, что он приплыл... собственно, как и вы: Тьюст убил вас с недоумевающей физиономией на лице... теперь живите с этим. Ха?</p>
+    </div>
+    <div class="attribute iffer-2 mt-3">
+      <p class="extrabold" style="font-family:'Fira Sans' !important; font-size:1.1rem;"><b><img src="../img/knife.png" width="35px" class="mr-2 pb-1 block-image">Если алхимик был убит, но не называя Эдью чудовищем, а по другой причине:</b>
+      </p>
+      <p>После недолгих попыток вразумить Эдью, и лишь одного взмаха ножа, вас настигла участь быть убитым от того, кому вы когда-то возжелали помочь. Эдью отблагодарил вас тем, что оставил задыхаться в собственной крови.</p>
+      <p>Справедливо ли это? Нет, но это реально.</p>
+    </div>
+    <hr class="mt-5 mb-3">
+    <p>По ходу прохождения игрок будет часто умирать, но мы купируем эффект отторжения за счёт получения общего опыта за игровой счёт в партии, что даёт новый игровой опыт в последующих прохождениях. При повышении уровня, игрок получает доступ к
+      новым клиентам. До этого эти клиенты не посещали лавку и в принципе не могли прийти.</p>
+    <div class="ml-2 mr-2">
+      <p class="bold text-center mt-5" style="font-size:1.3rem; color:#454545">Теперь к вам в лавку будут приходить 3 новых клиента!</p>
+      <div class="text-center mb-4 mt-2 d-none d-md-block"> <img src="../img/new-clients.png" class="img-fluid" width="50%"></div>
+      <div class="text-center mb-4 mt-2 d-md-none d-lg-none d-xl-none"> <img src="../img/new-clients.png" class="img-fluid"></div>
+      <div class="progress mt-3 mb-5 ml-5 mr-5" style=" height: 40px; border:2px solid rgba(199, 134, 0, 0.3)">
+        <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated bold" role="progressbar " style="width: 100%; color:#78570d; font-size:1.5rem" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Новый уровень!</div>
+      </div>
+    </div>
+    <hr class="mt-5 mb-3">
+      <p class="antelive text-center mt-5 mb-5" id="the_crisis"><span style="opacity:0.9; font-size:1.3rem">— &nbsp;<img src="../img/ritual-icon.png" width="30px" class="block-image mr-1 ml-1 mb-1">Финал игры&nbsp;
+        —</span><br><span style="font-size:1.5rem">Ритуал Тёмной гильдии</span></p>
+
+
+    <p><b>«Финал»</b> — второй рассказ-конструктор, что устроен тем же принципом, что и «Кризис». Те же 3 позиции, но другие типы карт:</p>
+    <div class="text-center mt-5 d-none d-md-block"> <img src="../img/constructor-stories3.png" class="img-fluid circled" width="65%"> </div>
+    <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../img/constructor-stories3.png" class="img-fluid circled"> </div>
+    <div class="full-bordered text-left regular mb-3 pt-3 ">
+      <p class="text-center bold" style="font-size:1.2rem">Каждая из позиций закрывается картами, что добываются в ходе прохождения игры:</p>
+      <p><img src="../img/king-icon.png" width="25px" class="block-image mr-1 pb-2"><b>Новый король</b> — определяется в ходе основного сюжета. Новый король заменяет прежне умершего короля и возглавляет поход на Храм Пожирателя. Влияет на
+        послефинальные события сюжета.</p>
+      <p class="mt-4"><img src="../img/general-icon.png" width="25px" class="block-image mr-1 pb-2"><b>Военачальник</b> — определяется в ходе гильдийского сюжета. Им становится актуальный глава гильдии, в которой находится алхимик. Бафает
+        войско и процентно увеличивает успех операции.</p>
+      <p class="mt-4"><img src="../img/mass-icon.png" width="25px" class="block-image mr-1 pb-1"><b>Войско</b> — зависит от той гильдии, в которой находится игрок. Их алхимик снабжает боевыми зельями для успеха операции.</p>
+    </div>
+    <p class="mt-5 mb-3 bold"><img src="../img/papyrus.png" width="25px" class="mr-1 block-image">Лор</p>
+    <p>Главным антагонистом всего сюжета и является <b>Тёмная гильдия</b>. Её влияние в королевском дворце оказалось настолько сильным, что убив прежнего короля у них почти получилось передать престол их подставному наследнику — отцу Эдью Тьюста.
+      Но остальные гильдии не признали его своим правителем, заподозрив в сговоре и убийстве предыдущего короля, вследствие чего королевский совет раскололся на два лагеря.</p>
+    <p>В ходе этих дворцовых перепалок, гильдии игрока удастся найти компромат на нового короля и свергнуть его. В течение этой операции алхимику станет известно о таинственном ритуале. Всё это повлечёт за собой финальную битву между Тёмной
+      гильдией и Королевской армией. Игрок сможет выбрать необходимого короля перед финалом из тех, что у него окажутся в <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top"
+        title="Игрок может получить несколько вариантов королей за время игры">пуле</span>. У него есть на то возможность потому что по ходу гильдийского сюжета, алхимик всегда становится советником главы Гильдии вследствие чего принимает участие
+      во дворцовых делах.</p>
+    <p> В ходе сюжета каждый из возможных обретённых игроком королей хотят остановить ритуал, они делают это под разными предлогами и целеполаганием. Некоторые из них могут оказаться предателями, другие находятся под влиянием Тёмной гильдии и не
+      хотят лишних жертв, а часть желает остановить деятельность Тёмной гильдии тем или иным образом.</p>
+    <p class="mb-3"><img src="../img/risk.png" width="25px" class="block-image mr-1 mb-1" /><b>Примечание:</b> Если игрок не смог найти подходящего короля за время игры, то сюжет адаптируется под это и выдаст не самый радостный исход событий,
+      в котором отец Эдью Тьюста всё же полноценно воссядет на трон и погрузит королевство в тёмные времена.</p>
+    <p class="mt-5 mb-3 bold"><img src="../img/gears-icon.png" width="35px" class="mr-1 block-image">Устройство финала</p>
+    <p>Как и в случае членства в Тёмной гильдии, алхимик должен подготовить армию боевыми зельями, что будет сражаться в Финале. Событие финала также рандомно и имеет два расклада — успех и провал. Каждое приготовленное зелье за выданный игроку
+      промежуток времени улучшит результативность войска и суммарно повысит шансы на успех операции. </p>
+    <p><img src="../img/general-icon.png" width="20px" class="block-image mr-1 pb-1"><b>Военачальник</b>, которого получит игрок также влияет на успех. Он процентно увеличивает результативность тех зелий, что сделал игрок. Количество этих
+      процентов зависят от самого военачальника, потому что их качество варьируется. Как таковой военачальник отсутствовать не может: либо он опытный, либо игрок плохо выполнял гильдийские задания и он такой себе.</p>
+    <p><img src="../img/mass-icon.png" width="20px" class="block-image mr-1 pb-1"><b>Войско</b>, делится на два параметра:</p>
+    <ul class="text-left regular" style="font-size:1.1rem;">
+      <li><b>Тип</b>: только косметический и влияющий на сюжет атрибут. Определяется той гильдией в которой находится игрок. <b style="color:#0A148D">Гильдия магов</b> — волшебники, <b style="color:#026b2b">Торговая гильдия</b> — наёмники, <b
+          style="color:#ac6207">Гильдия войнов</b> — рыцари. </li>
+      <li class="mt-2"><b>Количество:</b> определяется количеством заработанной репутации игрока в гильдии в течение игры. Этот атрибут также суммарно увеличивает успех операции.</li>
+    </ul>
+    <p><b><img src="../img/king-icon.png" width="20px" class="block-image mr-1 pb-2">Новый король</b> тоже влияет только на поворот сюжетных событий. У каждого из королей есть свой <span class="mini-bold">подход</span>, что влияет на то каким
+      реформам он подвергнет королевство после финальных событий. Как можно догадаться эту позицию может занять Эдью, у которого получилось осуществить побег от Тёмной гильдии:</p>
+    <div class="text-center mt-5" style="font-family:'Roboto Slab'; font-size:1.5rem; font-weight:bolder; border-top:1px solid black; border-bottom:1px solid black; padding:10px;"><img src="../img/king-icon.png" width="45px"
+        class="block-image mr-3 mb-3 ml-1">Эдью Тьюст — Король</div>
+    <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../img/king-edew.png" class="img-fluid circled" width="45%"></div>
+    <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../img/king-edew.png" class="img-fluid circled" width="90%"></div>
+    <div class="text-left mt-5 mb-3 " style="font-size:1.1rem;">
+      <p class="attribute d-inline-block"><b>Подход:</b> <img src="../img/fist-icon.png" width="25px" class="block-image mr-1">Радикализм </p>
+    </div>
+    <p>Взойдя на престол, Эдью будет руководствоваться прямолинейным подходом в решении проблемы Тёмной гильдии — «полное истребление этой мерзкой организации». В финальной битве он с особой жестокостью расправиться с каждым из её членов, а после
+      демонстративно развесит тела всех причастных дворян к Тёмной гильдии на городской площади. В том числе и собственного отца.</p>
+    <p>В последствии, он создаст организацию, чьей основной задачей будет искоренение остатков Тёмной гильдии и её влияния в дворцовых кругах.</p>
+  
+    <div class="text-center mb-5 mt-5" style="border-bottom: 4px solid #591b82; padding-bottom: 6px; opacity: 0.9;"><img src="../img/arrow-down.png" class="img-fluid block-image" width="45px" /></div>
+    <div class="text-center">
+
+            <div class="remark row align-items-center">
+
+            <img class="col-5 col-md-3 col-xl-2 align-self-center  align-self-center" style="margin: 0 auto !important;"src="../img/niceplay_games_clear.png" width="100px">
+            <p class="col-12  col-xl-4 text-justify" style="text-align-last: center;">Изначально конструктор сюжетов был придуман в ходе выполнения большого тестового задания в Niceplay Games. </p>
+            <p class="col-12  col-xl-5 text-center">
+              <a href="niceplay_test/question_1.1.html" class="button-task">Хочу посмотреть всё задание <i class="bi bi-arrow-right-short"></i></a>
+            </p>
+
+            </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+aria-hidden="true" id="modal_v">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content modal-body text-light border-0" id="changelog-modal">
+
+        <h5 class="block-text modal-title text-center mb-4"
+            style="font-size:2rem; border-bottom:1px solid #8e8fff" id="exampleModalLongTitle">Контакты<i
+                class="bi bi-x mr-3 mb-3 float-right" data-dismiss="modal"
+                style="opacity: 0.7;font-size:2rem;cursor:pointer"></i></h5>
+        <div class="contacts_page">
+            <p class="contact-note block-text">Свяжитесь напрямую через Telegram чтобы получить ответ в
+                ближайшее время</p>
+            <div class="contacts_contacts text-center">
+
+                <a target="_blank" href="https://t.me/kfshka"><i class="bi bi-telegram mr-2""></i></a>
+
+<i class=" bi bi-discord mr-2 discord-contact"></i>
+                    <div class="extrabold notification-email-contact">E-mail скопирован в буфер обмена</div>
+                    <i class="bi bi-envelope-fill mr-2 mb-2 email-contact"
+                        style="bottom: 3px; position: relative; font-size:4.4rem"></i>
+
+            </div>
+            <div class="extrabold notification-discord-contact">Discord скопирован в буфер обмена</div>
+            <br>
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+
+  
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+    id="modal_portfolio">
+    <div class="modal-dialog modal-fullscreen" role="document">
+        <div class="modal-content text-light border-0" id="fullscreen-modal">
+            <div class="modal-title">
+                <h5 class="block-text modal-title text-left pt-2 pl-3 pr-3"
+                    style="background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:2rem; border-bottom:1px solid #8e8fff;"
+                    id="exampleModalLongTitle">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <i style="font-size:2.4rem;" class="mr-3 bi bi-briefcase-fill"></i>Портфолио
+                        </div>
+                        <div class="col-right">
+                            <span class="back-to-site-button text-right bold d-none d-md-block"
+                                data-dismiss="modal">Обратно на сайт<i
+                                    class="ml-2 bi bi-arrow-up-right-square-fill mr-3 "
+                                    style="font-size:1.5rem;"></i></span>
+                            <button style="color:#fff;font-size:2rem;" type="button"
+                                class="close d-lg-none d-xl-none d-md-none" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"><i class="bi bi-x mr-3"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                </h5>
+            </div>
+            <div class="modal-body">
+                <div class="portfolio-page">
+                    <h4 class="mt-1 mb-3 text-center"><img src="/../img/game-controller-w.png"
+                            class="mr-3 block-image d-none d-md-inline" width="40px">Гейм-дизайн</h4>
+
+                    <div class="row narrative-portfolio-block-big container-fluid" style="margin-bottom: 15px;">
+
+                        <a href="/../portfolio/dialogue_system_part1.html" class="col-2 image-with-text iwt-1-resume">
+                            <div class="new-block nb-1-resume"></div>
+                            <div class="centered ">Диалоговая система для симулятора алхимика</div>
+                        </a>
+
+                        <a href="/../portfolio/zavod-test.html" class="col-2 image-with-text ml-2 iwt-1-2-resume">
+                            <div class="new-block nb-1-2-resume"></div>
+                            <div class="centered">Тестовое задание в компанию ZAVOD Games</div>
+                        </a>    
+
+                        <a href="/../portfolio/tapclap_leveldesigner-test.html"
+                            class="col-2 image-with-text ml-2 iwt-2-resume">
+                            <div class="new-block nb-2-resume"></div>
+                            <div class="centered ">Тестовое задание Level-Design Match-3</div>
+                        </a>
+
+                        <div class="col d-flex flex-column ml-3 min-portfolio">
+                            <a href="/../portfolio/dialogue_system_part1.html"
+                                class="for-adaptive-portfolio portfolio-small-element"><img src="/../img/gear-w.png"
+                                    width="25px"><b>Игровая система:</b> Диалоговая система для симулятора
+                                алхимика</a>
+
+                                <a href="/../portfolio/zavod-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/zavod-icon.png" width="25px">Тестовое задание в компанию ZAVOD Games</a>         
+
+                            <a href="/../portfolio/tapclap_leveldesigner-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/gem.png" width="25px">Тестовое задание на Level
+                                Designer Match-3</a>               
+                      
+                            <a href="/../portfolio/mirrors_edge.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/document-w.png" width="25px"><b>Статья:</b> «Mirror’s Edge, или как
+                                гениальная идея для игры превратилась в её первостепенную проблему»</a>
+                            <a href="/../portfolio/google_sheets_1.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/cells-w.png" width="25px"><b>Таблица Google Sheets:</b> Простая
+                                система повышения уровня в CRPG</a>
+                            <a href="/../portfolio/ui_darkbestiary.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/blocks.svg" width="25px"><b>UX/UI:</b> Документ по улучшению интерфейса для Dark Bestiary</a>
+                                
+               
+                        </div>
+
+                        <div class="col d-flex flex-column ml-3 min-portfolio">
+                            <a href="/../portfolio/toc_1.html" class="portfolio-small-element mt-2"><img
+                                src="/../img/two-dices-w.png" width="25px">Задачи на теорию вероятностей</a>   
+                        <a href="/../portfolio/documents/Pitch document, Poker Game, Ostanin Danila.pdf " class="portfolio-small-element mt-2"><img
+                            src="/../img/document-w.png" width="25px">Питч документ Multiplayer Poker Game</a>
+                    <a href="https://docs.google.com/document/d/1IOv1AEzXffSm8KKL0GxTqCSUCRG-Fk3NVmGxnMwCP00/edit?usp=sharing" class="portfolio-small-element mt-2"><img
+                            src="/../img/tapclap-icon.png" width="25px">Тестовое задание в компанию TAPCLAP</a>
+                    <a href="https://docs.google.com/document/d/13BcYSyz29fTy7WsimbOFfA0suUtmq3M033_WulxX1UI/edit?usp=sharing" class="portfolio-small-element mt-2 last-work"><img
+                            src="/../img/bird-w.png" width="25px">Тестовое задание в компанию Z-Media</a>
+
+                    </div>
+                </div>
+
+
+                </div>
+
+
+                <div class="portfolio-page mt-4">
+                    <h4 class="pt-4 mb-4 text-center" style="border-top:1px solid #8e8fff;"><img
+                            src="/../img/narrative-w.png" class="mr-3 block-image d-none d-md-inline"
+                            width="40px">Нарратив-дизайн</h4>
+
+                    <div class="row narrative-portfolio-block-big container-fluid">
+
+                        <a href="/../portfolio/plot.html" class="col-2 image-with-text iwt-4-resume">
+                            <div class="new-block nb-4-resume"></div>
+                            <div class="centered ">Статья про игровой сюжет</div>
+                        </a>
+
+                        <a href="/../portfolio/character_edew.html" class="col-2 image-with-text ml-2 iwt-5-resume">
+                            <div class="new-block nb-5-resume"></div>
+                            <div class="centered ">Персонаж для симулятора алхимика</div>
+                        </a>
+
+                        <a href="/../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                            class="col-2 image-with-text ml-2 iwt-6-resume">
+                            <div class="new-block nb-6-resume"></div>
+                            <div class="centered">Нелинейный квест про гильдию убийц</div>
+                        </a>
+
+                        <div class="col d-flex flex-column ml-3 min-portfolio" style="width:100%;">
+                            <a href="/../portfolio/character_edew.html"
+                                class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/intersect-w.png" width="25px"><b>Пример:</b> Персонаж для
+                                симулятора алхимика</<a href=""></a>
+                            <a href="/../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                                class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/intersect-w.png" width="25px"><b>Пример:</b> Нелинейный квест про
+                                гильдию убийц</a>
+                            <a href="/../portfolio/plot.html"
+                                class="for-adaptive-portfolio portfolio-small-element mt-2 mb-2"><img
+                                    src="/../img/document-w.png" width="25px"><b>Статья:</b> «Игровой сюжет, и
+                                какими боевыми приёмами он обладает»</a>
+                            <a href="/../portfolio/descriptions.html" class="portfolio-small-element"><img src="/../img/align-w.png" width="25px"><b>Текст:</b>
+                                Короткие описания предметов и игровых
+                                объектов</a>
+                                <a href="/../portfolio/documents/Pirate Girl Story.pdf" class="portfolio-small-element mt-2"><img
+                                    src="/../img/paint-palette.png" width="25px"><b>Художественный рассказ:</b> История о девочке, что хотела стать пиратом</a>
+                            <a href="/../portfolio/stellaris_races.html" class="portfolio-small-element mt-2"><img src="/../img/align-w.png"
+                                    width="25px"><b>Текст:</b> Биографии рас для Stellaris</a>
+                            <a href="/../portfolio/constructor.html" class="portfolio-small-element mt-2"><img src="/../img/gear-w.png"
+                                    width="25px"><b>Игровая система:</b> Карточный
+                                конструктор нелинейного сюжета</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="color:#fff;cursor:pointer; background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:1.5rem; border-top:1px solid #8e8fff;"
+                class="back-to-site-button pt-3 pb-3 mb-0 text-center close d-md-none d-lg-none d-xl-none"
+                data-dismiss="modal">Вернуться на сайт <i class="bi bi-arrow-right"></i></p>
+        </div>
+    
+
+    
+
+      </div>
+
+
+  </div>
+</main>
+
+
+    <footer class="footer mt-5">
+        <div class="container-fluid title-s center-footer">
+            <div class="row align-items-center big-font-to-small-light" style="min-height: 80px;" class="mini-bold">
+                <div class="col block-text block-image" id="created_footer">
+                    <img src="/../../img/favicon-white.png" class="mr-2 logo-icon" width="45px">
+    
+                    <span class="text-uppercase">Данила Останин</span>
+                </div>
+                <div class="col-right mr-3 soc-footer">
+                    <img src="/../../img/discord.png" class="mr-2 discord-f" style="max-width:30px;">
+                    <a target="_blank" href="https://t.me/kfshka"> <img src="/../../img/telegram-logo.png" class="mr-2 telegram-f"
+                            style="max-width: 30px;" /> </a>
+                    <img src="/../../img/mail.png" class="email-f" style="max-width:30px;">
+                    <div class="extrabold notification-discord-footer"> Discord скопирован в буфер обмена</div>
+                    <div class="extrabold notification-email-footer"> E-mail скопирован в буфер обмена</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+<script>
+    $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+</body>
+
+</html>

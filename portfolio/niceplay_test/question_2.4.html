@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Тестовое задание в Niceplay Games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.8.5/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.min.css">
+    <script src="/js/main.min.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link href="/css/fonts.min.css" rel="stylesheet" />
+    <link href="/css/preloader.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+</head>
+
+
+    <body>
+      <script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(74553970, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/74553970" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <div class="backdrop">
+        <div class="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    
+        
+        
+            <div id="scroller"><img src="../../img/arrow.png" width="50px" /></div> 
+          
+      
+
+      
+
+    
+
+        <main>
+            <div class="container mt-5" style="margin-bottom: 5px;">
+                <div class="row justify-content-between">
+        
+                    <div class="col-auto mr-auto top block-text soc "> <img src="../../img/icon.png" class="demon-icon kfshka" width="40px">
+                        <div class="git-gud extrabold text-center"></div><a href="/" class="NeoSansPro text-uppercase created normal-sil-menu"> created by kf</a>
+                        <div class="line mr-1 ml-1"></div><span class="NeoSansPro date" id="change-log-button" data-toggle="modal" data-target="#modal_ver"> ver.1.1</span>
+                      </div>
+        
+                    <div class="col-auto top block-text navigator">
+                          <a title="Главная" href="/" class="NeoSansPro text-uppercase menu-element menu-element-user created"> <i class="bi bi-house-fill"></i> <span class="d-none d-xl-inline">Главная</span></a> 
+                        <div class="menu-line"></div>
+                        <span title="Портфолио" class="NeoSansPro text-uppercase menu-element created" data-toggle="modal"
+                            data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> <span class="d-none d-md-inline">Портфолио</span></span>
+                        <div class="menu-line"></div>
+                        <span title="Контакты" class="NeoSansPro text-uppercase menu-element created" data-toggle="modal"
+                            data-target=".bd-example-modal-lg"> <i class="bi bi-telephone-fill"></i> <span class="d-none d-md-inline">Контакты</span></span>
+                    </div>
+                </div>
+                <div class="adaptive-test-menu">
+                <div class="row justify-content-center align-items-center" >
+
+                    <div class="col-auto top block-text text-center"><img src="../../img/icon.png" class="demon-icon kfshka" width="80px">
+                    <div class="git-gud git-gud-m extrabold"></div>
+                      <a href="/" class="NeoSansPro text-uppercase created-old normal-sil-menu"> created by kf</a>
+                        <div class="line mr-1 ml-1"></div><span class="NeoSansPro menu-element" id="change-log-button" data-toggle="modal" data-target="#modal_ver"> ver.1.1</span>
+                    </div>
+
+                    <div class="col-mr-6 text-center soc-bottom" style="margin:10px">
+                      <div class="d-none" id="discord-name">kF#8247</div>
+                      <img class="discord elem" src="/../../img/discord-panel.png" width="35px" id="discord-button" />
+                      <a class="elem" target="_blank" href="https://t.me/kfshka"> <img src="/../../img/telegram-panel2.png"
+                              width="35px" class="telegram" /></a>
+                      <div class="d-none" id="email-name">darkfriar26@gmail.com</div>
+                      <img class="email elem" src="/../../img/mail-panel.png" width="35px" class="mr-2" />
+                      <div class="extrabold notification-discord-top">Discord скопирован в буфер обмена</div>
+                      <div class="extrabold notification-email-top">E-mail скопирован в буфер обмена</div>
+                  </div>
+
+                </div>
+                <hr class="adaptive-hr">
+                <div class="row justify-content-center align-items-center" >
+                  <div class="col-auto text-center">
+                    <a href="/" class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button"><i class="bi bi-house-fill"></i></a>
+                  </div>
+                  <div class="col-auto text-center">
+                  <span class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button" data-toggle="modal"
+                  data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Портфолио</span> 
+                  </div>
+                  <div class="col-auto text-center contacts-text">
+                    <span class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button" data-toggle="modal"
+                    data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Контакты</span> 
+                    </div>
+                </div>
+                <hr class="adaptive-hr">
+
+            </div>
+
+
+            </div>
+
+            <div class="modal fade" id="modal_ver" tabindex="-1" aria-labelledby="exampleModalLongTitle" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content modal-body text-light border-0" id="changelog-modal">
+                    <h5 class="modal-title text-center pb-4" id="exampleModalLongTitle">История изменений</h5>
+                    <div class="new_version">
+                        <p class="h6" style="font-size:1.2rem">— Version 1.1</p>
+                        <ul>
+                          <li>Задание интегрировано в остальную часть сайта</li>
+                          <li>Во «Вступление» было добавлена сноска для большинства посетителей сайта</li>
+                          <li>В необходимые вопросы добавлены условия задания</li>
+                        </ul>
+                      </div>
+                    <div class="new_version">
+                      <p class="h6" style="font-size:1.2rem">— Version 1.0</p>
+                      <ul>
+                        <li>Поправки по написаному завершены</li>
+                        <li>Произведена оптимизация страниц</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.9</p>
+                      <ul>
+                        <li>Закончена работа над «Вступлением» и «Заключением»</li>
+                        <li>Документ был разделён на страницы для оптимизации</li>
+                        <li>Продолжаются поправки по написанному</li>
+                        <li>Изменился логотип «kF»</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.8</p>
+                      <ul>
+                        <li>Закончена работа над вопросом №2.6</li>
+                        <li>Пишется «Вступление» и «Заключение»</li>
+                        <li>Делаются поправки по написанному</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.7</p>
+                      <ul>
+                        <li>Закончена работа над вопросом №2.5</li>
+                        <li>Продолжается работа над вопросом №2.6</li>
+                        <li>Добавлены спойлеры и всплывающие текстовые подсказки</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.6</p>
+                      <ul>
+                        <li>Закончена работа над вопросом №2.4</li>
+                        <li>Начата работа над вопросами №2.5, №2.6</li>
+                        <li>Добавлен скрипт увеличения изображений</li>
+                        <li>Добавлены новые элементы оформления для пояснений к диалоговой системе</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.5</p>
+                      <ul>
+                        <li>Закончена работа над вопросами №2.1, №2.2, №2.3</li>
+                        <li>Начата работа над вопросом №2.4</li>
+                        <li>Добавлены некоторые новые элементы оформления</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.4</p>
+                      <ul>
+                        <li>Дописана первая часть документа</li>
+                        <li>Добавлен прелоадер</li>
+                        <li>Решён баг с морганием картинок в содержании на Chromium</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.3</p>
+                      <ul>
+                        <li>Дописан вопрос №1.2</li>
+                        <li>Начата работа над вопросами №1.3, №1.4, №1.5</li>
+                        <li>Видео на сайте переведены на JWplayer</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.2</p>
+                      <ul>
+                        <li>Дописан вопрос №1.1</li>
+                        <li>Начата работа над вопросом №1.2</li>
+                        <li>На широкоэкранных мониторах заголовки имеют новое офорление с квадратом слева</li>
+                        <li>Добавлено оформление выносок, выводов, отступлений, списков и номеров заданий</li>
+                        <li>Добавлена пасхалка #2</li>
+                      </ul>
+                    </div>
+                    <div class="first_version">
+                      <p class="h6">— Version 0.1</p>
+                      <ul>
+                        <li>Начата работа над вопросом №1.1</li>
+                        <li>Добавлен лог изменений</li>
+                        <li>Доведён до ума адаптивный дизайн для Android (Tabs, Phones)</li>
+                        <li>Добавлена пасхалка #1</li>
+                      </ul>
+                    </div><button type="button" class="modal-btn w-50 mt-3" data-dismiss="modal" style="margin:0 auto">Закрыть</button>
+                  </div>
+                </div>
+              </div>
+          
+
+        <div class="container pt-5" id="first_title">
+    <div class="row justify-content-center first-title-adaptive text-center mb-5" id="logo-work">
+        <div class="col-xl-4 col-lg-4 pt-2"><img src="../../img/niceplay_games_с.png" class="image-fluid block-image" style="opacity: 0.88; border-radius: 25px; box-shadow: 0px 0px 10px rgb(134, 134, 134);" /></div>
+        <div class="col-xl-4 col-lg-4 col-sm-12 text-center pt-2 block-text">
+            <h1 class="extrabold">
+                Тестовое задание на вакансию Game Designer.<br />
+                Niceplay Games
+            </h1>
+            <span class="NeoSansPro des-op" style="color:#3b3b3b !important"> Разработка Steam-игры «Potion Craft»</span>
+        </div>
+    </div>
+    <hr class="mb-5 col-auto" />
+    <div class="container-fluid title-s pt-3 pb-4 pr-5 pl-5" id="transition">
+        <!-- <h2 class=" extrabold text-uppercase text-left cl-font"> <img src="../../img/description.svg" class="mb-1 block-image" width="50px"> Основное содержание </h2> -->
+        <div class="text-left">
+            <div class="row">
+                <div class="container-fluid mt-5">
+                    <a href="question_1.1.html#intro">
+                        <div class="pt-5 pb-5 extrabold text-center" id="b_intro" style="border-radius: 0.7rem;"><span>&mdash; Вступление &mdash;</span></div>
+                    </a>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12 mt-5 text-center">
+                    <h4 class="bold text-center cl-font"><img src="../../img/joystick-icon_m.png" class="d-none d-lg-inline" /> Общие задания</h4>
+                    <ul class="list-group text-left des1">
+                        <a href="question_1.1.html#q1_1">
+                            <li class="list-group-item bred1"><b>1.1.</b> Хорошая концепция</li>
+                        </a>
+                        <a href="question_1.2.html#q1_2">
+                            <li class="list-group-item"><b>1.2.</b> Неудачная концепция</li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_3">
+                            <li class="list-group-item"><b>1.3.</b> Задача про сундук №1 <img src="../../img/chest.png" class="d-none d-lg-inline" width="5%" /></li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_4">
+                            <li class="list-group-item"><b>1.4.</b> Задача про сундук №2 <img src="../../img/chest.png" class="d-none d-lg-inline" width="5%" /></li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_5">
+                            <li class="list-group-item"><b>1.5.</b> Задача про сундук №3 <img src="../../img/chest.png" class="d-none d-lg-inline" width="5%" /></li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_6">
+                            <li class="list-group-item bred2"><b>1.6.</b> Таблица с формулами</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12 mt-5 text-center">
+                    <h4 class="bold text-center cl-font"><img src="../../img/potion-icon_m.png" class="d-none d-lg-inline" /> Задания по Potion Craft</h4>
+                    <ul class="list-group text-left des2">
+                        <a href="question_2.1-2-3.html#q2_1">
+                            <li class="list-group-item bred1"><b>2.1.</b> Проблемы UX</li>
+                        </a>
+                        <a href="question_2.1-2-3.html#q2_2">
+                            <li class="list-group-item"><b>2.2.</b> Новый ингредиент</li>
+                        </a>
+                        <a href="question_2.1-2-3.html#q2_3">
+                            <li class="list-group-item"><b>2.3.</b> Новый персонаж</li>
+                        </a>
+                        <a href="question_2.4.html#q2_4">
+                            <li class="list-group-item"><b>2.4.</b> Новая игровая механика</li>
+                        </a>
+                        <a href="question_2.5.html#q2_5">
+                            <li class="list-group-item"><b>2.5.</b> Новый элемент лора</li>
+                        </a>
+                        <a href="question_2.6.html#q2_6">
+                            <li class="list-group-item bred2"><b>2.6.</b> Новые заказы на зелья</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="container-fluid mt-5">
+                    <a href="conclusion.html#conclusion">
+                        <div class="pt-5 pb-5 text-center extrabold" id="b_conclusion" style="border-radius: 0.7rem;"><span>&mdash; Заключение &mdash;</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mb-5 mt-5" />
+    
+</div>
+  <div class="container main content mt-5">
+    <h3 class="extrabold mb-5" id="q2_4"><b class="title_number2">2.4</b> Новая игровая механика</h3>
+    <div class="text-center mb-4 post-header mt-5 antelive">
+      <p class="h3 text-center antelive">Переработка диалоговой системы</p>Часть I. Торговые диалоги
+    </div>
+    <div class="text-center mb-5 mt-4"> <img src="../../img/coffee-talk.jpg" class="img-fluid circled"> </div>
+
+    <p> Из предлагаемого мной в вопросе ранее персонажа можно понять, что между ним и алхимиком подразумевается продолжительный разговор с возможностью выбора. Нынешняя диалоговая система не позволяет реализовать подобное. Она предполагает лишь
+      единичное окно взаимодействия с клиентом в целях продажи или покупки. </p>
+    <p class="mt-3 mb-3 bold" style="font-size:1.2rem"><img src="../../img/question-mark-v.png" width="30px" class="block-image" /> Зачем нужны затяжные разговоры с клиентами?</p>
+    <p> Если из «Papers, Please» убрать весь его сюжет и нарратив — игра превратится в рутиное занятие. Почти любому симулятору нужна дополнительная цель, что будет удерживать игрока, поддерживая уровень его заинтересованности. Постоянно возникающие
+      интересные диалоги способны развлекать игрока, пока он занят чем-то монотонным и однообразным. Получается, в момент когда разнообразие геймплея не будет развиваться — будет развиваться сюжет. </p>
+    <p class="mt-3 mb-3 bold" style="font-size:1.2rem"><img src="../../img/question-mark-v.png" width="30px" class="block-image" /> Какими должны быть диалоги?</p>
+    <p> В первую очередь диалоги должны иметь практическую значимость для игрока, в таком случае они не будут скипаться. Игрок с большей вероятностью не станет пропускать диалог, который способен повлиять на дальнейшие события в игре. Влияние на игру
+      может варьироваться — быть как глобальным, так и ситуационным.</p>
+    <p>Я предлагаю ввести в игру следующие три вида диалогов: торговый, сюжетный и информационный:</p>
+    <hr />
+    <p class="mt-4 mb-3 bold" style="font-size:1.2rem"><img src="../../img/coins-icon.png" width="25px" class="mr-1 block-image" /> Торговый </p>
+    <p> Это ситуационный диалог, он будет оказывать влияние непосредственно на конкретного клиента. Ведя его правильно, игрок будет получать расположение клиента, а возможно и чаевые. Вдобавок такие диалоги будут повышать количество приходящих
+      клиентов в день по той причине, что их будет устраивать обслуживание и полученный товар. Либо игрок будет лишаться клиентов, если он ведёт себя в разговоре с ними пренебрежительно. </p>
+    <hr />
+    <p class="mt-4 mb-3 bold" style="font-size:1.2rem"><img src="../../img/book.png" width="25px" class="mr-1 block-image" /> Сюжетный </p>
+    <p> Это диалоги с клиентами, которые приводят к различного рода событиям. Они могут также содержать в себе описанные функции торгового диалога, но всё же их основная цель привести к какому-то сюжетному повороту. В основном эти диалоги будут вести
+      сюжетные персонажи с фиксированной внешностью (например, тот же Эдью), но иногда это может оказаться и скрипт диалога на рандомном клиенте подходящем по типу (маг, воин и т.д.).</p>
+    <p>Но чтобы рассказывать историю, нам нужно то, через что она будет рассказываться. А значит нам необходимы <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top"
+        title="Игровые объекты с основной функцией: рассказывать сюжет игры">нарративные объекты</span>:</p>
+    <p class="mb-3 mt-3 attribute"><img src="../../img/newspaper.png" width="23px" class="mr-2 block-image" /><b>Газета с городскими событиями</b>, на которые каким-то образом мог повлиять главный герой своими действиями</p>
+    <p class="mb-3 mt-3 attribute"><img src="../../img/letter.png" width="25px" class="mr-2 block-image" /><b>Письма</b>, которые являются способом общения на расстоянии между персонажами в игровом мире</p>
+    <p class="mb-3 mt-3 attribute"><b><img src="../../img/owl.png" width="25px" class="mr-2 block-image" />Питомец-компаньон</b>, что доставляет эти письма, а также после своих полётов рассказывает интересные истории происходящие в городе и может
+      влиять на истории тех людей, что уже не посещают лавку</p><!-- <div class="bs-callout justify-content-center"> <p>Я не стану рассматривать каждый из элементов </p></div>-->
+    <hr />
+    <p class="mt-5 mb-3 bold" style="font-size:1.2rem"><img src="../../img/information.png" width="30px" class="mr-1 block-image" /> Информационный </p>
+    <p>Диалоги, что не подразумевают продажу зелья, а ведутся с целью передачи игроку новой информации об игровом мире и происходящих в нём явлениях. Этот тип диалога игрок чаще всего ведёт со своим питомцем-филином обсуждая события по ходу игры, но
+      иногда он вступает в него и с другими персонажами. Отличается от других большей линейностью, так как сам диалог имитирует обыкновенные разговоры, где выбор реплик влияет на смену тона и темы.</p>
+    <hr />
+    <p class="mt-5 mb-3 bold" style="font-size:1.2rem"><img src="../../img/question-mark-v.png" class="block-image" width="30px" /> Как это реализовать?</p>
+    <p>В первую очередь такие диалоги становятся гораздо более живыми: «эффект жизни» в диалоге создаётся проработкой характера и настроения каждого клиента. Блоки с фразами обязательно имеют меньше текста, чтобы игрок иллюзорно воспринимал его как
+      разговор, а не как записки на экране. А также мы задействуем нехитрый приём — анимацию:</p>
+    <div class="text-center mb-4 mt-4"> <img src="../../img/ds-animation2.gif" class="img-fluid circled"> </div>
+    <p>Растягивая появление символов во времени, мы создаём ощущение реального общения, ведь в нём любая фраза не говорится моментально. Идеально добиваться такого эффекта именно за счёт регулирования скорости возникновения символов: как можно
+      заметить первая часть фразы появляется намного медленнее второй, демонстрируя момент задумчивости у собеседника.</p>
+    <p>Это незначительное изменение в визуальном плане, но самая важная часть изменений касается технической стороны.</p>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid block-image" width="45px"> </div>
+    <p> Новая система делает диалоги более объёмными и многообразными. Система реагирует на выбор игрока и дарит уникальный игровой опыт общения и множество интересных историй. Лучше всего продемонстрирует как это устроено конкретный пример торгового
+      диалога:</p>
+    <div class="col-12 mt-5"></div>
+    <div class="text-left mt-4"> <span class="bold antelive" style="font-size:1.3rem"><img src="../../img/magic-wand.png" width="45px" class="block-image mr-2 ml-1" />Торговый диалог с магом</span> </div><i class="bold mt-4 mb-5 d-block"
+      style="color:#501975; border-top:2px solid #501975; border-bottom:2px solid #501975; padding:10px; opacity:0.8"> Прежде чем начать, откройте полный диалог в новой вкладке браузера и следите за его развитием по ходу объяснения: <div
+        class="text-center mt-4 mb-3"> <a target="_blank" href="../dialogs/Mana_Potion_№1.html"> <button type="button" class="button-table" style="font-size:1.1rem;max-width: 500px; min-height:60px"><img src="../../img/dialogue-icon.png" width="7%"
+              class="mr-3 block-image d-none d-md-inline" /><span>Открыть диалог «Зелье маны №1»</span></button> </a> </div></i>
+    <p> К нам в лавку заходит клиент, который внешним видом показывает, что он маг. Предположим, он носит мантию или шляпу мага. После чего между главным героем и ним начинается разговор: </p>
+    <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../../img/ds-1.png" class="img-fluid circled lite-bordered" width="85%"> </div>
+    <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/ds-1.png" class="img-fluid circled lite-bordered"> </div>
+    <p>В начале диалога с клиентом игрок волен выбирать путь движения. В первую очередь поощряется вежливость к клиенту, следуя таким путём, игрок в большинстве случаев будет оказываться в выгоде. Реплики выше меняют отношение клиента к сделке, при
+      хорошем же отношении тот может оставить чаевые после покупки и начать посещать лавку регулярно.</p>
+    <p>Но сначала сделаем важную ремарку и поговорим о том, на чём строится новая диалоговая система:</p>
+    <div style="border:4px solid #591b82; padding:25px;">
+      <p class="text-center h3 mb-5 antelive" style="border-bottom: 3px solid #591b82; padding-bottom:10px; color:#591b82">Базис диалоговой системы</p>
+      <p> Успешность сделки изображается этим значком — <img src="../../img/coins-icon.png" class="block-image" width="23px" class="mr-1" />. Это счётчик, что меняется по ходу разговора с клиентом в зависимости от действий игрока: </p>
+      <p><img src="../../img/coins-plus.png" width="35px" class="mr-1 block-image" /> — Игрок ведёт себя вежливо и увеличивает вероятность, что клиент оставит чаевые и придёт повторно.</p>
+      <p><img src="../../img/coins-minus.png" width="35px" class="mr-1 block-image" /> — Игрок ведёт себя пренебрежительно и увеличивает вероятность, что клиент не оставит чаевых и не придёт повторно.</p>
+      <p> Таких значков как <img src="../../img/coins-icon.png" width="20px" class="mr-1 ml-1 block-image" /> будет применятся множество в новой диалоговой системе. Они позволяют кратко описать последствия выбора реплики. Большая часть из них
+        скрыта от игрока при разговоре, другие же появляются на мгновенье после выбора, а некоторые показываются изначально, заставляя игрока делать более обдуманный выбор. </p>
+      <p> <b>Чаевые</b><br /> Каждый из набранных <img src="../../img/coins-icon.png" width="20px" class="mr-1 ml-1 block-image" /> увеличивает вероятность чаевых на 5%. Клиент оставляет чаевые в конце сделки, если та прошла успешно. Сделка
+        окончилась успешно если клиент каким либо образом таки получил зелье (бывают исключения). Сумма чаевых составляет определённый процент от продажи. </p>
+      <p style="border-top:3px solid #591b82;" class="pt-4"> <b>Постоянные клиенты</b><br /> Постоянный клиент — это тот клиент, который после правильно выстроенного первого диалога стал ходить в лавку на регулярной основе с определённой частотой. На
+        частоту прихода может влиять качество и ценность обычно покупаемого им зелья, особенности самого клиента и другие факторы. </p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/regular-client-icon.png" class="img-fluid circled" width="18%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/regular-client-icon.png" class="img-fluid circled" width="55%"> </div>
+      <p>Один из способов сделать клиента постоянным с определённым шансом после завершения сделки — набрать большее количество очков <img src="../../img/coins-icon.png" width="20px" class="mr-1 ml-1 block-image" />. Требуемое количество уникально
+        для каждого диалога. Например, в разговоре с этим магом тот начнёт ходить регулярно с шансом в 75%, если игрок под конец набрал <b>2<img src="../../img/coins-icon.png" width="20px" class="mr-1 ml-1 block-image" /></b>. И с шансом в 50%,
+        если игрок набрал <b>1<img src="../../img/coins-icon.png" width="20px" class="mr-1 ml-1 block-image" /></b>.</p>
+      <p>Большая часть постоянных клиентов имеет установленный лимит приходов. Это сделано с целью, чтобы игрок старался набирать новых постоянных клиентов и имел возможность потерять ненужных ему клиентов, не тратя на это общую репутацию магазина.
+        Какие именно клиенты для игрока могут оказаться ненужными, станет понятно, когда мы дойдём до гильдий.</p>
+      <p style="border-top:3px solid #591b82;" class="pt-4" id="reputation"> <b>Общая репутация магазина</b><br />
+      <p>Игрок может относиться к клиентам небрежно: не продавать им зелья, злить их и терять на этой почве постоянных клиентов. При таком отношении общая репутация его магазина будет понижаться. Её же повышение происходит от обретения любых новых
+        постоянных клиентов и их успешного обслуживания.</p>
+      <p> Сам показатель репутации сказывается на следующих важных игровых аспектах:</p>
+      <div class="mt-4 justify-content-center">
+        <p><span class="number-list mr-1">1</span>Чем больше репутация, тем больше цены способен устанавливать игрок на свои товары</p>
+        <p><span class="number-list mr-1">2</span>От репутации зависит количество приходящих в лавку новых клиентов (не влияет на постоянных клиентов)</p>
+        <p><span class="number-list mr-1">3</span>Пониженная репутация создаёт проблемы с законом из-за <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top"
+            title="Игрок будет платить налоги за бизнес по ходу игры">повышенных налогов</span></p>
+      </div>
+      <p><b>Общая репутация магазина</b> — это корень диалоговой системы и основной мотиватор игрока. Она провоцирует его балансировать между его игровыми желаниями чтобы оставаться на плаву. </p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/balance-icon.png" class="img-fluid circled" width="20%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/balance-icon.png" class="img-fluid circled" width="60%"> </div>
+      <p>В игре будет существовать конкретная планка требуемой от игрока репутации, причём сама эта планка по ходу игры будет постоянно возрастать. Игрок, который слишком долго будет задерживаться под этой планкой, закончит игру банкротом.</p>
+    </div><br>
+    <p class="mt-5"> Посмотрим, к чему приведёт выбор из трёх реплик выше: </p>
+    <div class="text-right mb-4 mt-4 "> <a href="../../img/ds-2.png" data-toggle="lightbox"> <img src="../../img/ds-2.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p>Выбирая реплику с ноткой негатива, игрок попадает на отрицательный путь (что выше), в случае же иного выбора — на положительный (что ниже). Игрок может продолжать двигаться по изначально выбранному пути, но у системы, в свою очередь, есть
+      принцип предлагать возможность свернуть с него определённой репликой. В данном случае переходом с отрицательного пути на положительный служит реплика — <span class="c-talking">"Ладно, неважно, сейчас принесу одно"</span>, в противоположном
+      случае — <span class="c-talking">"А вы пробовали жёванное сено?"</span>. </p>
+    <p>Рассмотрим новые значки:</p>
+    <p class="mb-3 mt-3 attribute"><img src="../../img/lie.png" width="35px" class="mr-1 ml-1 block-image" /> — подразумевает, что эта реплика содержит в себе ложь. Один из тех значков, что видны игроку во время выбора. Видимость этого значка
+      необходима, чтобы игрок различал ложь главного героя от правды и осознавал вероятные негативные последствия. </p>
+    <p class="mb-3 mt-3 attribute"><img src="../../img/risk.png" width="25px" class="mr-1 ml-1 block-image" /> — тоже видна игроку, предупреждает игрока о риске выбора отмеченной им реплики. Обычно подразумевается рандомизация последующего блока
+      диалога из какого-то множества. Например, успех, провал или нейтральный исход.</p>
+    <p class="mb-3 mt-3 attribute"><img src="../../img/money-bag-plus.png" width="27px" class="mr-1 ml-1 block-image" /> — повышает репутацию Торговой гильдии. Не отображается изначально, но возникает на мгновенье после выбора связанной с ним
+      реплики. Есть схожие значки с плюсом и минусом у других гильдий. Соответственно, они повышают или понижают репутации у других гильдий. Иногда на этих значках можно заметить множители, что умножают получаемый или отнимаемый бонус — <b>x2</b>,
+      <b>x3</b>, <b>x5</b>. </p>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3"><img src="../../img/lie.png" width="28px" class="mr-1 pb-1 block-image" />О лжи</p>
+      <p> Обычно диалоговая система не поощряет ложь со стороны игрока, но и предоставляя возможность её применения даёт ощущение, что это всё же более подходящий вариант выбора. Например, солгав, игрок якобы повышает шанс покупки зелья клиентом,
+        увеличивает репутацию какой-то гильдии и т.п. Так или иначе, завравшийся игрок встретится с противоречием своего выбора или очевидно невыгодным для него исходом. </p>
+    </div>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3"><img src="../../img/guild.png" width="25px" class="mr-1 block-image" />Подробнее о гильдиях</p>
+      <p> С целью примера и возможности отыгрыша роли в диалогах было придумано четыре гильдии, репутация которых будет менятся в зависимости от стратегии игрока в разговоре с клиентами: </p>
+      <div class="attribute"> <img src="../../img/sword&shield.png" width="25px" class="mr-1 ml-1 block-image" />
+        <p class="bold d-inline" style="border-bottom:3px solid #ac6207;">Гильдия воинов</p>
+        <p class="ml-4 mt-3" style="font-size:0.9rem"> Репутация в этой гильдии у игрока повышается при успешном обслуживании воинов и от каждого постоянного клиента-воина. Соперничают с гильдией магов и поэтому репутация понижается если игрок имеет
+          постоянных клиентов-магов.<br /><br><b>Особенности</b><br>&#9900; Частая продажа боевых зелий<br>&#9900; Бесплатная охрана от воров и грабителей<br>&#9900; Значительно меньше проблем с законом </p>
+      </div>
+      <div class="attribute mt-3"> <img src="../../img/wizard-hat.png" width="25px" class="mr-1 ml-1 block-image" />
+        <p class="bold d-inline" style="border-bottom:3px solid #0A148D"> Гильдия магов</p>
+        <p class="ml-4 mt-3" style="font-size:0.9rem"> Репутация в этой гильдии повышается при успешном обслуживании магов и от каждого постоянного клиента-мага. Соперничают с гильдией воинов, и поэтому репутация понижается если игрок имеет
+          постоянных клиентов-войнов.<br /><br><b>Особенности</b><br>&#9900; Частая продажа зелий ориентированных на магов<br>&#9900; Упрощённая добыча труднодоступных ингредиентов<br>&#9900; Предугадывание игровых событий из-за магического дара </p>
+      </div>
+      <div class="attribute mt-3"> <img src="../../img/money-bag.png" width="25px" class="mr-1 ml-1 block-image" />
+        <p class="bold d-inline" style="border-bottom:3px solid #026b2b">Торговая гильдия</p>
+        <p class="ml-4 mt-3" style="font-size:0.9rem"> Репутация повышается только от успешных продаж, а не от постоянных клиентов. В диалогах зачастую поощряет ложь, так как та способствует удачному завершению сделки (что конечно не особо
+          дальновидный подход).<br /><br><b>Особенности</b><br>&#9900; Частая продажа бытовых зелий<br>&#9900; Выдача скидок в обход диалоговой системы<br>&#9900; Возможность брать кредиты </p>
+      </div>
+      <div class="attribute mt-3"> <img src="../../img/skull.png" width="25px" class="mr-1 ml-1 block-image" />
+        <p class="bold d-inline" style="border-bottom:3px solid #000">Тёмная гильдия</p>
+        <p class="ml-4 mt-3" style="font-size:0.9rem"> Вступление происходит после прохождения стартового квеста Тёмной гильдии. После попадания в неё образует в вашем подвале свой штаб и поощряет стратегию отпугивания клиентов от лавки, чтобы
+          проворачивать свои тёмные дела без свидетелей: сокрытие трупов жертв, создание незаконных зелий, обслуживание людей в розыске и т.д. Также их врачи-специалисты будут очень признательны в случае предоставления тел ваших клиентов (живых или
+          мёртвых).<br /><br><b>Особенности</b><br>&#9900; Частая продажа ядов и опасных зелий<br>&#9900; Ускоренное получение опыта и навыков из-за доступа к Древней библиотеке<br>&#9900; Игрок получает <b>Тёмную метку</b> на теле, что способна
+          держать людей в страхе </p>
+      </div>
+      <p class="mt-4">За время игры можно выбрать только одну гильдию. Получаемая в гильдиях репутация тратится на уникальные гильдийские способности и навыки.</p>
+    </div>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid block-image" width="45px"> </div>
+    <p>Разберём нижнюю часть диалога, в которой игрок ведёт себя более учтиво:</p>
+    <div class="text-right mb-4 mt-4 "> <a href="../../img/ds-3.png" data-toggle="lightbox"> <img src="../../img/ds-3.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <div style="border-bottom:1px solid #dfdfdf; padding-bottom:2px">
+      <p>Новый символ, значок и блок:</p>
+      <p class="mb-3 mt-3 attribute"> <img src="../../img/goto-1.png" width="33px" class="ml-1 block-image" /> <img src="../../img/goto-2.png" width="33px" class="block-image" /> <img src="../../img/goto-3.png" width="33px"
+          class="mr-1 block-image" /> — указывают на скачки между блоками диалога с той же цифрой и цветом. Сделаны не только с целью визуального устранения пересечения линий на схеме диалога, но и также потому что некоторые реплики имеют проверку:
+        был ли выполнен скачок или обычный переход по стрелке (c целью избежания бесконечного зацикливания диалога между блоками, что ссылаются друг на друга). </p>
+      <p class="mb-3 mt-3 attribute"><img src="../../img/potion-sell.png" width="33px" class="mr-1 ml-1 block-image" /> — значок означающий выход из диалога и переход на окно продажи зелья.</p>
+      <p class="mb-3 mt-3 attribute"> <span style="background: #fff;border-radius:8px;border:1px solid #000; padding:3px;">Рандомизация</span> — при попадании в этот блок последующее движение диалога определяется случайным образом между существующими
+        направлениями.</p>
+    </div>
+    <p class="mt-4"> Игрок встречается с выбором между репликами:</p>
+    <table class="mb-4 table table-borderless justify-content-center text-center" id="dialog" style="background:#fbfbfb;">
+      <tr style="border-top:1px solid #dfdfdf; padding-top:2px">
+        <td><b class="replica">А вы пробовали жёванное сено?</b></td>
+        <td class="text-left">Перекинет игрока на отрицательную ветку (её мы разберём чуть позже)</td>
+      </tr>
+      <tr>
+        <td><b class="replica"><img src="../../img/lie.png" width="25px" class="ml-1 float-left d-none d-md-inline" /> Вкус?... Да вроде с ним всё в порядке</b></td>
+        <td class="text-left"> Является ложью, а если в этом диалоге игрок соврёт повторно, то после продажи зелья вскроется правда и клиент больше не придёт</td>
+      </tr>
+      <tr style="border-bottom:1px solid #dfdfdf; padding-bottom:2px">
+        <td><b class="replica"><img src="../../img/risk.png" width="20px" class="mt-1 ml-1 float-left d-none d-md-inline" /> Честно, я даже не знаю</b></td>
+        <td class="text-left"> Рискована из-за привередливости клиента ко вкусу зелий и может спугнуть его, из-за чего тот не станет покупать зелье</td>
+      </tr>
+    </table>
+    <p>Выбор между ложью и правдой ставит игрока на распутье и не даёт ему однозначного ответа на вопрос "что же действительно из этого лучше?"</p>
+    <p><img src="../../img/cgamer.png" width="30px" class="block-image" /> Начинающего игрока этот выбор заставит задуматься как о моральной стороне вопроса, так и о практической.</p>
+    <p><img src="../../img/progamer.png" width="30px" class="block-image" /> Опытный игрок будет предполагать риски и оценивать необходимость в регулярном приходе мага в его лавку.</p>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3">Немного о влиянии диалогов на гильдии</p>
+      <p> Разберём, как же можно стать членом Гильдии магов: постоянные клиенты-маги начинают советовать вашу лавку своим друзьям-магам, а в дальнейшем даже преподаватели и знатные члены гильдии начнут рекомендовать ваш магазин в качестве лучшего в
+        городе для покупки зелий.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/guild.png" class="img-fluid circled" width="20%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/guild.png" class="img-fluid circled" width="85%"> </div>
+      <p>Это повлечёт к сотрудничеству между гильдией и вашим вступлением в качестве главного поставщика зелий. Такое событие приведёт игрока к уникальной сюжетной ветке, связанной с гильдией. </p>
+    </div>
+    <p>Чтобы лучше понимать последствия выбора, рассмотрим <b>Конечные условия</b> в зависимости от результатов по завершению диалога:</p>
+    <div class="text-center">
+      <div style="display:inline-block">
+        <table class="mb-4 table table-bordered justify-content-center text-center result" style="background:#fbfbfb;">
+          <thead>
+            <tr>
+              <td>Конечные условия
+            </tr>
+          </thead>
+          <tr>
+            <td> Клиент станет постоянным с шансом в <span class="math-text">75%</span> при <big class="bold">2 <img class="block-image" src="../../img/coins-icon.png" width="23px" /></big> </td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">50%</span> при <big class="bold">1 <img class="block-image" src="../../img/coins-icon.png" width="23px" /></big></td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">25%</span> при <big class="bold">0 <img class="block-image" src="../../img/coins-icon.png" width="23px" /></big></td>
+          </tr>
+          <tr>
+            <td>Клиент не придёт с шансом <span class="math-text">100%</span> если игрок соврал в количестве: <big class="bold ml-1 block-image">x2 <img src="../../img/lie.png" width="30px" class="mb-1" /></big></td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">90%</span> если зелье было выдано бесплатно</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p>По ходу диалога двойная ложь приводит к однозначной продаже зелья и к стопроцентной потере постоянного клиента. Правда же, с шансом в <span class="math-text">50%</span>, может привести и к продаже, и к возможному постоянному клиенту,
+      зависящего от шанса <span class="math-text">75%</span>.</p>
+    <div class="bs-callout justify-content-center" style="border-left-color:#0A148D;">
+      <p class="bs-callout-title mb-3"><img src="../../img/wizard-hat.png" width="25px" class="mr-1 block-image" />Преимущества Гильдии магов. Знание игровых шансов</p>
+      <p> В конце диалога игрок не знает наверняка, станет ли клиент постоянным и с какой вероятностью это может произойти. Член же Гильдии магов имея особые способности, даваемые ею, предполагает шансы прихода словами:</p>
+      <ol class="regular">
+        <li><b>«Ни в коем случае (<span class="math-text">0%</span>)»</b></li>
+        <li><b>«<span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top" title="Вероятность крайне мала!">Не стоит надеяться </span> (<span class="math-text">1%-25%</span>)»</b></li>
+        <li><b>«Маловероятно (<span class="math-text">25%-50%</span>)"</b></li>
+        <li><b>«Может быть (<span class="math-text">50%-75%</span>)»</b></li>
+        <li><b>«Крайне вероятно (<span class="math-text">75%-90%</span>)»</b></li>
+        <li><b>«Похоже однозначно (<span class="math-text">90% - 100%</span>)»</b></li>
+      </ol>
+      <p>А развивая эту способность, игрок начинает вместо слов видеть уже точные шансы в виде цифр.</p>
+    </div>
+    <p>Но в случае неудачи при выборе правдивой реплики клиент начинает уходить, однако у игрока есть возможность его остановить и предложить зелье бесплатно. В системе диалогов этот жест в сторону клиента зачастую всегда расценивается положительно и
+      позволяет сделать клиента постоянным даже с большим шансом, чем в случае продажи. Среди минусов: убыток, бесплатная раздача зелий плохо одобряют в Торговой гильдии, а также это приводит к возникновению клиентов-халявщиков.</p>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3">Линия поведения</p>
+      <p><img src="../../img/cgamer.png" width="30px" class="block-image" /> Начинающие игроки будут проявлять себя дружелюбно с теми, кто им больше симпатизирует как персонаж и негативно с теми, кто их отталкивает. После чего с интересом и
+        удивлением наблюдать за последствиями их решений.</p>
+      <p><img src="../../img/progamer.png" width="30px" class="block-image" /> Опытные же игроки будут стараться вести диалог более продуманно. Например, такой игрок понимая что у него мало постоянных клиентов будет стараться прийти к варианту
+        отдачи бесплатного зелья, т.к. тот имеет наибольший шанс, чтобы сделать клиента постоянным. </p>
+    </div>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <p> Рассмотрим отрицательную ветку диалога и заодно выясним, как напрямую прийти к выдаче бесплатного зелья. Сначала игрок встречается с последствиями своего пренебрежительного отношения с клиентом — тот начинает уходить: </p>
+    <div class="text-right mb-4 mt-4"> <a href="../../img/ds-4.png" data-toggle="lightbox"> <img src="../../img/ds-4.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p>Ему можно помахать рукой и не останавливать, потеряв репутацию Гильдии магов. Это в случае, если игрок не хочет, чтобы к нему ходил маг, например, чтобы постоянно не делать зелья маны, не портить репутацию в Гильдии воинов и т.д. При ином
+      выборе можно попытаться сгладить своё поведение извинениями. В таком случае игрок столкнётся с проверкой, насколько небрежно он повёл себя с клиентом в репликах ранее:</p>
+    <p class="mb-3 mt-3 attribute"> <span style="background: #fff;border-radius:8px;border:1px solid #000; padding:3px;">Условие</span> — при попадании в этот логический блок последующее движение диалога зависит от результата условия.</p>
+    <p>В данном блоке диалога следующее условие: <b style="border:1px solid #555;padding:3px; border-radius:4px;"><img src="../../img/coins-icon.png" width="20px" class="ml-1 block-image" />=1?</b></p>
+    <p>В случае, если игрок только задал странный вопрос про поедание жёванного сена, то он минует тот сложный выбор с правдой и ложью и сразу попадёт в блок рандомизации. При успехе клиент станет постоянным с вероятностью в <span
+        class="math-text">50%</span>, потому что количество <img src="../../img/coins-icon.png" width="20px" class="mr-1 ml-1 block-image" /> под конец диалога будет равно <b>1</b>.</p>
+    <p> Если же игрок сразу ещё с первой реплики вёл себя неподобающе, то он попадёт в следующий расклад событий: </p>
+    <div class="text-right mb-4 mt-4 "> <a href="../../img/ds-5.png" data-toggle="lightbox"> <img src="../../img/ds-5.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" /> Кликните для увеличения</span> </a> </div>
+    <p class="mt-4"> Игрок стоит перед выбором между не совсем очевидными репликами:</p>
+    <table class="mb-4 table table-borderless justify-content-center text-center" id="dialog" style="background:#fbfbfb;">
+      <tr style="border-top:1px solid #dfdfdf; padding-top:2px">
+        <td><b class="replica"><img src="../../img/coins-plus.png" width="30px" class="mt-1 ml-1 block-image float-left d-none d-md-inline" /> Давайте я сделаю вам скидку</b></td>
+        <td class="text-left">Игрок всячески желает продать зелье и готов пойти на скидку. Такой подход одобряется и клиент пойдёт на это.</td>
+      </tr>
+      <tr>
+        <td><b class="replica">На что вы намекаете?</b></td>
+        <td class="text-left"> Игрок, видя выше реплику со скидкой, решает проигнорировать её и пытается юлить. Система диалогов подхватит его на этом и накажет за жадность тем, что ему придётся отдавать зелье бесплатно, чтобы обрести постоянного
+          клиента.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #dfdfdf; padding-bottom:2px">
+        <td><b class="replica"><img src="../../img/cross.png" width="18px" class="block-image mt-1 ml-1 float-left d-none d-md-inline" />Так, понятно... до свидания</b></td>
+        <td class="text-left"> Приводит к завершению разговора. Не смотря на то, что реплики такого рода будут выбираться скорее сразу, т.к. желающий отсеять клиента сделает это при первой возможности. Всё же они необходимы и в дальнейшем, чтобы
+          подхватить возможное кратковременное эмоциональное желание у игрока распрощаться с клиентом.</td>
+      </tr>
+    </table>
+    <p> Дальнейший блок-условие <b style="border:1px solid #555;padding:3px; border-radius:4px; display:inline-block;"><img src="../../img/coins-icon.png" width="20px" class="ml-1 block-image" />=0?</b> проверяет именно на выбор между этими двумя репликами, потому <img
+        src="../../img/coins-icon.png" width="20px" class="ml-1" /> будет равно <b>0</b> только в случае выбора реплики со скидкой. </p>
+    <p class="mt-3 mb-3 bold"><img src="../../img/question-mark.png" width="25px" class="block-image" /> Как работает определение скидки?</p>
+    <p> Попадая на окно определения скидки, игрок за проценты от продажи приобретает <img src="../../img/coins-icon.png" width="20px" class="ml-1 mr-1 block-image" />, что были не получены за диалог. За каждые 10% от цены он будет получать <b>1
+        <img src="../../img/coins-icon.png" width="20px" class="ml-1 mr-1 block-image" /></b>, пока не достигнет потолка, а именно, в этом диалоге, это <b>2 <img src="../../img/coins-icon.png" width="20px" class="ml-1 block-image" /></b>. Таким
+      образом, он покупает шансы на то, чтобы клиент с большей вероятностью стал постоянным. </p>
+    <div class="text-center mb-5 mt-4 d-none d-md-block"> <span class="descr mb-3">Пример окна определения скидки</span> <img src="../../img/discount-picture.png" class="img-fluid circled d-block" style="margin:auto" width="75%"> </div>
+    <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none"> <span class="descr mb-3">Пример окна определения скидки</span> <img src="../../img/discount-picture.png" class="img-fluid circled d-block" style="margin:auto"> </div>
+    <p class="mt-3 mb-3 bold"><img src="../../img/question-mark.png" width="25px" class="block-image" /> Как происходит отдача зелья бесплатно? И почему вероятность прихода клиента выше в этом случае?</p>
+    <p>Отдача бесплатного зелья проходит, как и продажа. Следует поместить необходимое клиенту зелье на весы. Это лишь не будет приносить прибыли. Повышенная вероятность прихода клиента же объясняется необычностью явления отдачи чего-то бесплатного в
+      магазине, это запоминается и заседает в голове. Как правило это оставляет приятное впечатление и человек может захотеть спустя время прийти снова из-за ощущения долга перед продавцом.</p>
+    <div class="bs-callout justify-content-center" style="border-left-color: #026b2b;">
+      <p class="bs-callout-title mb-3"><img src="../../img/money-bag.png" width="25px" class="mr-1 block-image" />Преимущества Торговой гильдии. Упрощённая выдача скидок</p>
+      <p>Торговая гильдия даёт возможность предлагать клиентам скидки на зелья в обход диалоговой системы. Таким образом с большей вероятностью обретать постоянных клиентов не рискуя в разговорах.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/discount-button.png" class="img-fluid circled" width="50%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/discount-button.png" class="img-fluid circled"> </div>
+      <p><b>Лимитно ограниченная способность и работает только в торговых диалогах.</b> При злоупотреблении, приводит к тому, что большинство приходящих постоянных клиентов начинают выпрашивать скидку (тоже самое происходит при злоупотреблении выдачи
+        скидок через диалоги).</p>
+    </div>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3"><img src="../../img/guild.png" width="25px" class="mr-1 block-image" />Особые возможности гильдий. Бесплатные зелья для членов гильдии</p>
+      <p> После вступления в какую-либо гильдию игрок получает возможность быстрой выдачи бесплатных зелий её членам. Например, Гильдия магов даст возможность выдавать зелья бесплатно приходящим в лавку магам, намного быстрее создавая большое
+        количество клиентов-магов посещающих лавку и форсируя получение репутации в гильдии.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/for-free-button.png" class="img-fluid circled d-block" style="margin:auto" width="50%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/for-free-button.png" class="img-fluid circled d-block" style="margin:auto"> </div>
+      <p> <b>Лимитно ограниченная способность и работает только в торговых диалогах.</b> При злоупотреблении постоянные клиенты привыкают к бесплатным зельям и перестают их оплачивать: начинают их брать без спроса и удивляться тому, почему в этот раз
+        они должны платить (то же самое происходит при злоупотреблении выдачи бесплатных зелий через диалоги). </p>
+    </div>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <div class="text-center mt-5 mb-4"> <big class="antelive bordered-xl" style="font-size:1.5rem">Последствия диалога с магом</big> </div>
+    <p> Что же происходит, когда разговор с клиентом завершается по тем или иным причинам? Зависит от исхода диалога, конкретно в этом есть несколько вариантов:
+    <div class="d-flex justify-content-center mb-5 mt-5">
+      <ol class="list-counter-circle">
+        <li>Клиент ушёл по ходу диалога</li>
+        <li>Была совершена передача зелья</li>
+        <li>Клиент купил зелье обманутым</li>
+      </ol>
+    </div>
+    <p class="mt-3 mb-3 bold"><span class="number-list">1</span> Клиент ушёл по ходу диалога</p>
+    <p> Если маг ушёл по ходу диалога, то он просто исчезает из поля зрения и лавку больше не посетит. В торговых диалогах так происходит зачастую, с некоторыми исключениями. Всё же часть торговых диалогов способна вызывать определённую череду
+      событий после ухода, например, лавку может посетить кто-то связанный с ними (подобный пример будет рассмотрен позже). </p>
+    <p class="mt-4 mb-3 bold"><span class="number-list">2</span> Была совершена передача зелья (продажа, скидка, отдача)</p>
+    <p> В этом случае, как и было расписано ранее, маг может оставить чаевые, шанс которых зависит от набранных <img src="../../img/coins-icon.png" class="mr-1 ml-1 block-image" width="20px" />, от них же зависит шанс становления постоянным
+      клиентом:</p>
+    <div class="text-center">
+      <div style="display:inline-block">
+        <table class="mb-4 table table-bordered justify-content-center text-center regular" style="background:#fbfbfb;">
+          <tr>
+            <td> Клиент станет постоянным с шансом в <span class="math-text">75%</span> при <big class="bold">2 <img src="../../img/coins-icon.png" width="23px" class="block-image" /></big> </td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">50%</span> при <big class="bold">1 <img src="../../img/coins-icon.png" class="block-image" width="23px" /></big></td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">25%</span> при <big class="bold">0 <img src="../../img/coins-icon.png" class="block-image" width="23px" /></big></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p>За исключением если зелье было отдано бесплатно, в таком случае шанс фиксированный — <span class="math-text">90%</span>. </p>
+    <p class="mt-4"> Если шанс сработает не в пользу игрока и маг не станет постоянным клиентом, то он как и первом случае больше не придёт в лавку. В случае же если маг станет им, то он придёт повторно через несколько дней с новым коротким диалогом:
+    </p>
+    <div class="text-right mb-4 mt-2 "> <a href="../../img/ds-6.png" data-toggle="lightbox"> <img src="../../img/ds-6.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p> Такой диалог произойдёт единожды, после чего клиент будет приходить со стандартными фразами, наподобие <span class="c-talking">"Добрый день, я за зельем маны"</span>. Иногда он будет покупать иные зелья, что обычно берут другие маги.</p>
+    <p class="mt-4 mb-3 bold"><span class="number-list">3</span> Клиент купил зелье будучи обманутым</p>
+    <p>Это уникальный исход диалога, при котором клиент также как и в первом случае больше не посетит алхимическую лавку, хоть и может предварительно оставить чаевые. Отличие лишь в том, что здесь задействуется один из нарративных объектов, что был
+      упомянут ранее:</p>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3"><img src="../../img/owl-face.png" width="25px" class="mr-1 block-image" />Питомец-филин</p>
+      <p> Это питомец-компаньон, задача которого скрасить одиночество нашего алхимика томными вечерами. Он привнесёт ощущение жизни в мастерскую лавки, а также будет выступать в качестве почтальона, интересного собеседника и рассказчика сюжетных
+        историй: развивать их до логического конца, давая игроку узнавать последствия его решений.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/owl.png" class="img-fluid circled" width="25%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/owl.png" class="img-fluid circled" width="65%"> </div>
+      <p><span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top" title="Так зовут птицу">«Филя»</span> — волшебный питомец не только потому что обладает даром речи, но и потому что будучи филином
+        бодрствует в дневное время суток. В игре он выступает в качестве интерактивного объекта, а взаимодействие с ним доступно перед посещением клиентов в начале дня, то есть утром; и после того, как лавку посетил последний клиент, то есть вечером.
+      </p>
+      <p class="bold"><img src="../../img/sun.png" width="25px" class="mr-1 block-image" />Утро</p>
+      <p>Филин и игрок разговаривают о событиях происходящих в мире: игрок читает газету и после клика на конкретную новость, алхимик и Филя обсуждают её путём ведения информационного диалога. Также, в дальнейшем, по утрам игрок будет инициировать
+        развитие историй вне главного сюжета говоря о том куда лететь филину, чтобы выяснить какую-либо информацию, то есть развить определенную историю. После окончания утра, Филя доставляет написанные игроком письма адресатам.</p>
+      <p class="bold mt-4"><img src="../../img/moon.png" width="25px" class="mr-1 block-image" />Вечер</p>
+      <p>Прилетая домой к вечеру <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top" title="Рандомизация прилёта после события между 5-20 сек, прилёт сопровождается характерным звуком">после
+          обслуживания игроком последнего клиента</span>, филин <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top"
+          title="Письма появляются на столе в момент прилёта анимацией постепенного уменьшения прозрачности">кладёт письма</span> присланные другими персонажами на стол алхимика. Читая их, игрок иногда получает комментарии про них от Фили в виде
+        всплывающих сообщений. При <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top" title="Нажатии на него когда он сидит на жёрдочке">обычном взаимодействии</span> вечером, Филя рассказывает
+        то, что видел по ходу дня во время своих полётов по городу. Эти рассказы: жизнь клиентов вне лавки, сюжетные повороты и городские события.</p>
+      <hr />
+      <p class="bold mt-4">Дополнительные возможности</p>
+      <p>Иногда после полётов, помимо писем от других персонажей, он приносит с собой интересные предметы. В случае отсутствия каких-то историй или поводов для разговоров филин говорит различные забавные фразы. Также в начале игры он может выступать
+        в качестве обучающего наставника.</p>
+    </div>
+    <p>Нажав на филина, тот вступит с игроком в следующий диалог:</p>
+    <div class="text-center mb-4 mt-4 d-none d-md-block"> <a href="../../img/owl-dialog.png" data-toggle="lightbox"><img src="../../img/owl-dialog.png" class="img-fluid circled" width="75%"> <span class="block-text d-none d-md-block"
+          style="color:#525252"><img src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/owl-dialog.png" class="img-fluid circled"> </div>
+    <p>После чего на этом эта короткая история с магом завершится.</p>
+    <div class="outcome2 col-8 mt-5 mb-5"></div>
+    <p class="h5 mt-3 mb-3">Цели диалога</p>
+    <p> Хоть и в большинстве торговых диалогов целью игрока будет продажа зелья, однако это может быть далеко не единственный приоритет. За счёт гибкого подхода в диалоговой системе игрок волен придерживаться иной стратегии.</p>
+
+    <div class="text-center mb-5 mt-5 block-image row justify-content-center"> 
+      <img src="../img/sword&shield.png" width="60px" height="60px" class="col-auto m-1"> 
+      <img src="../img/wizard-hat.png" width="60px" height="60px" class="col-auto m-1"> 
+      <img src="../img/money-bag.png" width="60px" height="60px" class="col-auto m-1"> 
+      <img src="../img/skull.png" width="60px" height="60px" class="col-auto m-1"> 
+    </div>
+
+    <p>Гильдии с их особенностями вынуждают игрока ради зарабатывания репутации делать нестандартные действия: например, умышленно прогонять некоторых клиентов, вести себя с ними неподобающе и обманывать. Самой нестандартной стратегией игры обладает
+      именно Тёмная гильдия, что провоцирует игрока на совершенно противоправные действия.</p>
+    <p><img src="../../img/cgamer.png" class="block-image" width="30px" /> Начинающие игроки зачастую отыгрывают «хороших парней» и играя более стандартными методами будут попадать в Гильдии магов или воинов.</p>
+    <p><img src="../../img/progamer.png" class="block-image" width="30px" /> Опытные игроки, уже побывав в роли хороших, захотят узнать другую сторону медали и побыть плохишами, так они испробуют более уникальный геймплей играя через Торговую или
+      Тёмную гильдию.</p><br>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px solid #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid block-image" width="45px"> </div>
+    <div class="text-center"> <a href="question_2.5.html#q2_5">
+        <p class="text-center next-button">Перейти к Вопросу 2.5<img src="../../img/next.png" width="55px" class="block-image ml-3 d-none d-md-inline"></p>
+      </a> </div>
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+aria-hidden="true" id="modal_v">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content modal-body text-light border-0" id="changelog-modal">
+
+        <h5 class="block-text modal-title text-center mb-4"
+            style="font-size:2rem; border-bottom:1px solid #8e8fff" id="exampleModalLongTitle">Контакты<i
+                class="bi bi-x mr-3 mb-3 float-right" data-dismiss="modal"
+                style="opacity: 0.7;font-size:2rem;cursor:pointer"></i></h5>
+        <div class="contacts_page">
+            <p class="contact-note block-text">Свяжитесь напрямую через Telegram чтобы получить ответ в
+                ближайшее время</p>
+            <div class="contacts_contacts text-center">
+
+                <a target="_blank" href="https://t.me/kfshka"><i class="bi bi-telegram mr-2""></i></a>
+
+<i class=" bi bi-discord mr-2 discord-contact"></i>
+                    <div class="extrabold notification-email-contact">E-mail скопирован в буфер обмена</div>
+                    <i class="bi bi-envelope-fill mr-2 mb-2 email-contact"
+                        style="bottom: 3px; position: relative; font-size:4.4rem"></i>
+
+            </div>
+            <div class="extrabold notification-discord-contact">Discord скопирован в буфер обмена</div>
+            <br>
+        </div>
+    </div>
+
+</div>
+</div>
+
+      
+
+    
+        <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+        id="modal_portfolio">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content text-light border-0" id="fullscreen-modal">
+                <div class="modal-title">
+                    <h5 class="block-text modal-title text-left pt-2 pl-3 pr-3"
+                        style="background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:2rem; border-bottom:1px solid #8e8fff;"
+                        id="exampleModalLongTitle">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <i style="font-size:2.4rem;" class="mr-3 bi bi-briefcase-fill"></i>Портфолио
+                            </div>
+                            <div class="col-right">
+                                <span class="back-to-site-button text-right bold d-none d-md-block"
+                                    data-dismiss="modal">Обратно на сайт<i
+                                        class="ml-2 bi bi-arrow-up-right-square-fill mr-3 "
+                                        style="font-size:1.5rem;"></i></span>
+                                <button style="color:#fff;font-size:2rem;" type="button"
+                                    class="close d-lg-none d-xl-none d-md-none" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="bi bi-x mr-3"></i></span>
+                                </button>
+                            </div>
+                        </div>
+    
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <div class="portfolio-page">
+                        <h4 class="mt-1 mb-3 text-center"><img src="/../../img/game-controller-w.png"
+                                class="mr-3 block-image d-none d-md-inline" width="40px">Гейм-дизайн</h4>
+    
+                        <div class="row narrative-portfolio-block-big container-fluid" style="margin-bottom: 15px;">
+    
+                            <a href="/../../portfolio/dialogue_system_part1.html" class="col-2 image-with-text iwt-1-resume">
+                                <div class="new-block nb-1-resume"></div>
+                                <div class="centered ">Диалоговая система для симулятора алхимика</div>
+                            </a>
+    
+                            <a href="/../../portfolio/zavod-test.html" class="col-2 image-with-text ml-2 iwt-1-2-resume">
+                                <div class="new-block nb-1-2-resume"></div>
+                                <div class="centered">Тестовое задание в компанию ZAVOD Games</div>
+                            </a>    
+    
+                            <a href="/../../portfolio/tapclap_leveldesigner-test.html"
+                                class="col-2 image-with-text ml-2 iwt-2-resume">
+                                <div class="new-block nb-2-resume"></div>
+                                <div class="centered ">Тестовое задание Level-Design Match-3</div>
+                            </a>
+    
+                            <div class="col d-flex flex-column ml-3 min-portfolio">
+                                <a href="/../../portfolio/dialogue_system_part1.html"
+                                    class="for-adaptive-portfolio portfolio-small-element"><img src="/../../img/gear-w.png"
+                                        width="25px"><b>Игровая система:</b> Диалоговая система для симулятора
+                                    алхимика</a>
+    
+                                    <a href="/../../portfolio/zavod-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/zavod-icon.png" width="25px">Тестовое задание в компанию ZAVOD Games</a>         
+    
+                                <a href="/../../portfolio/tapclap_leveldesigner-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/gem.png" width="25px">Тестовое задание на Level
+                                    Designer Match-3</a>               
+                          
+                                <a href="/../../portfolio/mirrors_edge.html" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/document-w.png" width="25px"><b>Статья:</b> «Mirror’s Edge, или как
+                                    гениальная идея для игры превратилась в её первостепенную проблему»</a>
+                                <a href="/../../portfolio/google_sheets_1.html" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/cells-w.png" width="25px"><b>Таблица Google Sheets:</b> Простая
+                                    система повышения уровня в CRPG</a>
+                                <a href="/../../portfolio/ui_darkbestiary.html" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/blocks.svg" width="25px"><b>UX/UI:</b> Документ по улучшению интерфейса для Dark Bestiary</a>
+                                    
+                   
+                            </div>
+    
+                            <div class="col d-flex flex-column ml-3 min-portfolio">
+                                <a href="/../portfolio/toc_1.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/two-dices-w.png" width="25px">Задачи на теорию вероятностей</a>   
+                            <a href="/../portfolio/documents/Pitch document, Poker Game, Ostanin Danila.pdf " class="portfolio-small-element mt-2"><img
+                                src="/../img/document-w.png" width="25px">Питч документ Multiplayer Poker Game</a>
+                        <a href="https://docs.google.com/document/d/1IOv1AEzXffSm8KKL0GxTqCSUCRG-Fk3NVmGxnMwCP00/edit?usp=sharing" class="portfolio-small-element mt-2"><img
+                                src="/../img/tapclap-icon.png" width="25px">Тестовое задание в компанию TAPCLAP</a>
+                        <a href="https://docs.google.com/document/d/13BcYSyz29fTy7WsimbOFfA0suUtmq3M033_WulxX1UI/edit?usp=sharing" class="portfolio-small-element mt-2 last-work"><img
+                                src="/../img/bird-w.png" width="25px">Тестовое задание в компанию Z-Media</a>
+    
+                        </div>
+                    </div>
+    
+    
+                    </div>
+    
+    
+                    <div class="portfolio-page mt-4">
+                        <h4 class="pt-4 mb-4 text-center" style="border-top:1px solid #8e8fff;"><img
+                                src="/../../img/narrative-w.png" class="mr-3 block-image d-none d-md-inline"
+                                width="40px">Нарратив-дизайн</h4>
+    
+                        <div class="row narrative-portfolio-block-big container-fluid">
+    
+                            <a href="/../../portfolio/plot.html" class="col-2 image-with-text iwt-4-resume">
+                                <div class="new-block nb-4-resume"></div>
+                                <div class="centered ">Статья про игровой сюжет</div>
+                            </a>
+    
+                            <a href="/../../portfolio/character_edew.html" class="col-2 image-with-text ml-2 iwt-5-resume">
+                                <div class="new-block nb-5-resume"></div>
+                                <div class="centered ">Персонаж для симулятора алхимика</div>
+                            </a>
+    
+                            <a href="/../../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                                class="col-2 image-with-text ml-2 iwt-6-resume">
+                                <div class="new-block nb-6-resume"></div>
+                                <div class="centered">Нелинейный квест про гильдию убийц</div>
+                            </a>
+    
+    
+                            <div class="col d-flex flex-column ml-3 min-portfolio" style="width:100%;">
+                                <a href="/../../portfolio/character_edew.html"
+                                    class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/intersect-w.png" width="25px"><b>Пример:</b> Персонаж для
+                                    симулятора алхимика</<a href=""></a>
+                                <a href="/../../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                                    class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/intersect-w.png" width="25px"><b>Пример:</b> Нелинейный квест про
+                                    гильдию убийц</a>
+                                <a href="/../../portfolio/plot.html"
+                                    class="for-adaptive-portfolio portfolio-small-element mt-2 mb-2"><img
+                                        src="/../../img/document-w.png" width="25px"><b>Статья:</b> «Игровой сюжет, и
+                                    какими боевыми приёмами он обладает»</a>
+                                <a href="/../../portfolio/descriptions.html" class="portfolio-small-element"><img src="/../../img/align-w.png" width="25px"><b>Текст:</b>
+                                    Короткие описания предметов и игровых
+                                    объектов</a>
+                                    <a href="/../../portfolio/documents/Pirate Girl Story.pdf" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/paint-palette.png" width="25px"><b>Художественный рассказ:</b> История о девочке, что хотела стать пиратом</a>
+                                <a href="/../../portfolio/stellaris_races.html" class="portfolio-small-element mt-2"><img src="/../../img/align-w.png"
+                                        width="25px"><b>Текст:</b> Биографии рас для Stellaris</a>
+                                <a href="/../../portfolio/constructor.html" class="portfolio-small-element mt-2"><img src="/../../img/gear-w.png"
+                                        width="25px"><b>Игровая система:</b> Карточный
+                                    конструктор нелинейного сюжета</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="color:#fff;cursor:pointer; background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:1.5rem; border-top:1px solid #8e8fff;"
+                    class="back-to-site-button pt-3 pb-3 mb-0 text-center close d-md-none d-lg-none d-xl-none"
+                    data-dismiss="modal">Вернуться на сайт <i class="bi bi-arrow-right"></i></p>
+            </div>
+    
+          </div>
+      </div>
+    </main>
+        <footer class="footer mt-5">
+        <div class="container-fluid title-s center-footer">
+            <div class="row align-items-center big-font-to-small-light" style="min-height: 80px;" class="mini-bold">
+                <div class="col block-text block-image" id="created_footer">
+                    <img src="/../../img/favicon-white.png" class="mr-2 logo-icon" width="45px">
+    
+                    <span class="text-uppercase">Данила Останин</span>
+                </div>
+                <div class="col-right mr-3 soc-footer">
+                    <img src="/../../img/discord.png" class="mr-2 discord-f" style="max-width:30px;">
+                    <a target="_blank" href="https://t.me/kfshka"> <img src="/../../img/telegram-logo.png" class="mr-2 telegram-f"
+                            style="max-width: 30px;" /> </a>
+                    <img src="/../../img/mail.png" class="email-f" style="max-width:30px;">
+                    <div class="extrabold notification-discord-footer"> Discord скопирован в буфер обмена</div>
+                    <div class="extrabold notification-email-footer"> E-mail скопирован в буфер обмена</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+<script>
+    $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+    </body>
+    </html>

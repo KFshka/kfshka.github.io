@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Персонаж для симулятора алхимика</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.8.5/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.min.css">
+    <script src="/js/main.min.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link href="/css/fonts.min.css" rel="stylesheet" />
+    <link href="/css/preloader.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+</head>
+
+
+    <body>
+      <script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(74553970, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/74553970" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <div class="backdrop">
+        <div class="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    
+        
+          <div id="scroller"><img src="../img/arrow.png" width="50px" /></div> 
+        
+        
+      
+
+      
+
+      <main>
+        <div class="container top-of-page">
+            <div class="row justify-content-md-between justify-content-sm-center">
+    
+                <div class="col-auto justify-content-center text-center soc pl-0 d-sm-none d-md-inline-block">
+                    <div class="d-none" id="discord-name">kF#8247</div>
+                    <img class="discord" src="/../img/discord-panel.png" width="35px" id="discord-button" />
+                    <a target="_blank" href="https://t.me/kfshka"> <img src="/../img/telegram-panel2.png" width="35px"
+                            class="telegram" /></a>
+                    <div class="d-none" id="email-name">darkfriar26@gmail.com</div>
+                    <img class="email" src="/../img/mail-panel.png" width="35px" class="mr-2" />
+                    <div class="extrabold notification-discord-top">Discord скопирован в буфер обмена</div>
+                    <div class="extrabold notification-email-top">E-mail скопирован в буфер обмена</div>
+                </div>
+    
+                <div class="col-auto top block-text navigator">
+                    
+                   
+                    <a title="Главная" href="/" class="NeoSansPro text-uppercase menu-element menu-element-user created"> <i class="bi bi-house-fill"></i> Главная</a> 
+                    <div class="menu-line"></div>
+                  
+                    <span class="NeoSansPro text-uppercase menu-element created" data-toggle="modal"
+                        data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Портфолио</span>
+                    <div class="menu-line"></div>
+                    <span class="NeoSansPro text-uppercase menu-element created " data-toggle="modal"
+                        data-target=".bd-example-modal-lg"> <i class="bi bi-telephone-fill"></i> Контакты</span>
+                </div>
+            </div>
+        </div>
+    
+
+          
+ 
+<div class="container regular" id="first_title">
+    <div class="cover-new article-title-body">
+        <div class="row align-items-center ">
+            <img src="/img/user.png"
+                class="align-middle mr-4 block-image d-none d-sm-inline" style="max-width: 90px; max-height: 90px;">
+            <div class="row col-sm-8">
+                <span class="title_name title_name_small title_name_adapt-small d-flex col-12">Персонаж для симулятора алхимика</span>
+                <span class="after_title_name col-12"><b class="mini-bold">Автор:</b><br><a class="normal-sil"
+                        href="/">Данила Останин</a></span><br>
+            </div>
+        </div>
+        <a href="/" class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button"><i class="bi bi-house-fill"></i></a>
+        <div class="new-line mr-2 ml-2"></div>
+        <span class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button" data-toggle="modal"
+            data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Портфолио</span>
+        <div class="col-auto soc-bottom pl-0">
+            <div class="d-none" id="discord-name">kF#8247</div>
+            <img class="discord elem" src="../img/discord-panel.png" width="35px" id="discord-button" />
+            <a class="elem" target="_blank" href="https://t.me/kfshka"> <img src="../img/telegram-panel2.png"
+                    width="35px" class="telegram" /></a>
+            <div class="d-none" id="email-name">darkfriar26@gmail.com</div>
+            <img class="email elem" src="../img/mail-panel.png" width="35px" class="mr-2" />
+            <div class="extrabold notification-discord-top">Discord скопирован в буфер обмена</div>
+            <div class="extrabold notification-email-top">E-mail скопирован в буфер обмена</div>
+        </div>
+    </div>
+
+<div class="main-content adaptive-border">
+  <div class="text-center mb-5 mt-5 antelive first-title">
+    <p class="h1 d-inline text-center antelive h-bordered big-border">Отступление</p>
+</div>
+
+<p>Представляемый ниже персонаж придуман в ходе работы над <a target="_blank" href="niceplay_test/question_1.1.html" class="sil" title="Ссылка на задание">тестовым заданием на должность гейм-дизайнера в Niceplay Games</a> по игре Potion Craft (<a class="sil" target="_blank" href="https://store.steampowered.com/app/1210320/Potion_Craft_Alchemist_Simulator/">ссылка игры на Steam</a>). </p>
+  
+<p>Сам персонаж, по задумке, является частью Тёмной гильдии, некоторого подобия слияния Гильдии Воров и Тёмного Братства из TES V: Skyrim. Она связана с городскими преступлениями и позволяет игроку играть через путь беззакония, совершая убийства во имя древнего ужасного бога.</p>
+    <div class="text-center mb-5 mt-4"> <img src="../img/db.jpg" class="img-fluid circled"> </div>
+    <p> Более подробная история <b>Тёмной гильдии</b>, и какой она бы могла быть в Potion Craft, описана <a href="dialogue_system_part3.html" target="_blank" class="sil">в III-ей части диалоговой системы для симулятора алхимика</a>. Но давайте остановимся на нашем герое, история которого станет для игрока проверкой для вступления в Тёмную гильдию: </p>
+    <div class="outcome2 col-8 mt-5 mb-5"></div>
+    <div class="mt-5 mb-5">
+
+      <p class="text-center antelive" style="font-size:3rem" id="edi">Эдью Тьюст</p>
+      <p class="text-center antelive" style="opacity: 0.8; font-size:1.2rem; margin-top:-17px"><img src="../img/skull.png" width="27px" class="block-image mb-1 mr-1">Новобранец Тёмной гильдии</p>
+    </div>
+    <p class="mt-4 mb-3 bold"><img src="../img/parchment.png" width="30px" class="mr-1 block-image">Предыстория</p>
+    <p>Эдью оказался новобранцем таинственной и наводящей ужас организации не по собственной воле, он случайно стал свидетелем убийства, которое осуществлял другой член Тёмной гильдии. Самой гильдии нельзя
+      было убивать Эдью, ведь он является сыном человека, крайне близкого к ней самой. Его убийство бы привело к лишению многих связей в городе, и абсолютно не вписывалось в планы гильдии, поэтому Эдью завербовали в качестве рекрута.</p>
+    <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../img/murder.png" class="img-fluid circled" width="65%"> </div>
+    <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../img/murder.png" class="img-fluid circled"> </div>
+    <p> Первым заданием Эдью после его первичной боевой подготовки станет убийство другого человека. Таким образом Тёмная гильдия хочет связать Эдью, ведь он совершит то же преступление, свидетелем которого ранее стал сам, и получается уже не
+      сможет покинуть гильдию: он будет связан кровью.</p>
+    <p>Покинув убежище Тёмной гильдии <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top" title="Получается, что он даже не знает где это убежище">с мешком на голове</span>, Эдью был брошен на
+      произвол судьбы: его задача — убить цель за 15 дней и сделать это любой ценой. По истечении 15 дней, если цель будет не убита, — будет убит Тьюст. Он также будет убит и в случае, если попытается кому-то что-то рассказать. Таков обычай
+      большинства новобранцев Тёмной гильдии, а ради традиций в гильдии готовы пожертвовать связями и планами. По крайней мере так сказали Эдью.</p>
+    <p> Из-за того, что Эдью из семьи дворянинов, он обладает повышенным чувством собственной важности: ранее при других членах гильдии он вел себя уверенно и всячески показывал, что готов на убийство. Но Эдью обманывая других одновременно обманывал
+      и себя, ведь в душе он понимает, что на убийство решиться не готов.</p>
+    <p>Поэтому, прикинув наиболее простой способ совершения преступления и наименее грязный <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top" data-html="true"
+        title="«Чистых» способов убийства нет, Эдью 🤦‍♂️<br>Убийство грязно по своей сути">(по его мнению)</span>, Эдью решил отравить свою цель. </p>
+    <p class="mt-5 mb-3 bold"><img src="../img/user.png" width="27px" class="mr-1 block-image">Первое появление и роль в игре</p>
+    <p>В игре Эдью выступает в качестве одного из клиентов, он зайдёт в алхимическую лавку, чтобы купить яд для убийства. Эдью будет одет в повседневную форму Тёмной гильдии, с виду её можно принять за вполне обычную повседневную форму достаточного
+      человека тех времён. Разница лишь в том, что у ней есть капюшон. При определённом наклоне головы капюшон закрывает верхнюю часть лица и позволяет скрывать свою личность.</p>
+    <p class="text-center mt-5 descr"> Референсы одежды</p>
+    <div class="d-none d-md-block mb-5">
+      <div class="row justify-content-center"> <img src="../img/ref_a1.jpg" class="circled" width="37%">
+        <div class="col-md-auto"> </div><img src="../img/rogue-ref.png" class="circled" width="40%">
+      </div>
+    </div>
+    <div class="mb-5 text-center row d-none d-sm-block d-md-none d-lg-none d-xl-none"> <img src="../img/ref_a1.jpg" class="col-sm-12 mb-5 circled"> <img src="../img/rogue-ref.png" class="col-sm-12 circled"> </div>
+    <div class="mb-5 text-center row d-sm-none"> <img src="../img/ref_a1.jpg" class="col-sm-12 circled"> <img src="../img/rogue-ref.png" class="col-sm-12 mt-5 circled"> </div>
+    <p>По ходу заказа зелья отравления Эдью в разговоре будет вести себя крайне неуверенно, дав игроку сразу раскусить, что с этим персонажем явно что-то нечисто. Его поведение и мимика всячески демонстрируют нерешительность. Он боится, что покупка
+      яда в дальнейшем может вывести на него после совершения убийства.</p>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title"></p>
+      <p>В Papers Please есть крайне меметичный персонаж — <a href="https://papersplease.fandom.com/ru/wiki/%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6%D0%B8_%D0%9A%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B0" target="_blank" class="sil"><img
+            src="../img/index.png" width="15px" style="margin-right:2px" />Джорджи Костава</a>. По ходу прохождения он не раз пытается пройти через пропускной пункт используя очевидно поддельные документы.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../img/jorji.png" class="img-fluid circled" width="40%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../img/jorji.png" class="img-fluid circled"> </div>
+      <p> Этот персонаж стал запоминающимся именно из-за того, что выделялся своим забавным поведением и абсурдностью на фоне остальных нелегалов, которые вели себя серьёзнее и ошибку в документах у которых найти не так легко.</p>
+    </div>
+    <p>Эдью, как и Джорджи Костава, будет выделяться на фоне остальных клиентов, покажется игроку очевидно что-то скрывающим мальчуганом. С самим диалогом между Эдью можно познакомиться детальнее <a href="dialogue_system_part3.html#edew_dialog" target="_blank"
+        class="sil">здесь</a>.</p>
+    <div class="outcome2 col-8 mt-5 mb-5"></div>
+    <p class="h5 mt-5 mb-3">Образ</p>
+    <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../img/face_co_g.png" class="img-fluid circled" width="30%"> </div>
+    <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none" width="85%"> <img src="../img/face_co_g.png" class="img-fluid circled"> </div>
+    <div class="regular" style="font-size:16px">
+      <p>Юноша 17 лет, среднего роста, светлая кожа<br><span class="mini-bold">Голова:</span> густые тёмные волосы, зелёные глаза, миловидное лицо европеоидного типа<br><span class="mini-bold">Эмоция:</span> неуверенность, нерешительность </p>
+      <p> <span class="mini-bold block-image">Одежда:</span>
+      <p class="attribute clothes"><img src="../img/hood.png" />Тканевый чёрный капюшон в виде накидки с жёлтой каймой</p>
+      <p class="attribute clothes"><img src="../img/armour.png" />Кожаный нагрудник с ремнями надетый на рубаху</p>
+      <p class="attribute clothes"><img src="../img/pants.png" />Тканевые опоясанные брюки</p>
+      <p class="attribute clothes"><img src="../img/boots.png" />Кожаные сапоги</p>
+      <p class="attribute clothes"><img src="../img/belt.png" />Кожанный ремень с мешком из плотной ткани</p>
+      <p class="attribute clothes"><img src="../img/gloves.png" />Кожаные перчатки с полуоткрытыми пальцами</p>
+    </div>
+
+      <div class="text-center mb-5 mt-5" style="border-bottom:4px solid #591b82; padding-bottom:6px; opacity:0.9">
+        <img src="../img/arrow-down.png" class="img-fluid block-image" width="45px">
+      </div>
+    <div class="text-center">
+
+            <div class="remark row align-items-center">
+
+            <img class="col-5 col-md-3 col-xl-2 align-self-center  align-self-center" style="margin: 0 auto !important;"src="../img/niceplay_games_clear.png" width="100px">
+            <p class="col-12  col-xl-4 text-justify" style="text-align-last: center;">Изначально этот персонаж был придуман для Potion Craft в большом тестовом задании в Niceplay Games. </p>
+            <p class="col-12  col-xl-5 text-center">
+              <a href="niceplay_test/question_1.1.html" class="button-task">Хочу посмотреть всё задание <i class="bi bi-arrow-right-short"></i></a>
+            </p>
+
+            </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+aria-hidden="true" id="modal_v">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content modal-body text-light border-0" id="changelog-modal">
+
+        <h5 class="block-text modal-title text-center mb-4"
+            style="font-size:2rem; border-bottom:1px solid #8e8fff" id="exampleModalLongTitle">Контакты<i
+                class="bi bi-x mr-3 mb-3 float-right" data-dismiss="modal"
+                style="opacity: 0.7;font-size:2rem;cursor:pointer"></i></h5>
+        <div class="contacts_page">
+            <p class="contact-note block-text">Свяжитесь напрямую через Telegram чтобы получить ответ в
+                ближайшее время</p>
+            <div class="contacts_contacts text-center">
+
+                <a target="_blank" href="https://t.me/kfshka"><i class="bi bi-telegram mr-2""></i></a>
+
+<i class=" bi bi-discord mr-2 discord-contact"></i>
+                    <div class="extrabold notification-email-contact">E-mail скопирован в буфер обмена</div>
+                    <i class="bi bi-envelope-fill mr-2 mb-2 email-contact"
+                        style="bottom: 3px; position: relative; font-size:4.4rem"></i>
+
+            </div>
+            <div class="extrabold notification-discord-contact">Discord скопирован в буфер обмена</div>
+            <br>
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+
+  
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+    id="modal_portfolio">
+    <div class="modal-dialog modal-fullscreen" role="document">
+        <div class="modal-content text-light border-0" id="fullscreen-modal">
+            <div class="modal-title">
+                <h5 class="block-text modal-title text-left pt-2 pl-3 pr-3"
+                    style="background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:2rem; border-bottom:1px solid #8e8fff;"
+                    id="exampleModalLongTitle">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <i style="font-size:2.4rem;" class="mr-3 bi bi-briefcase-fill"></i>Портфолио
+                        </div>
+                        <div class="col-right">
+                            <span class="back-to-site-button text-right bold d-none d-md-block"
+                                data-dismiss="modal">Обратно на сайт<i
+                                    class="ml-2 bi bi-arrow-up-right-square-fill mr-3 "
+                                    style="font-size:1.5rem;"></i></span>
+                            <button style="color:#fff;font-size:2rem;" type="button"
+                                class="close d-lg-none d-xl-none d-md-none" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"><i class="bi bi-x mr-3"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                </h5>
+            </div>
+            <div class="modal-body">
+                <div class="portfolio-page">
+                    <h4 class="mt-1 mb-3 text-center"><img src="/../img/game-controller-w.png"
+                            class="mr-3 block-image d-none d-md-inline" width="40px">Гейм-дизайн</h4>
+
+                    <div class="row narrative-portfolio-block-big container-fluid" style="margin-bottom: 15px;">
+
+                        <a href="/../portfolio/dialogue_system_part1.html" class="col-2 image-with-text iwt-1-resume">
+                            <div class="new-block nb-1-resume"></div>
+                            <div class="centered ">Диалоговая система для симулятора алхимика</div>
+                        </a>
+
+                        <a href="/../portfolio/zavod-test.html" class="col-2 image-with-text ml-2 iwt-1-2-resume">
+                            <div class="new-block nb-1-2-resume"></div>
+                            <div class="centered">Тестовое задание в компанию ZAVOD Games</div>
+                        </a>    
+
+                        <a href="/../portfolio/tapclap_leveldesigner-test.html"
+                            class="col-2 image-with-text ml-2 iwt-2-resume">
+                            <div class="new-block nb-2-resume"></div>
+                            <div class="centered ">Тестовое задание Level-Design Match-3</div>
+                        </a>
+
+                        <div class="col d-flex flex-column ml-3 min-portfolio">
+                            <a href="/../portfolio/dialogue_system_part1.html"
+                                class="for-adaptive-portfolio portfolio-small-element"><img src="/../img/gear-w.png"
+                                    width="25px"><b>Игровая система:</b> Диалоговая система для симулятора
+                                алхимика</a>
+
+                                <a href="/../portfolio/zavod-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/zavod-icon.png" width="25px">Тестовое задание в компанию ZAVOD Games</a>         
+
+                            <a href="/../portfolio/tapclap_leveldesigner-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/gem.png" width="25px">Тестовое задание на Level
+                                Designer Match-3</a>               
+                      
+                            <a href="/../portfolio/mirrors_edge.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/document-w.png" width="25px"><b>Статья:</b> «Mirror’s Edge, или как
+                                гениальная идея для игры превратилась в её первостепенную проблему»</a>
+                            <a href="/../portfolio/google_sheets_1.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/cells-w.png" width="25px"><b>Таблица Google Sheets:</b> Простая
+                                система повышения уровня в CRPG</a>
+                            <a href="/../portfolio/ui_darkbestiary.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/blocks.svg" width="25px"><b>UX/UI:</b> Документ по улучшению интерфейса для Dark Bestiary</a>
+                                
+               
+                        </div>
+
+                        <div class="col d-flex flex-column ml-3 min-portfolio">
+                            <a href="/../portfolio/toc_1.html" class="portfolio-small-element mt-2"><img
+                                src="/../img/two-dices-w.png" width="25px">Задачи на теорию вероятностей</a>   
+                        <a href="/../portfolio/documents/Pitch document, Poker Game, Ostanin Danila.pdf " class="portfolio-small-element mt-2"><img
+                            src="/../img/document-w.png" width="25px">Питч документ Multiplayer Poker Game</a>
+                    <a href="https://docs.google.com/document/d/1IOv1AEzXffSm8KKL0GxTqCSUCRG-Fk3NVmGxnMwCP00/edit?usp=sharing" class="portfolio-small-element mt-2"><img
+                            src="/../img/tapclap-icon.png" width="25px">Тестовое задание в компанию TAPCLAP</a>
+                    <a href="https://docs.google.com/document/d/13BcYSyz29fTy7WsimbOFfA0suUtmq3M033_WulxX1UI/edit?usp=sharing" class="portfolio-small-element mt-2 last-work"><img
+                            src="/../img/bird-w.png" width="25px">Тестовое задание в компанию Z-Media</a>
+
+                    </div>
+                </div>
+
+
+                </div>
+
+
+                <div class="portfolio-page mt-4">
+                    <h4 class="pt-4 mb-4 text-center" style="border-top:1px solid #8e8fff;"><img
+                            src="/../img/narrative-w.png" class="mr-3 block-image d-none d-md-inline"
+                            width="40px">Нарратив-дизайн</h4>
+
+                    <div class="row narrative-portfolio-block-big container-fluid">
+
+                        <a href="/../portfolio/plot.html" class="col-2 image-with-text iwt-4-resume">
+                            <div class="new-block nb-4-resume"></div>
+                            <div class="centered ">Статья про игровой сюжет</div>
+                        </a>
+
+                        <a href="/../portfolio/character_edew.html" class="col-2 image-with-text ml-2 iwt-5-resume">
+                            <div class="new-block nb-5-resume"></div>
+                            <div class="centered ">Персонаж для симулятора алхимика</div>
+                        </a>
+
+                        <a href="/../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                            class="col-2 image-with-text ml-2 iwt-6-resume">
+                            <div class="new-block nb-6-resume"></div>
+                            <div class="centered">Нелинейный квест про гильдию убийц</div>
+                        </a>
+
+                        <div class="col d-flex flex-column ml-3 min-portfolio" style="width:100%;">
+                            <a href="/../portfolio/character_edew.html"
+                                class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/intersect-w.png" width="25px"><b>Пример:</b> Персонаж для
+                                симулятора алхимика</<a href=""></a>
+                            <a href="/../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                                class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                    src="/../img/intersect-w.png" width="25px"><b>Пример:</b> Нелинейный квест про
+                                гильдию убийц</a>
+                            <a href="/../portfolio/plot.html"
+                                class="for-adaptive-portfolio portfolio-small-element mt-2 mb-2"><img
+                                    src="/../img/document-w.png" width="25px"><b>Статья:</b> «Игровой сюжет, и
+                                какими боевыми приёмами он обладает»</a>
+                            <a href="/../portfolio/descriptions.html" class="portfolio-small-element"><img src="/../img/align-w.png" width="25px"><b>Текст:</b>
+                                Короткие описания предметов и игровых
+                                объектов</a>
+                                <a href="/../portfolio/documents/Pirate Girl Story.pdf" class="portfolio-small-element mt-2"><img
+                                    src="/../img/paint-palette.png" width="25px"><b>Художественный рассказ:</b> История о девочке, что хотела стать пиратом</a>
+                            <a href="/../portfolio/stellaris_races.html" class="portfolio-small-element mt-2"><img src="/../img/align-w.png"
+                                    width="25px"><b>Текст:</b> Биографии рас для Stellaris</a>
+                            <a href="/../portfolio/constructor.html" class="portfolio-small-element mt-2"><img src="/../img/gear-w.png"
+                                    width="25px"><b>Игровая система:</b> Карточный
+                                конструктор нелинейного сюжета</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="color:#fff;cursor:pointer; background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:1.5rem; border-top:1px solid #8e8fff;"
+                class="back-to-site-button pt-3 pb-3 mb-0 text-center close d-md-none d-lg-none d-xl-none"
+                data-dismiss="modal">Вернуться на сайт <i class="bi bi-arrow-right"></i></p>
+        </div>
+    
+
+    
+
+      </div>
+
+
+  </div>
+</main>
+
+
+    <footer class="footer mt-5">
+        <div class="container-fluid title-s center-footer">
+            <div class="row align-items-center big-font-to-small-light" style="min-height: 80px;" class="mini-bold">
+                <div class="col block-text block-image" id="created_footer">
+                    <img src="/../../img/favicon-white.png" class="mr-2 logo-icon" width="45px">
+    
+                    <span class="text-uppercase">Данила Останин</span>
+                </div>
+                <div class="col-right mr-3 soc-footer">
+                    <img src="/../../img/discord.png" class="mr-2 discord-f" style="max-width:30px;">
+                    <a target="_blank" href="https://t.me/kfshka"> <img src="/../../img/telegram-logo.png" class="mr-2 telegram-f"
+                            style="max-width: 30px;" /> </a>
+                    <img src="/../../img/mail.png" class="email-f" style="max-width:30px;">
+                    <div class="extrabold notification-discord-footer"> Discord скопирован в буфер обмена</div>
+                    <div class="extrabold notification-email-footer"> E-mail скопирован в буфер обмена</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+<script>
+    $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+</body>
+
+</html>

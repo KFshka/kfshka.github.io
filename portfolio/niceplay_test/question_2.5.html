@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Тестовое задание в Niceplay Games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.8.5/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.min.css">
+    <script src="/js/main.min.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link href="/css/fonts.min.css" rel="stylesheet" />
+    <link href="/css/preloader.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+</head>
+
+
+    <body>
+      <script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(74553970, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/74553970" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <div class="backdrop">
+        <div class="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    
+        
+        
+            <div id="scroller"><img src="../../img/arrow.png" width="50px" /></div> 
+          
+      
+
+      
+
+    
+
+        <main>
+            <div class="container mt-5" style="margin-bottom: 5px;">
+                <div class="row justify-content-between">
+        
+                    <div class="col-auto mr-auto top block-text soc "> <img src="../../img/icon.png" class="demon-icon kfshka" width="40px">
+                        <div class="git-gud extrabold text-center"></div><a href="/" class="NeoSansPro text-uppercase created normal-sil-menu"> created by kf</a>
+                        <div class="line mr-1 ml-1"></div><span class="NeoSansPro date" id="change-log-button" data-toggle="modal" data-target="#modal_ver"> ver.1.1</span>
+                      </div>
+        
+                    <div class="col-auto top block-text navigator">
+                          <a title="Главная" href="/" class="NeoSansPro text-uppercase menu-element menu-element-user created"> <i class="bi bi-house-fill"></i> <span class="d-none d-xl-inline">Главная</span></a> 
+                        <div class="menu-line"></div>
+                        <span title="Портфолио" class="NeoSansPro text-uppercase menu-element created" data-toggle="modal"
+                            data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> <span class="d-none d-md-inline">Портфолио</span></span>
+                        <div class="menu-line"></div>
+                        <span title="Контакты" class="NeoSansPro text-uppercase menu-element created" data-toggle="modal"
+                            data-target=".bd-example-modal-lg"> <i class="bi bi-telephone-fill"></i> <span class="d-none d-md-inline">Контакты</span></span>
+                    </div>
+                </div>
+                <div class="adaptive-test-menu">
+                <div class="row justify-content-center align-items-center" >
+
+                    <div class="col-auto top block-text text-center"><img src="../../img/icon.png" class="demon-icon kfshka" width="80px">
+                    <div class="git-gud git-gud-m extrabold"></div>
+                      <a href="/" class="NeoSansPro text-uppercase created-old normal-sil-menu"> created by kf</a>
+                        <div class="line mr-1 ml-1"></div><span class="NeoSansPro menu-element" id="change-log-button" data-toggle="modal" data-target="#modal_ver"> ver.1.1</span>
+                    </div>
+
+                    <div class="col-mr-6 text-center soc-bottom" style="margin:10px">
+                      <div class="d-none" id="discord-name">kF#8247</div>
+                      <img class="discord elem" src="/../../img/discord-panel.png" width="35px" id="discord-button" />
+                      <a class="elem" target="_blank" href="https://t.me/kfshka"> <img src="/../../img/telegram-panel2.png"
+                              width="35px" class="telegram" /></a>
+                      <div class="d-none" id="email-name">darkfriar26@gmail.com</div>
+                      <img class="email elem" src="/../../img/mail-panel.png" width="35px" class="mr-2" />
+                      <div class="extrabold notification-discord-top">Discord скопирован в буфер обмена</div>
+                      <div class="extrabold notification-email-top">E-mail скопирован в буфер обмена</div>
+                  </div>
+
+                </div>
+                <hr class="adaptive-hr">
+                <div class="row justify-content-center align-items-center" >
+                  <div class="col-auto text-center">
+                    <a href="/" class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button"><i class="bi bi-house-fill"></i></a>
+                  </div>
+                  <div class="col-auto text-center">
+                  <span class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button" data-toggle="modal"
+                  data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Портфолио</span> 
+                  </div>
+                  <div class="col-auto text-center contacts-text">
+                    <span class="NeoSansPro text-uppercase menu-element created mt-2 portfolio-button" data-toggle="modal"
+                    data-target="#modal_portfolio"> <i class="bi bi-briefcase-fill"></i> Контакты</span> 
+                    </div>
+                </div>
+                <hr class="adaptive-hr">
+
+            </div>
+
+
+            </div>
+
+            <div class="modal fade" id="modal_ver" tabindex="-1" aria-labelledby="exampleModalLongTitle" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content modal-body text-light border-0" id="changelog-modal">
+                    <h5 class="modal-title text-center pb-4" id="exampleModalLongTitle">История изменений</h5>
+                    <div class="new_version">
+                        <p class="h6" style="font-size:1.2rem">— Version 1.1</p>
+                        <ul>
+                          <li>Задание интегрировано в остальную часть сайта</li>
+                          <li>Во «Вступление» было добавлена сноска для большинства посетителей сайта</li>
+                          <li>В необходимые вопросы добавлены условия задания</li>
+                        </ul>
+                      </div>
+                    <div class="new_version">
+                      <p class="h6" style="font-size:1.2rem">— Version 1.0</p>
+                      <ul>
+                        <li>Поправки по написаному завершены</li>
+                        <li>Произведена оптимизация страниц</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.9</p>
+                      <ul>
+                        <li>Закончена работа над «Вступлением» и «Заключением»</li>
+                        <li>Документ был разделён на страницы для оптимизации</li>
+                        <li>Продолжаются поправки по написанному</li>
+                        <li>Изменился логотип «kF»</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.8</p>
+                      <ul>
+                        <li>Закончена работа над вопросом №2.6</li>
+                        <li>Пишется «Вступление» и «Заключение»</li>
+                        <li>Делаются поправки по написанному</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.7</p>
+                      <ul>
+                        <li>Закончена работа над вопросом №2.5</li>
+                        <li>Продолжается работа над вопросом №2.6</li>
+                        <li>Добавлены спойлеры и всплывающие текстовые подсказки</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.6</p>
+                      <ul>
+                        <li>Закончена работа над вопросом №2.4</li>
+                        <li>Начата работа над вопросами №2.5, №2.6</li>
+                        <li>Добавлен скрипт увеличения изображений</li>
+                        <li>Добавлены новые элементы оформления для пояснений к диалоговой системе</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.5</p>
+                      <ul>
+                        <li>Закончена работа над вопросами №2.1, №2.2, №2.3</li>
+                        <li>Начата работа над вопросом №2.4</li>
+                        <li>Добавлены некоторые новые элементы оформления</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.4</p>
+                      <ul>
+                        <li>Дописана первая часть документа</li>
+                        <li>Добавлен прелоадер</li>
+                        <li>Решён баг с морганием картинок в содержании на Chromium</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.3</p>
+                      <ul>
+                        <li>Дописан вопрос №1.2</li>
+                        <li>Начата работа над вопросами №1.3, №1.4, №1.5</li>
+                        <li>Видео на сайте переведены на JWplayer</li>
+                      </ul>
+                    </div>
+                    <div class="new_version">
+                      <p class="h6">— Version 0.2</p>
+                      <ul>
+                        <li>Дописан вопрос №1.1</li>
+                        <li>Начата работа над вопросом №1.2</li>
+                        <li>На широкоэкранных мониторах заголовки имеют новое офорление с квадратом слева</li>
+                        <li>Добавлено оформление выносок, выводов, отступлений, списков и номеров заданий</li>
+                        <li>Добавлена пасхалка #2</li>
+                      </ul>
+                    </div>
+                    <div class="first_version">
+                      <p class="h6">— Version 0.1</p>
+                      <ul>
+                        <li>Начата работа над вопросом №1.1</li>
+                        <li>Добавлен лог изменений</li>
+                        <li>Доведён до ума адаптивный дизайн для Android (Tabs, Phones)</li>
+                        <li>Добавлена пасхалка #1</li>
+                      </ul>
+                    </div><button type="button" class="modal-btn w-50 mt-3" data-dismiss="modal" style="margin:0 auto">Закрыть</button>
+                  </div>
+                </div>
+              </div>
+          
+
+        <div class="container pt-5" id="first_title">
+    <div class="row justify-content-center first-title-adaptive text-center mb-5" id="logo-work">
+        <div class="col-xl-4 col-lg-4 pt-2"><img src="../../img/niceplay_games_с.png" class="image-fluid block-image" style="opacity: 0.88; border-radius: 25px; box-shadow: 0px 0px 10px rgb(134, 134, 134);" /></div>
+        <div class="col-xl-4 col-lg-4 col-sm-12 text-center pt-2 block-text">
+            <h1 class="extrabold">
+                Тестовое задание на вакансию Game Designer.<br />
+                Niceplay Games
+            </h1>
+            <span class="NeoSansPro des-op" style="color:#3b3b3b !important"> Разработка Steam-игры «Potion Craft»</span>
+        </div>
+    </div>
+    <hr class="mb-5 col-auto" />
+    <div class="container-fluid title-s pt-3 pb-4 pr-5 pl-5" id="transition">
+        <!-- <h2 class=" extrabold text-uppercase text-left cl-font"> <img src="../../img/description.svg" class="mb-1 block-image" width="50px"> Основное содержание </h2> -->
+        <div class="text-left">
+            <div class="row">
+                <div class="container-fluid mt-5">
+                    <a href="question_1.1.html#intro">
+                        <div class="pt-5 pb-5 extrabold text-center" id="b_intro" style="border-radius: 0.7rem;"><span>&mdash; Вступление &mdash;</span></div>
+                    </a>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12 mt-5 text-center">
+                    <h4 class="bold text-center cl-font"><img src="../../img/joystick-icon_m.png" class="d-none d-lg-inline" /> Общие задания</h4>
+                    <ul class="list-group text-left des1">
+                        <a href="question_1.1.html#q1_1">
+                            <li class="list-group-item bred1"><b>1.1.</b> Хорошая концепция</li>
+                        </a>
+                        <a href="question_1.2.html#q1_2">
+                            <li class="list-group-item"><b>1.2.</b> Неудачная концепция</li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_3">
+                            <li class="list-group-item"><b>1.3.</b> Задача про сундук №1 <img src="../../img/chest.png" class="d-none d-lg-inline" width="5%" /></li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_4">
+                            <li class="list-group-item"><b>1.4.</b> Задача про сундук №2 <img src="../../img/chest.png" class="d-none d-lg-inline" width="5%" /></li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_5">
+                            <li class="list-group-item"><b>1.5.</b> Задача про сундук №3 <img src="../../img/chest.png" class="d-none d-lg-inline" width="5%" /></li>
+                        </a>
+                        <a href="question_1.3-4-5-6.html#q1_6">
+                            <li class="list-group-item bred2"><b>1.6.</b> Таблица с формулами</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12 mt-5 text-center">
+                    <h4 class="bold text-center cl-font"><img src="../../img/potion-icon_m.png" class="d-none d-lg-inline" /> Задания по Potion Craft</h4>
+                    <ul class="list-group text-left des2">
+                        <a href="question_2.1-2-3.html#q2_1">
+                            <li class="list-group-item bred1"><b>2.1.</b> Проблемы UX</li>
+                        </a>
+                        <a href="question_2.1-2-3.html#q2_2">
+                            <li class="list-group-item"><b>2.2.</b> Новый ингредиент</li>
+                        </a>
+                        <a href="question_2.1-2-3.html#q2_3">
+                            <li class="list-group-item"><b>2.3.</b> Новый персонаж</li>
+                        </a>
+                        <a href="question_2.4.html#q2_4">
+                            <li class="list-group-item"><b>2.4.</b> Новая игровая механика</li>
+                        </a>
+                        <a href="question_2.5.html#q2_5">
+                            <li class="list-group-item"><b>2.5.</b> Новый элемент лора</li>
+                        </a>
+                        <a href="question_2.6.html#q2_6">
+                            <li class="list-group-item bred2"><b>2.6.</b> Новые заказы на зелья</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="container-fluid mt-5">
+                    <a href="conclusion.html#conclusion">
+                        <div class="pt-5 pb-5 text-center extrabold" id="b_conclusion" style="border-radius: 0.7rem;"><span>&mdash; Заключение &mdash;</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mb-5 mt-5" />
+    
+</div>
+  <div class="container main content mt-5">
+    <h3 class="extrabold mb-5" id="q2_5"><b class="title_number2">2.5</b> Новый элемент лора</h3>
+    <div class="text-center mb-4 post-header mt-5 antelive">
+      <p class="h3 text-center antelive">Переработка диалоговой системы</p>Часть II. Сюжетные диалоги
+    </div>
+    <div class="text-center mb-4 mt-2 "> <img src="../../img/book-art.png" class="img-fluid circled lite-bordered mb-1"> </div>
+
+
+
+    <p> Рассмотрим более подробно возможности новой диалоговой системы в создании уникальных историй о клиентах, приходящих в лавку. Разберём <b>сюжетный тип диалогов</b> и узнаем его отличия и особенности.</p>
+    <p>Так как сам принцип движения по диалогам уже был рассмотрен ранее, я не буду вдаваться во все детали в рассматриваемых ниже примерах, а лишь упомяну об отличиях и нововведениях. </p>
+    <p> </p>
+    <div class="text-left mt-4" id="sceptic"> <span class="bold antelive" style="font-size:1.3rem"><img src="../../img/sceptic.png" width="40px" class="mr-2 ml-1 block-image" />Сюжетный диалог со скептиком</span> </div><i
+      class="bold mt-4 mb-5 d-block" style="color:#501975; border-top:2px solid #501975; border-bottom:2px solid #501975; padding:10px; opacity:0.8"> Откройте полный диалог в новой вкладке браузера и следите за его развитием по ходу объяснения: <div
+        class="text-center mt-4 mb-3"> <a target="_blank" href="../dialogs/Skeptic.html"> <button type="button" class="button-table" style="font-size:1.1rem;max-width: 500px; min-height:60px"><img src="../../img/dialogue-icon.png" width="7%"
+              class="mr-3 d-none d-md-inline " /><span>Открыть диалог «Скептик»</span></button> </a> </div></i>
+    <div class="text-center mb-4 mt-3 d-none d-md-block"> <img src="../../img/sceptic-p.png" class="img-fluid circled" width="25%"> </div>
+    <div class="text-center mb-4 mt-3 d-md-none d-lg-none d-xl-none"> <img src="../../img/sceptic-p.png" class="img-fluid circled"> </div>
+    <p>Наш новый клиент очень необычен, поскольку по ходу диалога так и пестрит скептицизмом по отношению работоспособности продаваемых зелий. Игроку он будет казаться забавным выскочкой и может вызвать самый различный спектр эмоций. Именно эту
+      задачу и должна выполнять увлекательная история.</p>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <p>Одним из отличий клиентов сюжетных диалогов являются условия их прихода в лавку. Например, наш кандидат имеет <b>обязательное условие прихода — отсутствие других клиентов</b>, только в этом случае он появится в магазине.</p>
+    <details>
+      <summary><img src="../../img/question-mark.png" width="25px" class="d-none d-md-inline mr-1 block-image">Зачем нужны условия для прихода клиента? <span class="text-secondary" style="font-weight:400"> &lt;Осторожно, спойлер&gt; </span>
+      </summary>
+      <p>Это условие необходимо в развитии истории тем, что нестандартные действия игрока не будут замечены другими клиентами, т.е. не возымеют свидетелей. Ведь по ходу этого диалога над клиентом можно поглумиться, превратить в зверька и даже убить.
+        Это произойдёт путём отдачи клиенту зелья на пробу.</p>
+    </details>
+    <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../../img/ds-condition.png" class="img-fluid circled" width="45%"> </div>
+    <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none" width="85%"> <img src="../../img/ds-condition.png" class="img-fluid circled"> </div>
+    <p>Сам ход сюжетного диалога такой же, как и у торгового, и поэтому я советую ознакомиться с ним самостоятельно по принципам предыдущего диалога. Здесь же разберём первый встречающийся момент, который отличает сюжетный диалог от торгового —
+      наличие в нём <b style="color:#1D2185">«Важного выбора»</b>:</p>
+    <div class="text-right mb-4 mt-2 "> <a href="../../img/ds-2-1.png" data-toggle="lightbox"> <img src="../../img/ds-2-1.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p>Сам переход к нему открывает перед игроком окно с вариантами возможного выбора (<b style="color:#1D2185">«Автовыбор»</b> же означает моментальный выбор определенного варианта из существующих, то есть в случае выше — <img
+        src="../../img/ic-1.png" class="block-image" width="30px" />):</p>
+    <div class="text-right mb-4 mt-4 "> <a href="../../img/ds-2-2.png" data-toggle="lightbox"> <img src="../../img/ds-2-2.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p>Оказавшись перед <span style="color:#1D2185" class="bold">«Важным выбором»</span> игрок должен определиться с направлением своего поведения. Кто-то может поступить, основываясь на первоначальных ощущениях, другой же — подойти к выбору более
+      обдуманно: действовать в рамках морали или предполагать вероятные последствия своих решений. Каждый выбор приводит игрока к особенному развитию дальнейшей истории.</p>
+    <p> Можно заметить, что некоторые из вариантов доступны только при некоторых условиях, например <b style="color:#1D2185"><img class="block-image" src="../../img/ic-3.png" width="30px" /> вариант</b> игрок сможет выбрать только в случае
+      прохождения начального квеста Тёмной гильдии (он описан в <a href="#q2_6" class="sil">Вопросе 2.6</a>). </p>
+    <p> Также по причине того, что сюжетные диалоги содержат в себе элементы торговых, в некоторых из них в зависимости от выбора клиент может оставить чаевые и стать постоянным клиентом. Конкретно в этом диалоге только в случае выбора <img
+        class="block-image" src="../../img/ic-1.png" width="30px" /> варианта, игрок может рассчитывать на чаевые и постоянного клиента:</p>
+    <div class="text-center">
+      <div style="display:inline-block">
+        <table class="mb-4 table table-bordered justify-content-center text-center result" style="background:#fbfbfb;">
+          <thead>
+            <tr>
+              <td>Конечные условия
+            </tr>
+          </thead>
+          <tr>
+            <td>Клиент станет постоянным только если в окне <b style="color:#1D2185">важного выбора</b> <br /> был выбран <b style="color:#1D2185"><img src="../../img/ic-1.png" width="30px" class="block-image" /> вариант</b> </td>
+          </tr>
+          <tr>
+            <td> Клиент станет постоянным с шансом в <span class="math-text">100%</span> при <big class="bold">4 <img class="block-image" src="../../img/coins-icon.png" width="23px" /></big> </td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">75%</span> при <big class="bold">3 <img class="block-image" src="../../img/coins-icon.png" width="23px" /></big></td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">50%</span> при <big class="bold">2 <img class="block-image" src="../../img/coins-icon.png" width="23px" /></big></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p>Некоторые из существующих вариантов <b style="color:#1D2185">«Важного выбора»</b> одобряются или порицаются какими-либо гильдиями и меняют репутацию в них. Такой выбор сказывается на репутации в 5 раз больше, чем от одиночных реплик по ходу
+      диалога. В плане интерфейса из всего этого игроку виден лишь текст выбираемых вариантов. До осуществления выбора он не знает, какая гильдия это одобряет, а также не видит пояснительные кнопки. </p>
+    <div class="bs-callout justify-content-center" style="border-left-color:#0A148D;">
+      <p class="bs-callout-title mb-3"><img src="../../img/wizard-hat.png" width="25px" class="mr-1 block-image" />Преимущества Гильдии магов. Предугадывание событий</p>
+      <p>Способность видеть последствия выбора заранее, а именно будущее изменение отношения гильдии, открывается у членов Гильдии магов: </p>
+      <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../../img/ds-2-3.png" class="img-fluid circled " width="50%"> </div>
+      <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none" width="85%"> <img src="../../img/ds-2-3.png" class="img-fluid circled"> </div>
+      <p>Также, среди способностей, открывающихся при улучшении репутации, — это возможность понимать точную трактовку выбора, что указывается на кнопках (изначально они не отображаются): </p>
+      <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../../img/ds-2-4.2.png" class="img-fluid circled lite-bordered"> </div>
+      <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none" width="85%"> <img src="../../img/ds-2-4.png" class="img-fluid circled lite-bordered"> </div>
+      <p>С развитием этой способности кнопки начинают отображать больше информации:</p>
+      <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../../img/ds-2-5.2.png" class="img-fluid circled lite-bordered"> </div>
+      <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none" width="85%"> <img src="../../img/ds-2-5.png" class="img-fluid circled lite-bordered"> </div>
+    </div>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <p class="mt-5">Остановившись на каком либо из вариантов, игрок переходит к отдельным <b style="color:#6F0085">«Продолжениям»</b> диалога:</p>
+    <div class="text-right mb-4 mt-2 "> <a href="../../img/ds-2-6.png" data-toggle="lightbox"> <img src="../../img/ds-2-6.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p> На этом этапе игрок выбирает зелье из существующих вариантов и тех, что он создал (или может создать), и получает соответствующую ему реплику (зелья в этом диалоге выбраны в качестве примера): </p>
+    <div class="text-right mb-4 mt-2 "> <a href="../../img/ds-2-7.png" data-toggle="lightbox"> <img src="../../img/ds-2-7.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <div class="bs-callout justify-content-center" id="toxic_potion">
+      <p class="bs-callout-title mb-3"><img src="../../img/guild.png" width="25px" class="mr-1 block-image" />Особые возможности гильдий. Уникальные события и предметы</p>
+      <p><b>«Зелье с парализующим ядом»</b> — как один из вариантов дополнительно открывающихся возможностей, что даёт какая либо гильдия по ходу получения в ней репутации. Рецепт этого особого зелья выдаст Тёмная гильдия, когда игрок возвысится в
+        ней по рангу и станет доверенным лицом. Само зелье позволяет временно парализовать жертву. Делается оно сложнее других ядов, но такие жертвы в гильдии ценятся намного больше.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/poison.png" class="img-fluid circled" width="17%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/poison.png" class="img-fluid circled" width="65%"> </div>
+    </div>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <p class="mt-5"> Большая часть <b style="color:#6F0085">«Продолжений»</b> приведёт игрока к пронумерованным <b style="color:#585858">«Исходам»</b>: </p>
+    <div class="text-right mb-4 mt-2 "> <a href="../../img/ds-2-8.png" data-toggle="lightbox"> <img src="../../img/ds-2-8.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p><b style="color:#585858">«Исходы»</b> являются чередой происходящих событий после ухода клиента из лавки. Они вкратце описывают то, что будет происходить в дальнейшем, путём задействия системы диалогов и нарративных игровых объектов, таких,
+      как сова и городская газета.</p>
+    <div class="bs-callout justify-content-center" style="border-left-color: #da7a3a;">
+      <p> <b style="border:2px solid #da7a3a;padding:3px; border-radius:4px; color:#da7a3a; display: inline-block; text-align: center;">«Коллекция диких клиентов»</b> — демонстрация того, как интересным образом можно применить эффект зелья полиморфа: навсегда превращённые в зверюшек клиенты
+        становятся своеобразными покемонами. Внутриигровое коллекционирование повышает реиграбельность за счёт эффекта "Собери их всех!". Главное предоставить игроку интерфейс, в котором он может лицезреть свою драгоценную коллекцию. </p>
+      <div class="mt-3 mb-3">
+        <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/pokemons.png" class="img-fluid circled" width="50%"> </div>
+        <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/pokemons.png" class="img-fluid circled"> </div>
+      </div>
+      <p>Возможность выбора реплик в диалогах касающихся <b style="color:#da7a3a;">«Коллекции диких клиентов»</b> будет дана игроку после получения рецепта полиморфа с перманентным эффектом, например через квест, покупку, прокачку и т.д. </p>
+    </div>
+    <p class="mt-4">События, происходящие в <b style="color:#585858">«Исходах»</b> идут параллельно с другими игровыми событиями. По ходу истории игроку также предоставляется возможность выбора её развития. Конкретно в этом случае игрок, оказавшись в
+      одном из <b style="color:#585858">«Исходов»</b>, вынужден расплачиваться за совершённое:</p>
+    <div class="text-center mb-4 mt-2 "> <a href="../../img/ds-2-9.png" data-toggle="lightbox"> <img src="../../img/ds-2-9.png" class="img-fluid circled lite-bordered mb-1" width="85%"> <span class="block-text d-none d-md-block"
+          style="color:#525252"><img src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3"><img src="../../img/risk.png" width="25px" class="block-image mr-2 pb-1" /> Примечание</p>
+      <p><b style="color:#1D2185">«Важный выбор»</b>, <b style="color:#6F0085">«Продолжения»</b> и <b style="color:#585858">«Исходы»</b> используются лишь как условные разграничители для упрощения восприятия диалоговой системы.</p>
+    </div>
+    <p class="mt-3">Подробно разберём каждый из <b style="color:#585858">«Исходов»</b>:</p>
+    <p class="text-center mt-4 mb-4 bold" style="background:#585858; padding:6px; border-radius:8px; color:#fff; font-size:1.3rem">Исход #1. «Шутка и наказание»</p>
+    <p class="mt-1">На следующий день в магазин зайдут Скептик и полицейский, они начнут с игроком сюжетный диалог. В ходе него полицейский всячески будет намекать, что вопрос решается только деньгами, но игрок, который имеет достаточно репутации в
+      Гильдии воинов, может попытаться надавить этим и попробовать пройти сначала одну проверку, а после вторую.</p>
+    <div class="bs-callout justify-content-center mt-4">
+      <p class="mt-3 mb-3 bold"><img src="../../img/question-mark.png" width="25px" class="block-image" /> Как происходят проверки?</p>
+      <p>Проверки проходят случайным образом, где какая-либо характеристика персонажа игрока выступает в качестве множителя, повышающего вероятность успешного исхода. В данном случае этой характеристикой выступает количество репутации в Гильдии
+        воинов.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/dices.png" class="img-fluid circled" width="14%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/dices.png" class="img-fluid circled" width="65%"> </div>
+    </div>
+    <div class="bs-callout justify-content-center mt-4" style="border-left-color: #ac6207;">
+      <p class="mt-3 mb-3 bold"><img src="../../img/sword&shield.png" width="27px" class="mr-1 block-image" /> Преимущества Гильдии воинов. Связи с полицией</p>
+      <p> Воины и полиция тесно связаны, поэтому одним из главенствующих преимуществ члена Гильдии воинов — частое схождение с рук различных «проблемных ситуаций с законом». </p>
+    </div>
+    <p class="text-center extrabold mt-4" style="font-size:1.2rem">Проверки/Взятки:</p>
+    <div class="d-none d-md-flex justify-content-center">
+      <ol class="list-counter-circle ">
+        <li>На решение проблемы неудачной шутки над Скептиком</li>
+        <li>На создание проблем с законом у Скептика</li>
+      </ol>
+    </div>
+    <div class="d-md-none d-lg-none d-xl-none mt-4 justify-content-center">
+      <p><span class="number-list mr-1">1</span>На решение проблемы неудачной шутки над Скептиком</p>
+      <p><span class="number-list mr-1">2</span>На создание проблем с законом у Скептика</p>
+    </div>
+    <p class="mt-4">Если первая проверка пройдена удачно, то проблемы с законом решаются, и игрок может попробовать пройти вторую проверку. Получив успех в ней, он попадёт на уникальное ветвление в диалоге — в нём проблемы с законом начнутся уже у
+      Скептика.</p>
+    <p>Игрок мог не проходить проверки и заплатить полицейскому сразу, чтобы решить проблемы. Если же игрок решил проходить проверки и это закончилось неудачей, то он вынужден заплатить полицейскому больше за последующие взятки, чем предполагалось
+      изначально.</p>
+    <p>Если невозможность оплатить вторую взятку полицейскому за «доставление проблем Скептику» только лишит особенной ветки диалога, то, если игрок не сможет оплатить первую требуемую взятку, его ждёт <b style="color:#990000">попадание в Темницу на
+        2 игровых дня</b>.</p>
+    <div class="bs-callout justify-content-center mt-4" style="border-left-color: #990000;">
+      <p class="mt-3 mb-3 bold"><img src="../../img/question-mark.png" width="25px" class="block-image" /> Чем сулит попадание в <span style="color:#990000">Темницу</span>?</p>
+      <p> Находясь в <b style="color:#990000">Темнице</b>, игрок теряет игровые дни, вследствие чего пропускает происходящие во время них события. Это ведёт к финансовым потерям из-за пропуска приходящих клиентов в эти дни — как постоянных, так и
+        новых. Также это приводит к утрате некоторых несвязанных с главным сюжетом историй, что подразумевают приход клиентов в лавку за это время. Будучи в <b style="color:#990000">Темнице</b>, игрок также может читать городскую газету и
+        взаимодействовать с филином. </p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/ball-and-chain.png" class="img-fluid circled" width="18%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/ball-and-chain.png" class="img-fluid circled" width="65%"> </div>
+      <p><b style="color:#990000">Темница</b> — жестокий механизм воздействия, что провоцирует игрока перепроходить игру снова и снова. Ведь некоторые истории и их продолжения будут пропускаться в первых прохождениях, из-за чего в последующих они
+        окажутся для него в новинку.</p>
+      <p style="border-top:1px solid #dadada" class="bs-callout-title mb-3 pt-4"><img src="../../img/guild.png" width="25px" class="mr-1 block-image" />Особые возможности гильдий. Вызволение из <b style="color:#990000">Темницы</b></p>
+      <p> Каждая из гильдий обладает большим количеством связей среди знатных людей и поэтому имея членство в какой-либо из них вас могут с некоторым шансом вытащить из <b style="color:#990000">Темницы</b> преждевременно. На это игрок будет тратить
+        свою репутацию в гильдии, из-за чего не прокачивать гильдийские навыки и оттягивать прохождение cюжетной линии гильдии.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/open-lock.png" class="img-fluid circled" width="18%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/open-lock.png" class="img-fluid circled" width="65%"> </div>
+      <p>Чем больше дней игроку нужно находиться в <b style="color:#990000">Темнице</b>, когда он пытается выйти досрочно, тем больше цена репутации. С каждым досрочным освобождением планка требуемой репутации будет повышаться, становясь всё более
+        недосягаемой для дальнейших попыток. </p>
+    </div>
+    <p class="text-center mt-5 mb-4 bold" style="background:#585858; padding:6px; border-radius:8px; color:#fff; font-size:1.3rem">Исход #2. «Горе от неверия»</p>
+    <p>При попадании в этот исход игра проверяет, был ли убит Скептик, или же — превращён в индюка. В случае его убийства игрок должен определиться с тем как он распорядится с телом его бывшего клиента:</p>
+    <p class="mt-3 mb-3 bold"><span class="number-list">1</span> Расчленить на ингредиенты</p>
+    <p>Нехорошие зелья требуют нехороших ингредиентов, а их крайне сложно достать. Поэтому тело может послужить в качестве получения таких труднодоступных ингредиентов, как человеческая кровь, плоть, жир и кости.</p>
+    <div class="text-center mb-5 mt-5 d-none d-md-block"> <img src="../../img/human-i.png" class="img-fluid circled" width="45%"> </div>
+    <div class="text-center mb-5 mt-5 d-md-none d-lg-none d-xl-none"> <img src="../../img/human-i.png" class="img-fluid circled"> </div>
+    <p class="mt-5 mb-3 bold"><span class="number-list">2</span> Передать Тёмной гильдии</p>
+    <p>Если <b>1-ый</b> выбор явно сделал <span style="border-bottom:2px dashed #501975;cursor:pointer" data-toggle="tooltip" data-placement="top"
+        title="Кхм... то есть тот, кто желает играть через интересный билд, используя преимущества Гильдии войнов в обходе закона :)">игрок-садист</span>. То этот выбор будет делать игрок, что решил служить Тёмной гильдии.</p>
+    <p class="mini-bold"> <span data-toggle="tooltip" data-placement="top" title="&#128513" style="cursor:pointer">Услужить ей телом</span> можно разными способами: </p>
+    <ul class="regular mb-4">
+      <li>Если игрок уже убил клиента, то Тёмная гильдия примет бывшего клиента в качестве объекта для изучения их патологоанатомами, это даст игроку репутацию внутри гильдии, а также новые знания в области алхимии и зельеварения.<br><img
+          src="../../img/risk.png" width="15px" class="block-image mr-1" /><b>Примечание:</b> Если на жертве было применено <a href="#toxic_potion" target="_blank" title="Напомнить, что это" class="sil"><img style="padding-right:1px"
+            src="../../img/toxic.png" class="pb-2 block-image" width="23px">Зелье с парализующим ядом</a>, то он получит бо&#769;льшую награду в опыте.</li>
+      <li class="mt-3">Если игрок применил <img style="padding-right:1px" src="../../img/toxic-b.png" class="pb-2 block-image" width="25px">Зелье с парализующим ядом, то он может пожертвовать его <img class="block-image"
+          src="../../img/devourer.png" width="20px" style="margin-left:1px;margin-right:2px; " /><span style="border-bottom:2px dashed #501975; cursor:pointer" data-toggle="tooltip" data-html="true"
+          title="<u>Немного спонтанного лора</u><br/>Пожиратель — древнее существо, которому служат члены Тёмной гильдии, жертвуя ему человеческие жизни с помощью древних ритуалов">Пожирателю</span>. Жертвуя тело этому древнейшему монстру, игрок
+        будет получать уникальные эффекты/бонусы/артефакты и продвигаться в сюжетной линии Тёмной гильдии (<a target="_blank" href="question_2.6.html#q2_6" class="sil">Подробнее о ней в 2.6</a>).</li>
+    </ul>
+    <div class="text-center mb-4 mt-3" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid block-image" width="45px"> </div>
+    <p class="mt-5">После произошедшего история временно утихнет и продолжится только через несколько дней: просматривая газету игрок заметит объявление в газете о розыске с фотографией Скептика и его описанием. Спустя ещё пару дней, полиция начнёт
+      производить его розыск в районе пропажи и опрашивать людей в возможных местах посещения. Поэтому в алхимическую лавку обязательно зайдёт полицейский и начнёт с игроком сюжетный диалог.</p>
+    <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../../img/ds-plot.png" class="img-fluid circled" width="55%"> </div>
+    <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/ds-plot.png" class="img-fluid circled"> </div>
+    <p> В ходе диалога полицейский будет утверждать, что большинство опрашиваемых людей в округе сообщило, что Скептика видели именно около этой лавки. Хранитель правопорядка скажет, что хоть улик однозначных нет, но наш алхимик пока что один из
+      подозреваемых.</p>
+    <p>Игроку придётся отмазываться от утверждений полицейского чтобы убрать с себя подозрения. В ходе этого диалога произойдут следующие расклады с различным выбором: </p>
+    <p><span class="number-list">1</span> В случае, если игрок является членом Гильдии магов, то полицейский даже не будет церемониться и тут же сообщит, что единственным способом избавиться от попадания в <b style="color:#990000">Темницу</b>, в
+      качестве главного подозреваемого, пока полиция будет обыскивать вашу лавку, — это взять на себя выплачивание <b style="color:#026b2b">крупного кредита</b> полицейского.</p>
+    <p><span class="number-list">2</span> Если же игрок не относится к членам Гильдии магов, то в ходе разговора у него есть попытка соврать, пройдя проверку. Множителем успеха в ней также будет выступать репутация в Гильдии войнов. В случае неудачи
+      игроку так или иначе придётся выплачивать <b style="color:#026b2b">крупный кредит</b>.</p>
+    <div class="bs-callout justify-content-center" style="border-left-color: #026b2b;">
+      <p class="bs-callout-title mb-3"><img src="../../img/money-bag.png" width="25px" class="mr-1 block-image" />Преимущества Торговой гильдии. Кредиты</p>
+      <p>К слову, возможность брать кредиты есть у членов Торговой гильдии. <b style="color:#026b2b">Кредиты</b> помогают решать непридвиденные расходы по ходу игры, как, например, неожиданные сюжетные повороты, задолженность по налогам и те же
+        взятки полицейским.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/bill.png" class="img-fluid circled" width="15%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/bill.png" class="img-fluid circled" width="65%"> </div>
+      <p><b style="color:#026b2b">Кредиты</b> выплачиваются в течение нескольких игровых недель и чем больше игрок прокачал эту способность, тем меньше процент дополнительной выплаты.</p>
+    </div>
+    <p class="mt-4 mb-4"> <b style="color:#026b2b">Крупный кредит</b> с большим процентом выплаты, который пытаются взвалить на игрока тому может оказаться не по силам. Ведь полицейский сразу просит недельную ставку вперёд, к тому же игроку придётся
+      платить его ещё как минимум одну неделю. Поэтому, если таких денег нет, то игрок попадает в <b style="color:#990000">Темницу</b>, но в этот раз <span style="color:#990000;border-bottom:2px solid #990000"> на целых 5 дней с шансом в 30% на
+        <b>казнь</b></span>.</p>
+    <div class="bs-callout justify-content-center mt-4" style="border-left-color: #990000;">
+      <p class="mt-3 mb-3 bold"><img src="../../img/question-mark.png" width="25px" class="block-image" /> «Казнь»?</p>
+      <p>Казнь. Смерть. Конец игры. И игроку придётся начать всё заново. Игре необходим непредвиденный конец. Критическая мера наказания за необдуманную игру, что пробуждает в игроке волну энтузиазма направленную на то, чтобы теперь точно делать всё
+        правильно. Это психологический механизм воздействия. </p>
+      <p class="mt-3 mb-3 bold"><img src="../../img/question-mark.png" width="25px" class="block-image" /> Как она будет проходить?</p>
+      <p>Убийственно. А если без шуток, то игрока просто в какой-то из дней нахождения в <b style="color:#990000">Темнице</b> ставят в известие, что его персонажа казнят. Появляется текстовое сообщение с сопровождающей иллюстрацией виселицы или
+        палача у плахи.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/execution.png" class="img-fluid circled" width="35%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/execution.png" class="img-fluid circled"> </div>
+      <p class="mt-3 mb-3 bold"><img src="../../img/question-mark.png" width="25px" class="block-image" /> И ничего не сделать?</p>
+      <p>По ходу игры в качестве вознаграждения за какие-то события игрок вполне может получать <b>«билеты на жизнь»</b> и таким образом отменять казнь, но они даются крайне редко.</p>
+    </div>
+    <p class="mt-5 mb-5"><span class="number-list">3</span> Если игрок имеет высокий ранг в Тёмной гильдии, то в ходе сюжетной линии он получил <b>Тёмный символ</b> на своём теле, который он может показать полицейскому, чтобы тот убежал из лавки в
+      страхе и больше не тревожил. В таком случае история закончится без выплаты <b style="color:#026b2b">кредитов</b>.</p>
+    <div class="bs-callout justify-content-center mt-4" style="border-left-color: #000;">
+      <p class="mt-3 mb-3 bold"><img src="../../img/skull.png" width="25px" class="block-image" /> Преимущества Тёмной гильдии. Тёмный символ</p>
+      <p>Этот символ позволяет внушать людям сиюсекундный страх напоминая им о... невечности человеческого бытия. Он всего навсего даёт человеку понимание, что вы связаны с теми людьми, которые способны уже сегодня убить его друзей и родных.</p>
+      <div class="text-center mb-4 mt-4 d-none d-md-block"> <img src="../../img/skeleton.png" class="img-fluid circled" width="15%"> </div>
+      <div class="text-center mb-4 mt-4 d-md-none d-lg-none d-xl-none"> <img src="../../img/skeleton.png" class="img-fluid circled" width="65%"> </div>
+      <p> Само использование символа крайне рискованное занятие, ведь кто-то все равно может расколоться, а игрок из-за этого окажется в <b style="color:#990000">Темнице</b> на следующий же день и казнён без права на помилование по указу короля.
+        Изначальный шанс на такой расклад событий — 17%. Но с прокачиванием способности этот шанс незначительно уменьшается.</p>
+    </div>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3"><img src="../../img/guild.png" width="25px" class="mr-1 block-image" />Особые возможности гильдий. Продуманный баланс</p>
+      <p>У каждой из гильдий, помимо преждевременного вызволения из <b style="color:#990000">Темницы</b>, есть свой уникальный инструмент для обхода негативных игровых обстоятельств:</p>
+      <div class="ml-3 block-image" style="font-size:0.9rem">
+        <p><img src="../../img/sword&shield.png" width="25px" class="mr-1" /><b>Гильдия войнов:</b> Прямой обход закона за счёт связей в полиции</p>
+        <p><img src="../../img/wizard-hat.png" width="25px" class="mr-1" /><b>Гильдия магов:</b> Возможность предвидеть события, что предостерегает игрока</p>
+        <p><img src="../../img/money-bag.png" width="25px" class="mr-1" /><b>Торговая гильдия:</b> Кредиты, что позволяют выкарабкаться в непридвиденные обстоятельства</p>
+        <p><img src="../../img/skull.png" width="25px" class="mr-1" /><b>Тёмная гильдия:</b> Тёмный символ на теле, что наводит ужас на людей</p>
+      </div>
+      </p>
+      <p>Таким образом, у игрока всегда есть возможность исправить одиночные ошибки за счёт «спасательного круга». Настоящей проблемой становится череда ошибок.</p>
+    </div>
+    <div class="text-center mb-4 mt-3" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <div class="text-center mt-5 mb-5">
+      <p class="antelive bordered-xl" style="font-size:1.5rem">Скептик в качестве постоянного клиента</p>
+    </div>
+    <p class="mt-5"> Помимо <b style="color:#585858">Исходов</b> с издевательствами, превращением в индюка и убийством, также есть расклад в котором между игроком и Скептиком всё-таки возникает понимание. Это происходит в случае когда игрок решил не
+      пойти на поводу забав или зова Пожирателя, а дал Скептику обыкновенное зелье, т.е. выбрал <img src="../../img/ic-1.png" width="30px" class="block-image" /> в <b style="color:#1D2185">«Важном выборе»</b> и таким образом попал на <b
+        style="color:#6F0085">1-ое продолжение:</b> </p>
+    <div class="text-center mb-4 mt-2 "> <a href="../../img/ds-2-10.png" data-toggle="lightbox"> <img src="../../img/ds-2-10.png" class="img-fluid circled lite-bordered mb-1" width="85%"> <span class="block-text d-none d-md-block"
+          style="color:#525252"><img src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p> После ухода Скептика, игра так же, как и в разобранном ранее примере с магом, рандомизирует его вероятность становления постоянным клиентом в зависимости от <img src="../../img/coins-icon.png" width="20px" class="ml-1 block-image" /> под
+      конец диалога. Не забываем о том, что он также может оставить чаевые.</p>
+    <div class="text-center">
+      <div style="display:inline-block">
+        <table class="block-image mb-4 table table-bordered justify-content-center text-center regular" style="background:#fbfbfb;">
+          <tr>
+            <td> Клиент станет постоянным с шансом в <span class="math-text">100%</span> при <big class="bold">4 <img src="../../img/coins-icon.png" width="23px" /></big> </td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">75%</span> при <big class="bold">3 <img src="../../img/coins-icon.png" width="23px" /></big></td>
+          </tr>
+          <tr>
+            <td>Клиент станет постоянным с шансом в <span class="math-text">50%</span> при <big class="bold">2 <img src="../../img/coins-icon.png" width="23px" /></big></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p>Если Скептик стал постоянным клиентом, то игрока ждёт с ним повторная встреча, в которой он может поведать об истинных причинах своего скептицизма к зельям:</p>
+    <div class="text-center mb-4 mt-2 "> <a href="../../img/ds-2-11.png" data-toggle="lightbox"> <img src="../../img/ds-2-11.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block"
+          style="color:#525252"><img src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p class="mt-5">Как постоянный клиент, Скептик будет регулярно покупать бытовые зелья, что берут другие горожане в своих повседневных делах:</p>
+    <div class="text-center mb-5 mt-4 d-none d-md-block"> <img src="../../img/ds-features.png" class="img-fluid circled" width="60%"> </div>
+    <div class="text-center mb-5 mt-4 d-md-none d-lg-none d-xl-none" width="85%"> <img src="../../img/ds-features.png" class="img-fluid circled"> </div>
+    <div class="text-center mb-5 mt-5" style="border-bottom:7px dashed #591b82; padding-bottom:6px; opacity:0.9"> </div>
+    <div class="text-left mt-5"> <span class="bold antelive" style="font-size:1.3rem"><img src="../../img/heart.png" width="40px" class="block-image mr-2 ml-1" />Сюжетный диалог «Любовная история»</span> </div><i class="bold mt-4 mb-5 d-block"
+      style="color:#501975; border-top:2px solid #501975; border-bottom:2px solid #501975; padding:10px; opacity:0.8"> Откройте полный диалог в новой вкладке браузера и следите за его развитием по ходу объяснения: <div class="text-center mt-4 mb-3">
+        <a target="_blank" href="../dialogs/Love_story.html"> <button type="button" class="button-table" style="font-size:1.1rem;max-width: 500px; min-height:60px"><img src="../../img/dialogue-icon.png" width="7%"
+              class="mr-3 d-none d-md-inline" /><span>Открыть диалог «Любовная история»</span></button> </a> </div></i>
+    <div class="text-center mb-4 mt-3 d-none d-md-block"> <img src="../../img/silly-boy.png" class="img-fluid circled" width="25%"> </div>
+    <div class="text-center mb-4 mt-3 d-md-none d-lg-none d-xl-none"> <img src="../../img/silly-boy.png" class="img-fluid circled"> </div>
+    <p>Познакомимся с ещё одним забавным диалогом о юноше, позабывшем обо всем на свете. Обо всём... кроме прекрасной дамы в своем сердце. Он так сильно впал в «любовь», что позабыл даже о самом себе, из-за чего превратился в крайне жалкое зрелище.
+      На нашу ношу выпала участь выбирать: воспользуемся ли мы слабостью парнишки в угоду себе или поможем ему побороть её?</p>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="block-image img-fluid" width="45px"> </div>
+    <p>Этот диалог в первую очередь выделяется тем, что задействует несколько новых механик. Одна из таких — <span class="mini-bold">потеря клиентов в ходе диалога</span>. Но чтобы терять клиентов, они должны быть, и поэтому условием прихода
+      влюбчивого парнишки это:</p>
+    <div class="text-center mb-5 d-none d-md-block"> <img src="../../img/ds-condition2.png" class="img-fluid circled" width="46%"> </div>
+    <div class="text-center mb-5 d-md-none d-lg-none d-xl-none" width="85%"> <img src="../../img/ds-condition2.png" class="img-fluid circled"> </div>
+    <div class="bs-callout justify-content-center">
+      <p class="bs-callout-title mb-3"><img src="../../img/risk.png" width="25px" class="block-image mr-2 pb-1" /> Примечание</p>
+      <p>Для реализации этой механики игрок должен видеть количество находящихся клиентов в лавке каким-либо образом. Например просто счётчиком сбоку экрана, либо для лучшего эффекта можно реализовать подобие карты очереди клиентов с их миниатюрными
+        изображениями.</p>
+    </div>
+    <p>Люди из очереди начнут пропадать ещё в начале диалога из-за излишней робкости и медлительности нашего новоиспечённого клиента, но только в том случае, если игрок осознанно идёт на это:</p>
+    <div class="text-center mb-4 mt-2 "> <a href="../../img/ds-3-1.png" data-toggle="lightbox"> <img src="../../img/ds-3-1.png" class="img-fluid circled lite-bordered mb-1" width="85%"> <span class="block-text d-none d-md-block"
+          style="color:#525252"><img src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p class="mb-4 mt-3 attribute"><img src="../../img/minus-client.png" width="33px" class="mr-1 ml-1 block-image" /> — видимый игроку значок, что говорит о потере одного клиента стоящего в очереди при выборе этой реплики.</p>
+    <p>Большинство игроков конечно бы стало проявлять снисходительность перед парнем, но за счёт механики потери клиентов мы провоцируем их хорошенько подумать над выбором роли «хорошего дяди» в этом диалоге.</p>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <p class="mt-5">Следующая новая механика, которую можно заметить в этом диалоге это <span class="ml-1 mr-1 bold d-inline-block" style="background: #575757;padding:5px; border-radius:4px; color:#fff;"><img src="../../img/thinking-w.png"
+          width="20px" class="block-image" style="margin-left:1px;margin-right:1px" /> Мысли главного героя</span>:
+    <div class="text-center mb-4 mt-2 "> <a href="../../img/ds-3-2.png" data-toggle="lightbox"> <img src="../../img/ds-3-2.png" class="img-fluid circled lite-bordered mb-1" width="85%"> <span class="block-text d-none d-md-block"
+          style="color:#525252"><img src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p><span class="mr-1 bold" style="background: #575757;padding:5px; border-radius:4px; color:#fff;"><img class="block-image" src="../../img/thinking-w.png" width="20px" style="margin-left:1px;margin-right:1px" /> Мысли </span> — это комментарии
+      алхимика по поводу происходящего, что в свою очередь дают игроку возможность яснее осознать предстоящий ему выбор. Работают они просто: при открытии соответствующего блока диалога, в котором есть комментарий алхимика, <b>Мысль</b> отображается
+      сбоку от реплик и провоцирует игрока на нажатие. После чего возникает соответствующее номеру окошко с содержимым:</p>
+    <div class="text-center mb-4 mt-4 "> <a href="../../img/ds-thoughts.png" data-toggle="lightbox"> <img src="../../img/ds-thoughts.png" class="img-fluid circled lite-bordered mb-1" width="75%"> <span class="block-text d-none d-md-block"
+          style="color:#525252"><img src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p>Прочитав её, игрок нажмёт кнопку "Далее" и в блоке диалога появятся новые связанные с <b>Мыслью</b> реплики. Изначально игроку эти реплики не отображаются.</p>
+    <p>Есть важный нюанс — <span class="mini-bold">конкретный пронумерованный блок с <b>Мыслью</b> возникают по ходу диалога лишь единожды</span>. Чтобы точно разобраться как это работает взглянем на изображение ниже:</p>
+    <div class="text-center mb-4 mt-2 "> <a href="../../img/ds-3-3.png" data-toggle="lightbox"> <img src="../../img/ds-3-3.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p><span class="mr-1 bold" style="background: #652f69;padding:5px; border-radius:4px; color:#fff;"><img class="block-image" src="../../img/thinking-w.png" width="20px" style="margin-left:1px;margin-right:1px" /> Мысль №2</span>возникает здесь
+      дважды подряд, но игрок в случае попадания в первый блок не будет видеть её повторно, когда перейдёт в следующий. Получается, что он и не увидит скрытой реплики связанной с ней. У него уже был этот выбор в блоке ранее, и он его сделал, второго
+      шанса не будет. </p>
+    <p class="block-image">Это не относится к отдельным номерам: каждый из номеров возникает единожды. Получается, если за диалог возникла <span class="mr-1 bold d-inline-block"
+        style="background: #652f69;padding:3px; border-radius:4px; color:#fff;"><img src="../../img/thinking-w.png" width="20px" style="margin-left:1px;margin-right:1px" /> Мысль №2</span>, то при попадании на соответствующий блок возникнет и
+      <span class="mr-1 bold d-inline-block" style="background: #006569;padding:3px; border-radius:4px; color:#fff;"><img src="../../img/thinking-w.png" width="20px" style="margin-left:1px;margin-right:1px" /> Мысль №1</span>.</p>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px dashed #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid block-image" width="45px"> </div>
+    <p>При рассмотрении диалога можно заметить новый значок:</p>
+    <p class="mb-4 mt-3 attribute"><img src="../../img/star.png" width="30px" class="block-image mr-1 ml-1 mb-1" /> — обозначает особую реплику, которая открывает игроку возможность выбрать избранный вариант в <b style="color:#1D2185">«Важном
+        выборе»</b>.</p>
+    <p>Получается, что попав на окно с <b style="color:#1D2185">«Важным выбором»</b> игрок не будет видеть <img src="../../img/ic-1-star.png" width="36px" class="block-image mr-1 mb-1" />вариант, если не выбрал соответствующей реплики с <img
+        src="../../img/star.png" width="25px" class="block-image mr-1 ml-1 mb-1" />:</p>
+    <div class="text-center mb-4 mt-2 "> <a href="../../img/ds-3-4.png" data-toggle="lightbox"> <img src="../../img/ds-3-4.png" class="img-fluid circled lite-bordered mb-1"> <span class="block-text d-none d-md-block" style="color:#525252"><img
+            src="../../img/magnifier.png" width="23px" class="block-image" /> Кликните для увеличения</span> </a> </div>
+    <p class="block-image">Если разобраться в диалоге, это становится логичным, потому что <img src="../../img/ic-1-star.png" width="36px" class="mr-1 mb-1" />вариант должен видеть только тот игрок, что правильно отреагировал на <span
+        class="mr-1 bold d-inline-block" style="background: #006569;padding:3px; border-radius:4px; color:#fff;"><img src="../../img/thinking-w.png" width="20px" style="margin-left:1px;margin-right:1px" /> Мысль №1</span>. Ведь тот, кто решил
+      проигнорировать эти раздумья, всё же больше тяготит к успешной продаже зелья, нежели к реальной помощи парнишке.</p>
+    <div class="mt-5 mb-5 text-center" style="font-family: 'Neo Sans Pro Regular'; font-size: 1.1rem;color:#591b82; border-top:4px solid #591b82;border-bottom:4px solid #591b82; padding:25px">Теперь, зная все нюансы и принципы диалога, вы можете
+      ознакомиться с ним самостоятельно, после чего мы проведём разбор истории в зависимости от выбранного поведения игрока. <div class="text-center mt-4 mb-3"> <a target="_blank" href="../dialogs/Love_story.html"> <button type="button"
+            class="button-table" style="font-size:1.1rem;max-width: 500px; min-height:60px"><img src="../../img/dialogue-icon.png" width="7%" class="mr-3 block-image d-none d-md-inline" /><span>Открыть диалог «Любовная история»</span></button>
+        </a> </div>
+    </div>
+    <div class="text-center mb-5 "> <img src="../../img/arrow-down.png" class="img-fluid" width="45px"> </div>
+    <p class="bold mt-5 mb-5 text-center" style="font-size:1.2rem"><img src="../../img/ways.png" width="38px" class="mr-2 block-image" /><span class="bordered">Разберём, какого поведения в рамках морали может придерживаться игрок в этом
+        диалоге:</span></p>
+    <p class="mb-4"><span class="number-list mr-2">1</span><b>Желающий просто продать зелье</b> сделает это быстро, пропустив таким образом <b style="color:#1D2185">«Важный выбор»</b> и получив свои заветные <img src="../../img/money-bag-plus.png"
+        width="30px" class="block-image" /> в пятикратном объёме. Такой игрок столкнётся с противоречивым <b style="color:#585858">исходом</b>, в котором величина его равнодушия к пареньку будет вынужденно проверена.</p>
+    <p class="mb-4"><span class="number-list mr-2">2</span><b>Тот кто хочет как-то помочь, но имея взгляд «жизни других — это их дело»</b>, хоть и не останется в стороне, но из-за своей нерешительной и противоречивой позиции будет вынужден
+      спонсировать парня некоторое время. А в дальнейшем вместе с ним поймёт, что такие методы не работают и лучше было бы сразу начать бороться с зависимостью и слабостью к равнодушному объекту вожделения. Так или иначе, <b
+        style="color:#585858">исход</b> в этом раскладе довольно благоприятен, ведь иногда нужно хотя бы пытаться и ошибаться, чтобы делать выводы.</p>
+    <p class="mb-4"><span class="number-list mr-2">3</span>Другое дело <b><span style="border-bottom:2px dashed #501975; cursor:pointer" data-toggle="tooltip" data-html="true"
+          title="Или тот, кто прочитал Steam-руководство на лучшее прохождение этой истории &#128516">игрок, обладающий решимостью и осознающий, что состояние парня совершенно ненормальное</span></b>. Он понимает, что если кто-то сам просит о помощи,
+      то помочь стоит, и сделать это честно, ведь «лучше горькая правда, чем сладкая ложь». А ещё лучше, когда эта правда подкреплена методом решения проблемы. По началу такой игрок встретится со стандартной реакцией отрицания правды со стороны
+      паренька, но если он не сорвётся на негатив, то всё закончится позитивным образом. Если же игрок перегнул палку с жёсткостью, то его ждёт иной расклад.</p>
+    <p><span class="number-list mr-2">4</span>Также среди ролей есть <b><span style="border-bottom:2px dashed #501975; cursor:pointer" data-toggle="tooltip" data-html="true"
+          title="Или скорее тот, кто прошёл все остальные концовки истории &#128516">равнодушный игрок</span></b>, что решил игнорировать судьбу влюбчивого паренька и каким-то образом попал на неблагоприятный <b style="color:#585858">исход «Любовь до
+        гроба»</b>. В какой-то момент времени он может сорваться и оказаться на других <b style="color:#585858">исходах</b>, либо спасти положение в последний момент. В ином же случае его ждёт вполне очевидный конец, где он увидит истинную цену за
+      равнодушие и игнорирование беды человека, в решении которой он мог как-то помочь.</p>
+    <div class="outcome2 col-8 mt-5 mb-5"></div><br />
+    <p>Предложенная диалоговая система позволяет придумать безграничное количество подобных историй, задействуя одни и те же приёмы и нарративные объекты. Всего лишь переставляя их местами и заменяя текст, мы создаём воображаемую картину мира,
+      которая живёт за рамками алхимической лавки. Далее мы подробнее углубимся в то, как диалоги подобного рода могут применятся в создании сюжета о Тёмной гильдии.</p><br /> <br>
+    <div class="text-center mb-5 mt-5" style="border-bottom:4px solid #591b82; padding-bottom:6px; opacity:0.9"> <img src="../../img/arrow-down.png" class="img-fluid block-image" width="45px"> </div>
+    <div class="text-center"> <a href="question_2.6.html#q2_6">
+        <p class="text-center next-button">Перейти к Вопросу 2.6<img src="../../img/next.png" width="55px" class="block-image ml-3 d-none d-md-inline"></p>
+      </a> </div>
+  
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+aria-hidden="true" id="modal_v">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content modal-body text-light border-0" id="changelog-modal">
+
+        <h5 class="block-text modal-title text-center mb-4"
+            style="font-size:2rem; border-bottom:1px solid #8e8fff" id="exampleModalLongTitle">Контакты<i
+                class="bi bi-x mr-3 mb-3 float-right" data-dismiss="modal"
+                style="opacity: 0.7;font-size:2rem;cursor:pointer"></i></h5>
+        <div class="contacts_page">
+            <p class="contact-note block-text">Свяжитесь напрямую через Telegram чтобы получить ответ в
+                ближайшее время</p>
+            <div class="contacts_contacts text-center">
+
+                <a target="_blank" href="https://t.me/kfshka"><i class="bi bi-telegram mr-2""></i></a>
+
+<i class=" bi bi-discord mr-2 discord-contact"></i>
+                    <div class="extrabold notification-email-contact">E-mail скопирован в буфер обмена</div>
+                    <i class="bi bi-envelope-fill mr-2 mb-2 email-contact"
+                        style="bottom: 3px; position: relative; font-size:4.4rem"></i>
+
+            </div>
+            <div class="extrabold notification-discord-contact">Discord скопирован в буфер обмена</div>
+            <br>
+        </div>
+    </div>
+
+</div>
+</div>
+
+      
+
+    
+        <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+        id="modal_portfolio">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content text-light border-0" id="fullscreen-modal">
+                <div class="modal-title">
+                    <h5 class="block-text modal-title text-left pt-2 pl-3 pr-3"
+                        style="background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:2rem; border-bottom:1px solid #8e8fff;"
+                        id="exampleModalLongTitle">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <i style="font-size:2.4rem;" class="mr-3 bi bi-briefcase-fill"></i>Портфолио
+                            </div>
+                            <div class="col-right">
+                                <span class="back-to-site-button text-right bold d-none d-md-block"
+                                    data-dismiss="modal">Обратно на сайт<i
+                                        class="ml-2 bi bi-arrow-up-right-square-fill mr-3 "
+                                        style="font-size:1.5rem;"></i></span>
+                                <button style="color:#fff;font-size:2rem;" type="button"
+                                    class="close d-lg-none d-xl-none d-md-none" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="bi bi-x mr-3"></i></span>
+                                </button>
+                            </div>
+                        </div>
+    
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <div class="portfolio-page">
+                        <h4 class="mt-1 mb-3 text-center"><img src="/../../img/game-controller-w.png"
+                                class="mr-3 block-image d-none d-md-inline" width="40px">Гейм-дизайн</h4>
+    
+                        <div class="row narrative-portfolio-block-big container-fluid" style="margin-bottom: 15px;">
+    
+                            <a href="/../../portfolio/dialogue_system_part1.html" class="col-2 image-with-text iwt-1-resume">
+                                <div class="new-block nb-1-resume"></div>
+                                <div class="centered ">Диалоговая система для симулятора алхимика</div>
+                            </a>
+    
+                            <a href="/../../portfolio/zavod-test.html" class="col-2 image-with-text ml-2 iwt-1-2-resume">
+                                <div class="new-block nb-1-2-resume"></div>
+                                <div class="centered">Тестовое задание в компанию ZAVOD Games</div>
+                            </a>    
+    
+                            <a href="/../../portfolio/tapclap_leveldesigner-test.html"
+                                class="col-2 image-with-text ml-2 iwt-2-resume">
+                                <div class="new-block nb-2-resume"></div>
+                                <div class="centered ">Тестовое задание Level-Design Match-3</div>
+                            </a>
+    
+                            <div class="col d-flex flex-column ml-3 min-portfolio">
+                                <a href="/../../portfolio/dialogue_system_part1.html"
+                                    class="for-adaptive-portfolio portfolio-small-element"><img src="/../../img/gear-w.png"
+                                        width="25px"><b>Игровая система:</b> Диалоговая система для симулятора
+                                    алхимика</a>
+    
+                                    <a href="/../../portfolio/zavod-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/zavod-icon.png" width="25px">Тестовое задание в компанию ZAVOD Games</a>         
+    
+                                <a href="/../../portfolio/tapclap_leveldesigner-test.html" class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/gem.png" width="25px">Тестовое задание на Level
+                                    Designer Match-3</a>               
+                          
+                                <a href="/../../portfolio/mirrors_edge.html" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/document-w.png" width="25px"><b>Статья:</b> «Mirror’s Edge, или как
+                                    гениальная идея для игры превратилась в её первостепенную проблему»</a>
+                                <a href="/../../portfolio/google_sheets_1.html" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/cells-w.png" width="25px"><b>Таблица Google Sheets:</b> Простая
+                                    система повышения уровня в CRPG</a>
+                                <a href="/../../portfolio/ui_darkbestiary.html" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/blocks.svg" width="25px"><b>UX/UI:</b> Документ по улучшению интерфейса для Dark Bestiary</a>
+                                    
+                   
+                            </div>
+    
+                            <div class="col d-flex flex-column ml-3 min-portfolio">
+                                <a href="/../portfolio/toc_1.html" class="portfolio-small-element mt-2"><img
+                                    src="/../img/two-dices-w.png" width="25px">Задачи на теорию вероятностей</a>   
+                            <a href="/../portfolio/documents/Pitch document, Poker Game, Ostanin Danila.pdf " class="portfolio-small-element mt-2"><img
+                                src="/../img/document-w.png" width="25px">Питч документ Multiplayer Poker Game</a>
+                        <a href="https://docs.google.com/document/d/1IOv1AEzXffSm8KKL0GxTqCSUCRG-Fk3NVmGxnMwCP00/edit?usp=sharing" class="portfolio-small-element mt-2"><img
+                                src="/../img/tapclap-icon.png" width="25px">Тестовое задание в компанию TAPCLAP</a>
+                        <a href="https://docs.google.com/document/d/13BcYSyz29fTy7WsimbOFfA0suUtmq3M033_WulxX1UI/edit?usp=sharing" class="portfolio-small-element mt-2 last-work"><img
+                                src="/../img/bird-w.png" width="25px">Тестовое задание в компанию Z-Media</a>
+    
+                        </div>
+                    </div>
+    
+    
+                    </div>
+    
+    
+                    <div class="portfolio-page mt-4">
+                        <h4 class="pt-4 mb-4 text-center" style="border-top:1px solid #8e8fff;"><img
+                                src="/../../img/narrative-w.png" class="mr-3 block-image d-none d-md-inline"
+                                width="40px">Нарратив-дизайн</h4>
+    
+                        <div class="row narrative-portfolio-block-big container-fluid">
+    
+                            <a href="/../../portfolio/plot.html" class="col-2 image-with-text iwt-4-resume">
+                                <div class="new-block nb-4-resume"></div>
+                                <div class="centered ">Статья про игровой сюжет</div>
+                            </a>
+    
+                            <a href="/../../portfolio/character_edew.html" class="col-2 image-with-text ml-2 iwt-5-resume">
+                                <div class="new-block nb-5-resume"></div>
+                                <div class="centered ">Персонаж для симулятора алхимика</div>
+                            </a>
+    
+                            <a href="/../../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                                class="col-2 image-with-text ml-2 iwt-6-resume">
+                                <div class="new-block nb-6-resume"></div>
+                                <div class="centered">Нелинейный квест про гильдию убийц</div>
+                            </a>
+    
+    
+                            <div class="col d-flex flex-column ml-3 min-portfolio" style="width:100%;">
+                                <a href="/../../portfolio/character_edew.html"
+                                    class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/intersect-w.png" width="25px"><b>Пример:</b> Персонаж для
+                                    симулятора алхимика</<a href=""></a>
+                                <a href="/../../portfolio/dialogue_system_part3.html#initial-quest-of-the-dark-guild"
+                                    class="for-adaptive-portfolio portfolio-small-element mt-2"><img
+                                        src="/../../img/intersect-w.png" width="25px"><b>Пример:</b> Нелинейный квест про
+                                    гильдию убийц</a>
+                                <a href="/../../portfolio/plot.html"
+                                    class="for-adaptive-portfolio portfolio-small-element mt-2 mb-2"><img
+                                        src="/../../img/document-w.png" width="25px"><b>Статья:</b> «Игровой сюжет, и
+                                    какими боевыми приёмами он обладает»</a>
+                                <a href="/../../portfolio/descriptions.html" class="portfolio-small-element"><img src="/../../img/align-w.png" width="25px"><b>Текст:</b>
+                                    Короткие описания предметов и игровых
+                                    объектов</a>
+                                    <a href="/../../portfolio/documents/Pirate Girl Story.pdf" class="portfolio-small-element mt-2"><img
+                                        src="/../../img/paint-palette.png" width="25px"><b>Художественный рассказ:</b> История о девочке, что хотела стать пиратом</a>
+                                <a href="/../../portfolio/stellaris_races.html" class="portfolio-small-element mt-2"><img src="/../../img/align-w.png"
+                                        width="25px"><b>Текст:</b> Биографии рас для Stellaris</a>
+                                <a href="/../../portfolio/constructor.html" class="portfolio-small-element mt-2"><img src="/../../img/gear-w.png"
+                                        width="25px"><b>Игровая система:</b> Карточный
+                                    конструктор нелинейного сюжета</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="color:#fff;cursor:pointer; background:rgba(0, 0, 0, 0.3); opacity: 0.9;font-size:1.5rem; border-top:1px solid #8e8fff;"
+                    class="back-to-site-button pt-3 pb-3 mb-0 text-center close d-md-none d-lg-none d-xl-none"
+                    data-dismiss="modal">Вернуться на сайт <i class="bi bi-arrow-right"></i></p>
+            </div>
+    
+          </div>
+      </div>
+    </main>
+        <footer class="footer mt-5">
+        <div class="container-fluid title-s center-footer">
+            <div class="row align-items-center big-font-to-small-light" style="min-height: 80px;" class="mini-bold">
+                <div class="col block-text block-image" id="created_footer">
+                    <img src="/../../img/favicon-white.png" class="mr-2 logo-icon" width="45px">
+    
+                    <span class="text-uppercase">Данила Останин</span>
+                </div>
+                <div class="col-right mr-3 soc-footer">
+                    <img src="/../../img/discord.png" class="mr-2 discord-f" style="max-width:30px;">
+                    <a target="_blank" href="https://t.me/kfshka"> <img src="/../../img/telegram-logo.png" class="mr-2 telegram-f"
+                            style="max-width: 30px;" /> </a>
+                    <img src="/../../img/mail.png" class="email-f" style="max-width:30px;">
+                    <div class="extrabold notification-discord-footer"> Discord скопирован в буфер обмена</div>
+                    <div class="extrabold notification-email-footer"> E-mail скопирован в буфер обмена</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+<script>
+    $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+    </body>
+    </html>
